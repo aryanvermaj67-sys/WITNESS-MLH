@@ -6,7 +6,7 @@ Judge/generator functions are looked up on their modules at call time, so tests 
 import threading
 import time
 
-from witness import fixit, generator, judge_gemma, judge_nli, verdict
+from witness import cache, fixit, generator, judge_gemma, judge_nli, verdict
 from witness.claims import split_claims
 from witness.config import settings
 from witness.models import PipelineResult
@@ -35,13 +35,13 @@ def _run(question, answer_text, retriever, nli_model) -> PipelineResult:
 
     passages = timed("retrieve", "search", lambda: retriever.search(question, settings.TOP_K, settings.RRF_K), [])
 
-    pasted = bool(answer_text)
+    pasted, gen_error = bool(answer_text), None
     if pasted:
         answer = answer_text
     else:
-        answer, error = timed("generate", "answer writer", lambda: generator.generate(question, passages), ("", None))
-        if error:
-            errors.append(error)
+        answer, gen_error = timed("generate", "answer writer", lambda: generator.generate(question, passages), ("", None))
+        if gen_error:
+            errors.append(gen_error)
 
     claims = split_claims(answer) if answer else []
     gemma, gemma_errors = timed("judge_gemma", "Gemma judge", lambda: judge_gemma.judge(passages, claims), ({}, []))
@@ -56,8 +56,14 @@ def _run(question, answer_text, retriever, nli_model) -> PipelineResult:
     total = time.perf_counter() - started
     if total > SOFT_LIMIT:
         errors.append(f"The check took {total:.0f} s, longer than the {SOFT_LIMIT:.0f} s limit.")
-    return PipelineResult(
+    result = PipelineResult(
         question=question, answer_text=answer, answer_source="pasted" if pasted else "gemma-4-e2b-local",
         passages=passages, claims=claims, verdicts=verdicts, trust=verdict.trust(verdicts),
         fixed_answer=fixit.fixed_answer(claims, verdicts), timings={**timings, "total": round(total, 2)},
         errors=errors, mode="live")
+    if claims and not gen_error:  # §5 rule 5
+        try:
+            cache.save_result(result)
+        except Exception as e:  # a failed save never breaks the response
+            result.errors.append(f"This result could not be saved for replay ({type(e).__name__}).")
+    return result

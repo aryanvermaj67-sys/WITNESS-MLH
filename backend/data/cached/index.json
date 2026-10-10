@@ -1,0 +1,176 @@
+[
+  {
+    "key": "can-we-start-working-on-our-project-before-the-eve-51c61a",
+    "question": "Can we start working on our project before the event?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:39:32"
+  },
+  {
+    "key": "how-long-does-a-hacktoberfest-hack-day-run-1cf29a",
+    "question": "How long does a Hacktoberfest Hack Day run?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:39:52"
+  },
+  {
+    "key": "can-someone-who-graduated-from-university-last-yea-971c08",
+    "question": "Can someone who graduated from university last year still take part as a student?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:40:22"
+  },
+  {
+    "key": "can-a-volunteer-or-judge-at-the-event-also-compete-c45d07",
+    "question": "Can a volunteer or judge at the event also compete as a hacker?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:41:03"
+  },
+  {
+    "key": "can-we-reuse-code-from-a-project-we-built-before-t-3dc399",
+    "question": "Can we reuse code from a project we built before the event?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:41:30"
+  },
+  {
+    "key": "are-we-allowed-to-use-ai-coding-tools-and-do-we-ha-deb4e1",
+    "question": "Are we allowed to use AI coding tools, and do we have to tell anyone?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:41:56"
+  },
+  {
+    "key": "can-we-keep-fixing-bugs-after-the-hacking-time-is-953ccb",
+    "question": "Can we keep fixing bugs after the hacking time is over?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:42:40"
+  },
+  {
+    "key": "does-our-code-have-to-stay-public-after-the-event-1bdd76",
+    "question": "Does our code have to stay public after the event to win a prize?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:43:02"
+  },
+  {
+    "key": "how-many-teams-win-the-best-open-source-ai-project-95abd2",
+    "question": "How many teams win the Best Open-Source AI Project challenge, and what do they get?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:43:26"
+  },
+  {
+    "key": "what-counts-as-a-small-language-model-for-the-open-6c8384",
+    "question": "What counts as a small language model for the open-source AI challenge?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:43:47"
+  },
+  {
+    "key": "what-do-judges-check-before-choosing-the-gemma-cha-4bb584",
+    "question": "What do judges check before choosing the Gemma challenge winner?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:44:08"
+  },
+  {
+    "key": "what-prize-can-the-gemma-challenge-winner-receive-60f6cc",
+    "question": "What prize can the Gemma challenge winner receive?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:44:30"
+  },
+  {
+    "key": "does-our-project-have-to-be-on-github-with-an-open-994452",
+    "question": "Does our project have to be on GitHub with an open-source license?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:44:52"
+  },
+  {
+    "key": "is-the-hack-day-free-to-attend-and-can-we-join-onl-909197",
+    "question": "Is the Hack Day free to attend, and can we join online instead?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:45:14"
+  },
+  {
+    "key": "do-judges-score-code-quality-and-how-well-we-pitch-2a4b5a",
+    "question": "Do judges score code quality and how well we pitch?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:45:36"
+  },
+  {
+    "key": "what-are-the-judging-criteria-and-how-are-they-wei-2a9953",
+    "question": "What are the judging criteria and how are they weighted?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:45:57"
+  },
+  {
+    "key": "how-long-can-the-demo-video-be-at-mlh-digital-even-6f47e5",
+    "question": "How long can the demo video be at MLH digital events?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:46:16"
+  },
+  {
+    "key": "who-on-the-team-submits-the-project-and-what-infor-96de6e",
+    "question": "Who on the team submits the project, and what information is required?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:46:35"
+  },
+  {
+    "key": "can-we-still-submit-our-project-after-demos-have-s-716a79",
+    "question": "Can we still submit our project after demos have started?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:46:55"
+  },
+  {
+    "key": "does-an-agent-skill-entry-have-to-follow-a-particu-87ad06",
+    "question": "Does an agent skill entry have to follow a particular standard?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T14:47:16"
+  },
+  {
+    "key": "can-we-start-coding-before-the-hackathon-day-and-w-d7314a",
+    "question": "Can we start coding before the hackathon day, and what do we need to submit?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:47:24"
+  },
+  {
+    "key": "how-long-does-a-hacktoberfest-hack-day-run-b700a8",
+    "question": "How long does a Hacktoberfest Hack Day run?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:47:31"
+  },
+  {
+    "key": "can-someone-who-graduated-from-university-last-yea-c2aac2",
+    "question": "Can someone who graduated from university last year still take part as a student?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:47:38"
+  },
+  {
+    "key": "can-a-volunteer-or-judge-at-the-event-also-compete-be2b3e",
+    "question": "Can a volunteer or judge at the event also compete as a hacker?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:47:46"
+  },
+  {
+    "key": "can-we-reuse-code-from-a-project-we-built-before-t-df2d72",
+    "question": "Can we reuse code from a project we built before the event?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:47:55"
+  },
+  {
+    "key": "are-we-allowed-to-use-ai-coding-tools-and-do-we-ha-8a3eb5",
+    "question": "Are we allowed to use AI coding tools, and do we have to tell anyone?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:48:03"
+  },
+  {
+    "key": "how-many-teams-win-the-best-open-source-ai-project-e17448",
+    "question": "How many teams win the Best Open-Source AI Project challenge, and what do they get?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:48:09"
+  },
+  {
+    "key": "is-the-hack-day-free-to-attend-and-can-we-join-onl-0ffdc1",
+    "question": "Is the Hack Day free to attend, and can we join online instead?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:48:15"
+  },
+  {
+    "key": "how-long-can-the-demo-video-be-at-mlh-digital-even-f279b9",
+    "question": "How long can the demo video be at MLH digital events?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T14:48:23"
+  }
+]

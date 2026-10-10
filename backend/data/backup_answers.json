@@ -1,0 +1,16 @@
+[
+  {
+    "id": "b1",
+    "question": "Can we reuse code from a project we built before the event?",
+    "answer": "Yes, you can generally reuse code from a project you built before the event, but it depends on the event’s rules. Some hackathons or competitions allow pre-existing code and libraries, while others require you to build everything during the event. Make sure to check the official guidelines, especially regarding code reuse, originality, and disclosure requirements. When in doubt, clearly mention which parts were developed before the event and which parts you created during it.",
+    "source": "ChatGPT",
+    "is_example": false
+  },
+  {
+    "id": "b2",
+    "question": "Can we start coding before the hackathon day, and what do we need to submit?",
+    "answer": "It depends on the hackathon’s rules whether you can start coding before the event; some allow preparation, while others require all coding to begin on hackathon day. Typically, you need to submit a working project or prototype, its source code or repository link, and a brief description of the idea and how it works. You may also need a demo video, presentation, or project documentation. Check the official hackathon guidelines for the exact rules and submission requirements.",
+    "source": "ChatGPT",
+    "is_example": false
+  }
+]

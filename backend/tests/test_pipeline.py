@@ -12,6 +12,8 @@ ANSWER = "You can start a week early. Each team gives a 5-minute demo."
 
 
 class FakeRetriever:
+    passages = PASSAGES
+
     def search(self, query, top_k, rrf_k):
         return PASSAGES
 

@@ -1,0 +1,362 @@
+{
+  "question": "Does our code have to stay public after the event to win a prize?",
+  "answer_text": "Your code must remain public post event to be eligible for prizes. If your repository and video are not public, new winners may be selected. This requirement applies to hackathon submissions.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p38",
+      "doc": "mlh_project_submissions.md",
+      "text": "After every winner is correct and you are ready to announce the results: Use Preview public view to check how the gallery will appear. In Announce Winners, switch the toggle from PRIVATE to PUBLIC. Confirm that the section now says WINNERS ANNOUNCED and Submissions are public. Select View public gallery and check the published projects and winner labels. Announce the results in the room exactly as they appear in OrganizerHQ. Making winners public also publishes the event's project gallery, including non-winning submissions. Check the projects before switching the toggle.",
+      "sentences": [
+        {
+          "id": "p38.s1",
+          "text": "After every winner is correct and you are ready to announce the results:"
+        },
+        {
+          "id": "p38.s2",
+          "text": "Use Preview public view to check how the gallery will appear."
+        },
+        {
+          "id": "p38.s3",
+          "text": "In Announce Winners, switch the toggle from PRIVATE to PUBLIC."
+        },
+        {
+          "id": "p38.s4",
+          "text": "Confirm that the section now says WINNERS ANNOUNCED and Submissions are public."
+        },
+        {
+          "id": "p38.s5",
+          "text": "Select View public gallery and check the published projects and winner labels."
+        },
+        {
+          "id": "p38.s6",
+          "text": "Announce the results in the room exactly as they appear in OrganizerHQ."
+        },
+        {
+          "id": "p38.s7",
+          "text": "Making winners public also publishes the event's project gallery, including non-winning submissions."
+        },
+        {
+          "id": "p38.s8",
+          "text": "Check the projects before switching the toggle."
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "doc": "mlh_standard_rules.md",
+      "text": "e.g. If during demoing your hack you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that. Making large changes or adding new features is not allowed. Your code must be available publicly (ideally in a git repository). Your code must remain public post event to be eligible for prizes. If your repo and video are not public, new winners may be selected. Teams can be disqualified from the competition at the organizers' discretion. Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour.",
+      "sentences": [
+        {
+          "id": "p43.s1",
+          "text": "e.g. If during demoing your hack you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that."
+        },
+        {
+          "id": "p43.s2",
+          "text": "Making large changes or adding new features is not allowed."
+        },
+        {
+          "id": "p43.s3",
+          "text": "Your code must be available publicly (ideally in a git repository)."
+        },
+        {
+          "id": "p43.s4",
+          "text": "Your code must remain public post event to be eligible for prizes."
+        },
+        {
+          "id": "p43.s5",
+          "text": "If your repo and video are not public, new winners may be selected."
+        },
+        {
+          "id": "p43.s6",
+          "text": "Teams can be disqualified from the competition at the organizers' discretion."
+        },
+        {
+          "id": "p43.s7",
+          "text": "Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour."
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "doc": "mlh_project_submissions.md",
+      "text": "Every Hacktoberfest Hack Day runs the Best Open-Source AI Project challenge. MLH adds it to your event automatically: Open the public event page while signed in. Select Challenges in the “View and submit challenges for this event” banner. Confirm that the Best Open-Source AI Project challenge appears. If the MLH Hacktoberfest team assigned your event a Hack Days partner prize category, confirm that it appears too. If an expected challenge is missing, email hacktoberfest@mlh.io. Do not create a duplicate or add a partner category that MLH did not assign. You may add an optional local challenge through Edit Event → + Add Challenge. Keep it separate from the MLH challenges, which appear automatically. Any local prize is provided by the host unless your event onboarding says otherwise.",
+      "sentences": [
+        {
+          "id": "p30.s1",
+          "text": "Every Hacktoberfest Hack Day runs the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p30.s2",
+          "text": "MLH adds it to your event automatically:"
+        },
+        {
+          "id": "p30.s3",
+          "text": "Open the public event page while signed in."
+        },
+        {
+          "id": "p30.s4",
+          "text": "Select Challenges in the “View and submit challenges for this event” banner."
+        },
+        {
+          "id": "p30.s5",
+          "text": "Confirm that the Best Open-Source AI Project challenge appears."
+        },
+        {
+          "id": "p30.s6",
+          "text": "If the MLH Hacktoberfest team assigned your event a Hack Days partner prize category, confirm that it appears too."
+        },
+        {
+          "id": "p30.s7",
+          "text": "If an expected challenge is missing, email hacktoberfest@mlh.io."
+        },
+        {
+          "id": "p30.s8",
+          "text": "Do not create a duplicate or add a partner category that MLH did not assign."
+        },
+        {
+          "id": "p30.s9",
+          "text": "You may add an optional local challenge through Edit Event → + Add Challenge."
+        },
+        {
+          "id": "p30.s10",
+          "text": "Keep it separate from the MLH challenges, which appear automatically."
+        },
+        {
+          "id": "p30.s11",
+          "text": "Any local prize is provided by the host unless your event onboarding says otherwise."
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "doc": "mlh_standard_rules.md",
+      "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules. We require all teams to submit a 2 minute or less demo video. Your video must be created the weekend of the hackathon. Your video must remain public post event to be eligible for prizes. If your video is not public, new winners may be selected. Your demo video must state the name of the hackathon at the beginning of the video. Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\" You must have completed all registration steps for the hackathon. You are not allowed to submit your project to other hackathons. You can not submit a project that includes prior work.",
+      "sentences": [
+        {
+          "id": "p45.s1",
+          "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules."
+        },
+        {
+          "id": "p45.s2",
+          "text": "We require all teams to submit a 2 minute or less demo video."
+        },
+        {
+          "id": "p45.s3",
+          "text": "Your video must be created the weekend of the hackathon."
+        },
+        {
+          "id": "p45.s4",
+          "text": "Your video must remain public post event to be eligible for prizes."
+        },
+        {
+          "id": "p45.s5",
+          "text": "If your video is not public, new winners may be selected."
+        },
+        {
+          "id": "p45.s6",
+          "text": "Your demo video must state the name of the hackathon at the beginning of the video."
+        },
+        {
+          "id": "p45.s7",
+          "text": "Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\""
+        },
+        {
+          "id": "p45.s8",
+          "text": "You must have completed all registration steps for the hackathon."
+        },
+        {
+          "id": "p45.s9",
+          "text": "You are not allowed to submit your project to other hackathons."
+        },
+        {
+          "id": "p45.s10",
+          "text": "You can not submit a project that includes prior work."
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "doc": "mlh_project_submissions.md",
+      "text": "Give every eligible submission the same opportunity to present its work. Use the guidance on the relevant challenge page and confirm any repository, license, model, harness, or partner-technology requirements before selecting a winner. Look for projects that: Meet the challenge requirements Work well enough to demonstrate Use the relevant technology as an important part of the project Show originality, learning, or thoughtful technical work Explain clearly what the team built and how it works The Best Open-Source AI Project challenge has one winning team, and every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. Any assigned Hack Days partner prize category uses the prize and eligibility instructions supplied for that category. Hacktoberfest does not use pull-request counts as the basis for these prizes.",
+      "sentences": [
+        {
+          "id": "p36.s1",
+          "text": "Give every eligible submission the same opportunity to present its work."
+        },
+        {
+          "id": "p36.s2",
+          "text": "Use the guidance on the relevant challenge page and confirm any repository, license, model, harness, or partner-technology requirements before selecting a winner."
+        },
+        {
+          "id": "p36.s3",
+          "text": "Look for projects that:"
+        },
+        {
+          "id": "p36.s4",
+          "text": "Meet the challenge requirements"
+        },
+        {
+          "id": "p36.s5",
+          "text": "Work well enough to demonstrate"
+        },
+        {
+          "id": "p36.s6",
+          "text": "Use the relevant technology as an important part of the project"
+        },
+        {
+          "id": "p36.s7",
+          "text": "Show originality, learning, or thoughtful technical work"
+        },
+        {
+          "id": "p36.s8",
+          "text": "Explain clearly what the team built and how it works"
+        },
+        {
+          "id": "p36.s9",
+          "text": "The Best Open-Source AI Project challenge has one winning team, and every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p36.s10",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p36.s11",
+          "text": "Any assigned Hack Days partner prize category uses the prize and eligibility instructions supplied for that category."
+        },
+        {
+          "id": "p36.s12",
+          "text": "Hacktoberfest does not use pull-request counts as the basis for these prizes."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Your code must remain public post event to be eligible for prizes.",
+      "start": 0,
+      "end": 66
+    },
+    {
+      "id": "c2",
+      "text": "If your repository and video are not public, new winners may be selected.",
+      "start": 67,
+      "end": 140
+    },
+    {
+      "id": "c3",
+      "text": "This requirement applies to hackathon submissions.",
+      "start": 141,
+      "end": 191
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p43.s4"
+      ],
+      "explanation": "The text explicitly states that code must remain public post event to be eligible for prizes.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p43.s4"
+        ],
+        "explanation": "The text explicitly states that code must remain public post event to be eligible for prizes.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p43.s4"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p43.s5"
+      ],
+      "explanation": "The text states that new winners may be selected if the repo and video are not public.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p43.s5"
+        ],
+        "explanation": "The text states that new winners may be selected if the repo and video are not public.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p43.s5"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p45.s1",
+        "p45.s8"
+      ],
+      "explanation": "The text mentions that hackathon submissions are subject to additional rules for fully digital hackathons hosted by MLH.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s1"
+        ],
+        "explanation": "The text mentions that hackathon submissions are subject to additional rules for fully digital hackathons hosted by MLH.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s8"
+        ],
+        "explanation": "entailment 0.98",
+        "confidence": 0.98
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "Your code must remain public post event to be eligible for prizes. [p43.s4] If your repository and video are not public, new winners may be selected. [p43.s5] This requirement applies to hackathon submissions. [p45.s1]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 2.75,
+    "judge_gemma": 8.15,
+    "judge_nli": 0.3,
+    "total": 11.23
+  },
+  "errors": [],
+  "mode": "live"
+}

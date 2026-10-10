@@ -1,20 +1,22 @@
+import json
+
 from fastapi.testclient import TestClient
 
-from server import app, example
+from server import app
+from witness.config import BACKEND
 
 client = TestClient(app)
 
 
-def test_get_routes_return_examples():
-    key = client.get("/api/replay").json()[0]["key"]
-    routes = {"/api/health": "health.json", "/api/demo-questions": "demo_questions.json", "/api/eval": "eval.json",
-              "/api/backup-answers": "backup_answers.json", "/api/replay": "replay_index.json",
-              f"/api/replay/{key}": "check_replay.json"}
-    for path, name in routes.items():
-        r = client.get(path)
-        assert r.status_code == 200, path
-        assert r.json() == example(name), path
-    assert client.get("/api/replay/missing").status_code == 404
+def test_data_routes_serve_the_backend_files():
+    questions = json.loads((BACKEND / "data" / "demo_questions.json").read_text("utf-8"))
+    assert client.get("/api/demo-questions").json() == questions
+    backup = BACKEND / "data" / "backup_answers.json"
+    expected = json.loads(backup.read_text("utf-8")) if backup.exists() else []
+    assert client.get("/api/backup-answers").json() == expected
+    if not (BACKEND / "eval" / "results.json").exists():  # built in Phase B6
+        r = client.get("/api/eval")
+        assert (r.status_code, r.json()) == (404, {"detail": "not ready"})
 
 
 def test_check_validation():

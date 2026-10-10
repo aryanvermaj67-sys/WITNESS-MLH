@@ -1,0 +1,278 @@
+{
+  "question": "Does our project have to be on GitHub with an open-source license?",
+  "answer_text": "The project must be published in a public GitHub repository under an open-source license. This requirement applies to the open-source challenge. The source code must be public and carry a license that allows others to use, modify, and share it.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p34",
+      "doc": "mlh_project_submissions.md",
+      "text": "Select Submit Project before the deadline. For the open-source challenge, the project link must be a public GitHub repository and the repository must make its open-source license clear. The submission form does not include a separate license-attestation field. The same project can appear once for every challenge it selected, and the total shown in Manage Submissions may count those challenge entries. This is expected; do not treat them as duplicate project forms.",
+      "sentences": [
+        {
+          "id": "p34.s1",
+          "text": "Select Submit Project before the deadline."
+        },
+        {
+          "id": "p34.s2",
+          "text": "For the open-source challenge, the project link must be a public GitHub repository and the repository must make its open-source license clear."
+        },
+        {
+          "id": "p34.s3",
+          "text": "The submission form does not include a separate license-attestation field."
+        },
+        {
+          "id": "p34.s4",
+          "text": "The same project can appear once for every challenge it selected, and the total shown in Manage Submissions may count those challenge entries."
+        },
+        {
+          "id": "p34.s5",
+          "text": "This is expected; do not treat them as duplicate project forms."
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Open-source or open-weight AI must be an important part of the project. The project must be published in a public GitHub repository and use an open-source license. An agent skill must comply with the Agent Skill Open Standard. A model-harness entry must include an original implementation or meaningful changes to an existing open-source harness.",
+      "sentences": [
+        {
+          "id": "p23.s1",
+          "text": "Open-source or open-weight AI must be an important part of the project."
+        },
+        {
+          "id": "p23.s2",
+          "text": "The project must be published in a public GitHub repository and use an open-source license."
+        },
+        {
+          "id": "p23.s3",
+          "text": "An agent skill must comply with the Agent Skill Open Standard."
+        },
+        {
+          "id": "p23.s4",
+          "text": "A model-harness entry must include an original implementation or meaningful changes to an existing open-source harness."
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "doc": "event_description.md",
+      "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models. Share Your Work: Push your project to a public GitHub repository under an open-source license. Demo Your Project: Present a quick 5-minute live demo of what your team built.",
+      "sentences": [
+        {
+          "id": "p6.s1",
+          "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models."
+        },
+        {
+          "id": "p6.s2",
+          "text": "Share Your Work: Push your project to a public GitHub repository under an open-source license."
+        },
+        {
+          "id": "p6.s3",
+          "text": "Demo Your Project: Present a quick 5-minute live demo of what your team built."
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Open source: the project's source code is public and carries a license that allows others to use, modify, and share it. Common choices include MIT, Apache-2.0, and GPL-3.0. The OSI license list includes more options. Open-weight model: the trained model weights are available to download or run under the model provider's terms. Open-weight does not automatically mean that every part of a model is open source, so teams should name the model and link its license or terms in the README. Small and large language models: for this challenge, a small language model has 10 billion parameters or fewer, while a large language model has more than 10 billion parameters.",
+      "sentences": [
+        {
+          "id": "p24.s1",
+          "text": "Open source: the project's source code is public and carries a license that allows others to use, modify, and share it."
+        },
+        {
+          "id": "p24.s2",
+          "text": "Common choices include MIT, Apache-2.0, and GPL-3.0."
+        },
+        {
+          "id": "p24.s3",
+          "text": "The OSI license list includes more options."
+        },
+        {
+          "id": "p24.s4",
+          "text": "Open-weight model: the trained model weights are available to download or run under the model provider's terms."
+        },
+        {
+          "id": "p24.s5",
+          "text": "Open-weight does not automatically mean that every part of a model is open source, so teams should name the model and link its license or terms in the README."
+        },
+        {
+          "id": "p24.s6",
+          "text": "Small and large language models: for this challenge, a small language model has 10 billion parameters or fewer, while a large language model has more than 10 billion parameters."
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "A strong project: Uses open-source or open-weight AI as an important part of how the project works Solves a clear problem or creates a useful experience Shows substantial technical work completed by the team Makes its source, license, model, and key dependencies easy to verify Has a working demonstration and a clear explanation of what the team built Use this guidance alongside Project Submissions and Winner Selection. Ask teams to show the relevant code and explain the contribution of the AI technology in plain language.",
+      "sentences": [
+        {
+          "id": "p26.s1",
+          "text": "A strong project:"
+        },
+        {
+          "id": "p26.s2",
+          "text": "Uses open-source or open-weight AI as an important part of how the project works"
+        },
+        {
+          "id": "p26.s3",
+          "text": "Solves a clear problem or creates a useful experience"
+        },
+        {
+          "id": "p26.s4",
+          "text": "Shows substantial technical work completed by the team"
+        },
+        {
+          "id": "p26.s5",
+          "text": "Makes its source, license, model, and key dependencies easy to verify"
+        },
+        {
+          "id": "p26.s6",
+          "text": "Has a working demonstration and a clear explanation of what the team built"
+        },
+        {
+          "id": "p26.s7",
+          "text": "Use this guidance alongside Project Submissions and Winner Selection."
+        },
+        {
+          "id": "p26.s8",
+          "text": "Ask teams to show the relevant code and explain the contribution of the AI technology in plain language."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The project must be published in a public GitHub repository under an open-source license.",
+      "start": 0,
+      "end": 89
+    },
+    {
+      "id": "c2",
+      "text": "This requirement applies to the open-source challenge.",
+      "start": 90,
+      "end": 144
+    },
+    {
+      "id": "c3",
+      "text": "The source code must be public and carry a license that allows others to use, modify, and share it.",
+      "start": 145,
+      "end": 244
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p34.s2",
+        "p23.s2",
+        "p6.s2"
+      ],
+      "explanation": "Multiple sentences state the project must be in a public GitHub repository under an open-source license.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p34.s2",
+          "p23.s2",
+          "p6.s2"
+        ],
+        "explanation": "Multiple sentences state the project must be in a public GitHub repository under an open-source license.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s2"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p34.s2"
+      ],
+      "explanation": "Sentence p34.s2 explicitly links the GitHub and license requirement to the open-source challenge.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p34.s2"
+        ],
+        "explanation": "Sentence p34.s2 explicitly links the GitHub and license requirement to the open-source challenge.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p34.s2"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p24.s1",
+        "p23.s2"
+      ],
+      "explanation": "Sentence p24.s1 defines open source as having public source code and a license allowing use, modification, and sharing.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p24.s1"
+        ],
+        "explanation": "Sentence p24.s1 defines open source as having public source code and a license allowing use, modification, and sharing.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s2"
+        ],
+        "explanation": "entailment 0.83",
+        "confidence": 0.83
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "The project must be published in a public GitHub repository under an open-source license. [p34.s2] This requirement applies to the open-source challenge. [p34.s2] The source code must be public and carry a license that allows others to use, modify, and share it. [p24.s1]",
+  "timings": {
+    "retrieve": 0.01,
+    "generate": 3.03,
+    "judge_gemma": 7.67,
+    "judge_nli": 0.37,
+    "total": 11.09
+  },
+  "errors": [],
+  "mode": "live"
+}

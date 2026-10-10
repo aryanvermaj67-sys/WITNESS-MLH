@@ -1,0 +1,289 @@
+{
+  "question": "Does an agent skill entry have to follow a particular standard?",
+  "answer_text": "An agent skill must comply with the Agent Skill Open Standard. This is mentioned in relation to model-harness entries. The Google Gemma model overview includes examples of agent skills following this standard.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p23",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Open-source or open-weight AI must be an important part of the project. The project must be published in a public GitHub repository and use an open-source license. An agent skill must comply with the Agent Skill Open Standard. A model-harness entry must include an original implementation or meaningful changes to an existing open-source harness.",
+      "sentences": [
+        {
+          "id": "p23.s1",
+          "text": "Open-source or open-weight AI must be an important part of the project."
+        },
+        {
+          "id": "p23.s2",
+          "text": "The project must be published in a public GitHub repository and use an open-source license."
+        },
+        {
+          "id": "p23.s3",
+          "text": "An agent skill must comply with the Agent Skill Open Standard."
+        },
+        {
+          "id": "p23.s4",
+          "text": "A model-harness entry must include an original implementation or meaningful changes to an existing open-source harness."
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Google's Gemma model overview includes examples on both sides of that boundary. Agent skill: a reusable set of instructions and supporting files that follows the Agent Skills open standard. Model harness: the software around a model that manages prompts, tools, memory, context, and actions. Teams may build one from scratch or make meaningful improvements to an existing open-source project such as OpenCode, Hermes Agent, OpenClaw, or Pi.",
+      "sentences": [
+        {
+          "id": "p25.s1",
+          "text": "Google's Gemma model overview includes examples on both sides of that boundary."
+        },
+        {
+          "id": "p25.s2",
+          "text": "Agent skill: a reusable set of instructions and supporting files that follows the Agent Skills open standard."
+        },
+        {
+          "id": "p25.s3",
+          "text": "Model harness: the software around a model that manages prompts, tools, memory, context, and actions."
+        },
+        {
+          "id": "p25.s4",
+          "text": "Teams may build one from scratch or make meaningful improvements to an existing open-source project such as OpenCode, Hermes Agent, OpenClaw, or Pi."
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works. Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness. These are examples within one challenge, and teams may combine them.",
+      "sentences": [
+        {
+          "id": "p22.s1",
+          "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works."
+        },
+        {
+          "id": "p22.s2",
+          "text": "Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness."
+        },
+        {
+          "id": "p22.s3",
+          "text": "These are examples within one challenge, and teams may combine them."
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "doc": "mlh_standard_rules.md",
+      "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code. MLH encourages our community to learn these technologies and leverage them. However, it’s essential to continue to follow the spirit of the hackathon. We strongly believe that the best projects will leverage AI, but ultimately be created by humans. Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools. Teams should be honest and transparent about the AI code tools they used. This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers.",
+      "sentences": [
+        {
+          "id": "p44.s1",
+          "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code."
+        },
+        {
+          "id": "p44.s2",
+          "text": "MLH encourages our community to learn these technologies and leverage them."
+        },
+        {
+          "id": "p44.s3",
+          "text": "However, it’s essential to continue to follow the spirit of the hackathon."
+        },
+        {
+          "id": "p44.s4",
+          "text": "We strongly believe that the best projects will leverage AI, but ultimately be created by humans."
+        },
+        {
+          "id": "p44.s5",
+          "text": "Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools."
+        },
+        {
+          "id": "p44.s6",
+          "text": "Teams should be honest and transparent about the AI code tools they used."
+        },
+        {
+          "id": "p44.s7",
+          "text": "This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers."
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "doc": "mlh_standard_rules.md",
+      "text": "Did the team achieve everything they wanted? Learning: Did the team stretch themselves? Did they try to learn something new? What kind of projects have they worked on before? If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded. These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving. It's important to note that these judging criteria do not include: How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Hacking is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down. How well you pitch.",
+      "sentences": [
+        {
+          "id": "p49.s1",
+          "text": "Did the team achieve everything they wanted?"
+        },
+        {
+          "id": "p49.s2",
+          "text": "Learning: Did the team stretch themselves?"
+        },
+        {
+          "id": "p49.s3",
+          "text": "Did they try to learn something new?"
+        },
+        {
+          "id": "p49.s4",
+          "text": "What kind of projects have they worked on before?"
+        },
+        {
+          "id": "p49.s5",
+          "text": "If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded."
+        },
+        {
+          "id": "p49.s6",
+          "text": "These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving."
+        },
+        {
+          "id": "p49.s7",
+          "text": "It's important to note that these judging criteria do not include:"
+        },
+        {
+          "id": "p49.s8",
+          "text": "How good your code is."
+        },
+        {
+          "id": "p49.s9",
+          "text": "It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms."
+        },
+        {
+          "id": "p49.s10",
+          "text": "Hacking is about playing around, making mistakes, and learning new things."
+        },
+        {
+          "id": "p49.s11",
+          "text": "If your code isn't production ready, we're not going to mark you down."
+        },
+        {
+          "id": "p49.s12",
+          "text": "How well you pitch."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "An agent skill must comply with the Agent Skill Open Standard.",
+      "start": 0,
+      "end": 62
+    },
+    {
+      "id": "c2",
+      "text": "This is mentioned in relation to model-harness entries.",
+      "start": 63,
+      "end": 118
+    },
+    {
+      "id": "c3",
+      "text": "The Google Gemma model overview includes examples of agent skills following this standard.",
+      "start": 119,
+      "end": 209
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p23.s3"
+      ],
+      "explanation": "Sentence p23.s3 explicitly states that an agent skill must comply with the Agent Skill Open Standard.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s3"
+        ],
+        "explanation": "Sentence p23.s3 explicitly states that an agent skill must comply with the Agent Skill Open Standard.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s3"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "needs_review",
+      "evidence_ids": [
+        "p23.s3",
+        "p23.s4"
+      ],
+      "explanation": "The requirement for the Agent Skill Open Standard applies to agent skills, while model-harness entries have different requirements regarding original implementations.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "contradicted",
+        "evidence_ids": [
+          "p23.s3",
+          "p23.s4"
+        ],
+        "explanation": "The requirement for the Agent Skill Open Standard applies to agent skills, while model-harness entries have different requirements regarding original implementations.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s4"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "unsupported",
+      "evidence_ids": [
+        "p25.s1"
+      ],
+      "explanation": "While p25.s1 mentions Google's Gemma model overview includes examples on both sides of a boundary, it does not specify that these are examples of agent skills following the standard.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [
+          "p25.s1"
+        ],
+        "explanation": "While p25.s1 mentions Google's Gemma model overview includes examples on both sides of a boundary, it does not specify that these are examples of agent skills following the standard.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 1,
+    "unsupported": 1,
+    "contradicted": 0,
+    "needs_review": 1,
+    "total": 3,
+    "percent_supported": 33
+  },
+  "fixed_answer": "An agent skill must comply with the Agent Skill Open Standard. [p23.s3]",
+  "timings": {
+    "retrieve": 0.01,
+    "generate": 2.76,
+    "judge_gemma": 7.17,
+    "judge_nli": 0.34,
+    "total": 10.29
+  },
+  "errors": [],
+  "mode": "live"
+}

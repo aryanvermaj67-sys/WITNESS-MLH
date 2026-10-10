@@ -1,0 +1,324 @@
+{
+  "question": "Can we start coding before the hackathon day, and what do we need to submit?",
+  "answer_text": "It depends on the hackathon’s rules whether you can start coding before the event; some allow preparation, while others require all coding to begin on hackathon day. Typically, you need to submit a working project or prototype, its source code or repository link, and a brief description of the idea and how it works. You may also need a demo video, presentation, or project documentation. Check the official hackathon guidelines for the exact rules and submission requirements.",
+  "answer_source": "pasted",
+  "passages": [
+    {
+      "id": "p45",
+      "doc": "mlh_standard_rules.md",
+      "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules. We require all teams to submit a 2 minute or less demo video. Your video must be created the weekend of the hackathon. Your video must remain public post event to be eligible for prizes. If your video is not public, new winners may be selected. Your demo video must state the name of the hackathon at the beginning of the video. Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\" You must have completed all registration steps for the hackathon. You are not allowed to submit your project to other hackathons. You can not submit a project that includes prior work.",
+      "sentences": [
+        {
+          "id": "p45.s1",
+          "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules."
+        },
+        {
+          "id": "p45.s2",
+          "text": "We require all teams to submit a 2 minute or less demo video."
+        },
+        {
+          "id": "p45.s3",
+          "text": "Your video must be created the weekend of the hackathon."
+        },
+        {
+          "id": "p45.s4",
+          "text": "Your video must remain public post event to be eligible for prizes."
+        },
+        {
+          "id": "p45.s5",
+          "text": "If your video is not public, new winners may be selected."
+        },
+        {
+          "id": "p45.s6",
+          "text": "Your demo video must state the name of the hackathon at the beginning of the video."
+        },
+        {
+          "id": "p45.s7",
+          "text": "Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\""
+        },
+        {
+          "id": "p45.s8",
+          "text": "You must have completed all registration steps for the hackathon."
+        },
+        {
+          "id": "p45.s9",
+          "text": "You are not allowed to submit your project to other hackathons."
+        },
+        {
+          "id": "p45.s10",
+          "text": "You can not submit a project that includes prior work."
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "doc": "event_description.md",
+      "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite. We need no prior open-source experience needed! Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits. Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture.",
+      "sentences": [
+        {
+          "id": "p5.s1",
+          "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite."
+        },
+        {
+          "id": "p5.s2",
+          "text": "We need no prior open-source experience needed!"
+        },
+        {
+          "id": "p5.s3",
+          "text": "Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits."
+        },
+        {
+          "id": "p5.s4",
+          "text": "Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture."
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "doc": "mlh_standard_rules.md",
+      "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code. MLH encourages our community to learn these technologies and leverage them. However, it’s essential to continue to follow the spirit of the hackathon. We strongly believe that the best projects will leverage AI, but ultimately be created by humans. Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools. Teams should be honest and transparent about the AI code tools they used. This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers.",
+      "sentences": [
+        {
+          "id": "p44.s1",
+          "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code."
+        },
+        {
+          "id": "p44.s2",
+          "text": "MLH encourages our community to learn these technologies and leverage them."
+        },
+        {
+          "id": "p44.s3",
+          "text": "However, it’s essential to continue to follow the spirit of the hackathon."
+        },
+        {
+          "id": "p44.s4",
+          "text": "We strongly believe that the best projects will leverage AI, but ultimately be created by humans."
+        },
+        {
+          "id": "p44.s5",
+          "text": "Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools."
+        },
+        {
+          "id": "p44.s6",
+          "text": "Teams should be honest and transparent about the AI code tools they used."
+        },
+        {
+          "id": "p44.s7",
+          "text": "This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers."
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "doc": "mlh_fest_formats.md",
+      "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal. Participants create and submit projects during the event for the Best Open-Source AI Project challenge. Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day. If a different approach better suits your event, explain it clearly before project work begins. The challenge has one winning team, and every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. The host selects the winner using the challenge guidance. Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category. These categories are assigned by the MLH Hacktoberfest team. See the partner challenge details.",
+      "sentences": [
+        {
+          "id": "p11.s1",
+          "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal."
+        },
+        {
+          "id": "p11.s2",
+          "text": "Participants create and submit projects during the event for the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p11.s3",
+          "text": "Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day."
+        },
+        {
+          "id": "p11.s4",
+          "text": "If a different approach better suits your event, explain it clearly before project work begins."
+        },
+        {
+          "id": "p11.s5",
+          "text": "The challenge has one winning team, and every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p11.s6",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p11.s7",
+          "text": "The host selects the winner using the challenge guidance."
+        },
+        {
+          "id": "p11.s8",
+          "text": "Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category."
+        },
+        {
+          "id": "p11.s9",
+          "text": "These categories are assigned by the MLH Hacktoberfest team."
+        },
+        {
+          "id": "p11.s10",
+          "text": "See the partner challenge details."
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "doc": "event_description.md",
+      "text": "Get ready to innovate, build, and connect! Hacktoberfest Hack day Hamirpur x GDG Ludhiana is a high-energy, one-day in-person mini hackathon hosted at NIT Hamirpur as part of Hacktoberfest, the world’s largest celebration of open source. This year’s theme centers on open source and open-weight AI: models, tools, and agents that anyone can inspect, run, and build upon. It’s a fast-paced collaborative day where you arrive in the morning, form a team, build a small, real-world project from scratch, and demo it that same afternoon.",
+      "sentences": [
+        {
+          "id": "p2.s1",
+          "text": "Get ready to innovate, build, and connect!"
+        },
+        {
+          "id": "p2.s2",
+          "text": "Hacktoberfest Hack day Hamirpur x GDG Ludhiana is a high-energy, one-day in-person mini hackathon hosted at NIT Hamirpur as part of Hacktoberfest, the world’s largest celebration of open source."
+        },
+        {
+          "id": "p2.s3",
+          "text": "This year’s theme centers on open source and open-weight AI: models, tools, and agents that anyone can inspect, run, and build upon."
+        },
+        {
+          "id": "p2.s4",
+          "text": "It’s a fast-paced collaborative day where you arrive in the morning, form a team, build a small, real-world project from scratch, and demo it that same afternoon."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It depends on the hackathon’s rules whether you can start coding before the event; some allow preparation, while others require all coding to begin on hackathon day.",
+      "start": 0,
+      "end": 165
+    },
+    {
+      "id": "c2",
+      "text": "Typically, you need to submit a working project or prototype, its source code or repository link, and a brief description of the idea and how it works.",
+      "start": 166,
+      "end": 317
+    },
+    {
+      "id": "c3",
+      "text": "You may also need a demo video, presentation, or project documentation.",
+      "start": 318,
+      "end": 389
+    },
+    {
+      "id": "c4",
+      "text": "Check the official hackathon guidelines for the exact rules and submission requirements.",
+      "start": 390,
+      "end": 478
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The provided text does not discuss rules regarding when coding can begin or preparation before the event.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The provided text does not discuss rules regarding when coding can begin or preparation before the event.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.01, contra 0.00)",
+        "confidence": 0.01
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The text does not explicitly list the standard required submission components like source code or project descriptions.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The text does not explicitly list the standard required submission components like source code or project descriptions.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p45.s2"
+      ],
+      "explanation": "The text states that for fully digital hackathons, teams are required to submit a demo video.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s2"
+        ],
+        "explanation": "The text states that for fully digital hackathons, teams are required to submit a demo video.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c4",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "While the text mentions specific rules, it does not contain a general instruction to check official guidelines for exact requirements.",
+      "gemma": {
+        "claim_id": "c4",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "While the text mentions specific rules, it does not contain a general instruction to check official guidelines for exact requirements.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c4",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.01, contra 0.00)",
+        "confidence": 0.01
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 1,
+    "unsupported": 3,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 4,
+    "percent_supported": 25
+  },
+  "fixed_answer": "You may also need a demo video, presentation, or project documentation. [p45.s2]",
+  "timings": {
+    "retrieve": 0.01,
+    "generate": 0.0,
+    "judge_gemma": 7.26,
+    "judge_nli": 0.64,
+    "total": 7.92
+  },
+  "errors": [],
+  "mode": "live"
+}
