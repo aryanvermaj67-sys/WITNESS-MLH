@@ -19,7 +19,7 @@
 
 | Role | Current task | Status | Last update |
 |---|---|---|---|
-| Aryan | B2 retrieval core (next) | B1 done; contracts frozen | event day |
+| Aryan | B3 live pipeline + judge 1 (next) | B2 done | event day |
 | Mudit | | not started | |
 | Support | | not started | |
 
@@ -33,7 +33,7 @@ A phase is done only when its **push succeeded** (`.\scripts\phase-push.ps1 -Pha
 |---|---|---|---|
 | B0 | Foundation: repo, LICENSE, `.gitignore`, folders, contracts, requirements, `models.py`, contract test | `pytest -q` green, all examples validate | ☑ `c0473e5` |
 | B1 | Stub server: every §5 route returns its example | `curl` each route; contracts frozen | ☑ `ce785f3` |
-| B2 | Retrieval core: `config`, `kb`, `retrieval`, `claims` | ≥ 20 passages, gold in top 5, offsets exact | ☐ |
+| B2 | Retrieval core: `config`, `kb`, `retrieval`, `claims` | ≥ 20 passages, gold in top 5, offsets exact | ☑ |
 | B3 | Live pipeline + judge 1 (`generator`, `judge_gemma`, `verdict`, `fixit`, `pipeline`) | `curl POST /api/check` returns a real, contract-valid result | ☐ |
 | B4 | Judge 2 (NLI) + pasted answers | `needs_review` possible; pasted answer graded | ☐ |
 | B5 | Cache, replay, demo questions, real health, serve `dist` | Replay round trip passes; all routes real | ☐ |
@@ -92,10 +92,10 @@ A phase is done only when its **push succeeded** (`.\scripts\phase-push.ps1 -Pha
 | BT2 | `requirements.txt`, `.env.example`, venv, lock file | Installed, lock committed | B0 | ☑ |
 | BT3 | `models.py` + `test_models_match_contracts.py` | All example files validate | B0 | ☑ |
 | BT4 | Stub `server.py` returning example files; CORS | `curl` every route returns its example | B1 | ☑ |
-| BT5 | `config.py`, `kb.py` | ≥ 20 passages, stable unique IDs | B2 | ☐ |
-| BT6 | `retrieval.py` hybrid BM25 + MiniLM + RRF | Gold passage in top 5 | B2 | ☐ |
+| BT5 | `config.py`, `kb.py` | ≥ 20 passages, stable unique IDs | B2 | ☑ |
+| BT6 | `retrieval.py` hybrid BM25 + MiniLM + RRF | Gold passage in top 5 | B2 | ☑ |
 | BT7 | `generator.py` via LM Studio | Same answer twice | B3 | ☐ |
-| BT8 | `claims.py` with offsets | Offsets slice exactly | B2 | ☐ |
+| BT8 | `claims.py` with offsets | Offsets slice exactly | B2 | ☑ |
 | BT9 | `judge_gemma.py` one call, strict parser | Parser tests pass; 1 call per check | B3 | ☐ |
 | BT10 | `verdict.py` combine + trust, `fixit.py` | Every combine row tested | B3 | ☐ |
 | BT11 | `pipeline.py` + `/api/check` live | `curl POST /api/check` returns a real, contract-valid result | B3 | ☐ |
@@ -112,6 +112,8 @@ Notes:
 - Machine 1 env (pre-event): `backend/.venv` (Python 3.14.6), `backend/requirements.txt` = §12 verbatim, `backend/requirements.lock.txt` = `pip freeze`. Run tools as `backend\.venv\Scripts\python.exe`. Models cached in `~/.cache/huggingface`. B0 done: LICENSE, `.gitignore`, `.env.example`, `pytest.ini` (`pythonpath = .`), `witness/models.py` (unknown fields are rejected, so contract drift fails the test), contract test. Remote: `https://github.com/aryanvermaj67-sys/WITNESS.git`. `data/`, `eval/`, `skill/` are created in the phase that first puts a file in them (git does not track empty folders). `.env` (copy of `.env.example` + key) is still to create before B3.
 - B1 done: `server.py` stub, every §5 route returns its example file (verified with curl against uvicorn on 127.0.0.1:8000, bodies identical to the examples); `/api/check` validates per §5 (422), `/api/replay/{key}` 404s for unknown keys; CORS open; empty lifespan hook. `CheckRequest` lives in `models.py`. Route tests in `tests/test_server.py`. **`contracts/` is frozen from here.** Run: `cd backend; .\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000`.
 - B3: before the first judge call, list the models the Gemini API offers for our key and confirm GEMINI_MODEL (spec default gemma-4-31b-it).
+- B2 done: `config.py` (`settings`, pydantic-typed from `.env`; key is a `SecretStr`; `settings.path()` resolves dirs relative to `backend/`), `kb.py` (`load_kb()` → 51 passages / 296 sentences from 6 files, IDs `p{n}.s{m}` in file-name order, ≤ 150 words, never across headings; sections shorter than 60 words stay short passages), `claims.py` (`sentence_spans()` shared with kb; list markers and "e.g."/"i.e."/"Ex." handled; `split_claims()` drops < 4 words), `retrieval.py` (`Retriever(passages, titles, embedder)`: BM25 + MiniLM on CPU, `local_files_only=True` so it works offline; RRF; ties broken by passage order). Each passage is indexed with a title "file name: heading" (`load_kb` returns it); passage text and IDs are unchanged. Build time ~2.6 s, search ~20 ms. Not wired into `server.py` yet (B3).
+- **B5, demo question wording:** for q1 "Can we start coding before the hackathon day, and what do we need to submit?" the event's own rule passage ("All development work must start at the event.") ranks only ~9th: "coding … hackathon day" does not match its wording, and the "submit" half pulls in submission passages. Top 5 still holds the Fest Formats line "project-specific work happens during the Hack Day". "Can we start working on our project before the event?" puts the event rule at rank 1. Pick the demo wording in B5 when verifying. Tried and rejected: sentence-level embeddings, BM25 stopwords (neither fixed q1; both cost other questions a rank).
 - Pre-B2 cleanup: `.pytest_cache/` ignored; `phase-push.ps1` no longer aborts on git's stderr warnings (LF/CRLF, "From ...", "To ...") even with `2>&1` (tested old vs new in a scratch repo with a local bare remote, incl. a pull --rebase; the `.env` guard still refuses); `README.md` added to the backend push paths; `WITNESS-Team-Brief.pdf` kept out via `.git/info/exclude`; route tests now compare bodies to the examples and cover `mode="bogus"` → 422; `tests/test_data_files.py` checks handbook URLs, `demo_questions.json` shape and `claims.jsonl`.
 - Windows **Smart App Control is ON** on this PC and blocks unsigned DLLs with no cloud reputation (`WinError 4551` / "Application Control policy has blocked this file"). Newest torch 2.14.1 was blocked; torch 2.9.1 loads. If it recurs, do not disable SAC mid-event: tell the team, retry the import once, or pin another established torch version.
 - First model download hit a Xet CDN network error; retry with env `HF_HUB_DISABLE_XET=1` worked.
@@ -149,7 +151,7 @@ Notes:
 
 | # | Task | Done when | Target | ☐ |
 |---|---|---|---|---|
-| S1 | Handbook Markdown files with source URLs | ≥ 4 files in `backend/data/handbook/` | 0:40 | ☑ (5 MLH files; `event_description.md` still missing) |
+| S1 | Handbook Markdown files with source URLs | ≥ 4 files in `backend/data/handbook/` | 0:40 | ☑ (6 files incl. `event_description.md`) |
 | S2 | 20 candidate demo questions | List given to Aryan | 1:30 | ☑ (unverified, in `data/demo_questions.json`) |
 | S3 | 2 real ChatGPT backup answers | `backup_answers.json`, `is_example: false` | 2:00 | ☐ |
 | S4 | ≥ 40 labelled eval claims, double-checked | `eval/claims.jsonl` | 2:30 | ☐ |
@@ -159,7 +161,7 @@ Notes:
 
 Notes:
 - Handbook (`backend/data/handbook/`): text copied verbatim from the `.md` versions of the pages (links, bold, images, tables and GitBook hint markup stripped; no sentence reworded). Files: `mlh_gemma_challenge.md`, `mlh_open_source_ai_challenge.md`, `mlh_fest_formats.md`, `mlh_project_submissions.md` (all hacktoberfest-handbook.mlh.com) and `mlh_standard_rules.md`. The handbook has no standard-rules page of its own: its Fest Formats and Project Submissions pages say to use the MLH Standard Hackathon Rules and link to `github.com/MLH/mlh-policies/.../standard-hackathon-rules.md`, so that is the URL on line 1. About 42 passages estimated (final count comes from `kb.py` in B2). Two tables on the Fest Formats page were dropped, not reworded (e.g. "MLH sends the prizes after the event" is therefore not in the KB).
-- **`event_description.md` is still missing**: Aryan to paste the real event description; nobody writes one.
+- `event_description.md`: text pasted by Aryan from the MLH event page, words unchanged (run-ons and numbered items split onto their own lines; the Details label/value pairs joined with a colon, e.g. "Date: OCT 10 - 10"). Eval labels re-checked against it: 1 change, listed in `backend/eval/README.md`.
 - `backend/data/demo_questions.json`: 20 candidates, every `why` starts with "UNVERIFIED"; `expect` is a guess. B5 replaces it with ≥ 4 verified questions.
 - `backend/eval/claims.jsonl`: 42 DRAFT labels (14 supported / 14 contradicted / 14 unsupported) against the 5 MLH files; S4 stays open until a second person double-checks (see `backend/eval/README.md`).
 - `README.md`: draft (S5 stays open: no limitations section yet). `backup_answers.json` intentionally not created (needs real ChatGPT answers).

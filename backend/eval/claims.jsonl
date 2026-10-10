@@ -39,4 +39,4 @@
 {"question": "Do participants get cloud credits?", "claim": "Hack Day participants receive free cloud credits.", "gold": "unsupported"}
 {"question": "When are prizes shipped?", "claim": "MLH ships the DEV Badge within one week of the event.", "gold": "unsupported"}
 {"question": "Can we use several models?", "claim": "Teams may use only one Gemma model in their project.", "gold": "unsupported"}
-{"question": "How long is each demo?", "claim": "Each team's demo is limited to three minutes.", "gold": "unsupported"}
+{"question": "How long is each demo?", "claim": "Each team's demo is limited to three minutes.", "gold": "contradicted"}
