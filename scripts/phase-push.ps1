@@ -34,13 +34,13 @@ function Invoke-Git { $ErrorActionPreference = 'Continue'; & git.exe @args; if (
 $kind = $Phase.Substring(0, 1)
 if ($kind -eq 'B') {
   $tag = 'backend'
-  $paths = @('backend', 'contracts', 'scripts', 'LICENSE', '.gitignore', 'README.md', 'PROGRESS.md', 'PROJECT.md', 'REQUIREMENTS.md')
+  $paths = @('backend', 'contracts', 'scripts', 'LICENSE', '.gitignore', 'REQUIREMENTS.md')
 } elseif ($kind -eq 'F') {
   $tag = 'frontend'
-  $paths = @('frontend', 'PROGRESS.md')
+  $paths = @('frontend')
 } else {
   $tag = 'integration'
-  $paths = @('backend', 'frontend', 'contracts', 'PROGRESS.md')
+  $paths = @('backend', 'frontend', 'contracts')
 }
 
 # 1. Gate: the phase is not done unless it is green.
