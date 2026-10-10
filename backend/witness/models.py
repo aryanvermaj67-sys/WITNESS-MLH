@@ -1,7 +1,7 @@
 """Pydantic v2 models for REQUIREMENTS.md §4. Field names must match contracts/examples exactly."""
-from typing import Literal
+from typing import Annotated, Literal
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, StringConstraints
 
 JudgeLabel = Literal["supported", "unsupported", "contradicted"]
 FinalLabel = Literal["supported", "unsupported", "contradicted", "needs_review"]
@@ -128,6 +128,13 @@ class BackupAnswer(Model):
     answer: str
     source: str
     is_example: bool
+
+
+class CheckRequest(BaseModel):
+    """POST /api/check body (§5). Invalid input → FastAPI's standard 422."""
+    question: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=500)]
+    answer_text: Annotated[str, StringConstraints(max_length=4000)] | None = None
+    mode: Mode | None = None
 
 
 class ReplayEntry(Model):

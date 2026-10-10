@@ -19,7 +19,7 @@
 
 | Role | Current task | Status | Last update |
 |---|---|---|---|
-| Aryan | B1 stub server (next) | B0 done | event day |
+| Aryan | B2 retrieval core (next) | B1 done; contracts frozen | event day |
 | Mudit | | not started | |
 | Support | | not started | |
 
@@ -31,8 +31,8 @@ A phase is done only when its **push succeeded** (`.\scripts\phase-push.ps1 -Pha
 
 | Phase | Scope | Gate / done when | Pushed (commit) |
 |---|---|---|---|
-| B0 | Foundation: repo, LICENSE, `.gitignore`, folders, contracts, requirements, `models.py`, contract test | `pytest -q` green, all examples validate | ☑ |
-| B1 | Stub server: every §5 route returns its example | `curl` each route; contracts frozen | ☐ |
+| B0 | Foundation: repo, LICENSE, `.gitignore`, folders, contracts, requirements, `models.py`, contract test | `pytest -q` green, all examples validate | ☑ `c0473e5` |
+| B1 | Stub server: every §5 route returns its example | `curl` each route; contracts frozen | ☑ |
 | B2 | Retrieval core: `config`, `kb`, `retrieval`, `claims` | ≥ 20 passages, gold in top 5, offsets exact | ☐ |
 | B3 | Live pipeline + judge 1 (`generator`, `judge_gemma`, `verdict`, `fixit`, `pipeline`) | `curl POST /api/check` returns a real, contract-valid result | ☐ |
 | B4 | Judge 2 (NLI) + pasted answers | `needs_review` possible; pasted answer graded | ☐ |
@@ -91,7 +91,7 @@ A phase is done only when its **push succeeded** (`.\scripts\phase-push.ps1 -Pha
 | BT1 | Repo, LICENSE, .gitignore, folders, `contracts/examples/` copied | Pushed | B0 | ☑ |
 | BT2 | `requirements.txt`, `.env.example`, venv, lock file | Installed, lock committed | B0 | ☑ |
 | BT3 | `models.py` + `test_models_match_contracts.py` | All example files validate | B0 | ☑ |
-| BT4 | Stub `server.py` returning example files; CORS | `curl` every route returns its example | B1 | ☐ |
+| BT4 | Stub `server.py` returning example files; CORS | `curl` every route returns its example | B1 | ☑ |
 | BT5 | `config.py`, `kb.py` | ≥ 20 passages, stable unique IDs | B2 | ☐ |
 | BT6 | `retrieval.py` hybrid BM25 + MiniLM + RRF | Gold passage in top 5 | B2 | ☐ |
 | BT7 | `generator.py` via LM Studio | Same answer twice | B3 | ☐ |
@@ -110,6 +110,7 @@ A phase is done only when its **push succeeded** (`.\scripts\phase-push.ps1 -Pha
 
 Notes:
 - Machine 1 env (pre-event): `backend/.venv` (Python 3.14.6), `backend/requirements.txt` = §12 verbatim, `backend/requirements.lock.txt` = `pip freeze`. Run tools as `backend\.venv\Scripts\python.exe`. Models cached in `~/.cache/huggingface`. B0 done: LICENSE, `.gitignore`, `.env.example`, `pytest.ini` (`pythonpath = .`), `witness/models.py` (unknown fields are rejected, so contract drift fails the test), contract test. Remote: `https://github.com/aryanvermaj67-sys/WITNESS.git`. `data/`, `eval/`, `skill/` are created in the phase that first puts a file in them (git does not track empty folders). `.env` (copy of `.env.example` + key) is still to create before B3.
+- B1 done: `server.py` stub, every §5 route returns its example file (verified with curl against uvicorn on 127.0.0.1:8000, bodies identical to the examples); `/api/check` validates per §5 (422), `/api/replay/{key}` 404s for unknown keys; CORS open; empty lifespan hook. `CheckRequest` lives in `models.py`. Route tests in `tests/test_server.py`. **`contracts/` is frozen from here.** Run: `cd backend; .\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000`.
 - Windows **Smart App Control is ON** on this PC and blocks unsigned DLLs with no cloud reputation (`WinError 4551` / "Application Control policy has blocked this file"). Newest torch 2.14.1 was blocked; torch 2.9.1 loads. If it recurs, do not disable SAC mid-event: tell the team, retry the import once, or pin another established torch version.
 - First model download hit a Xet CDN network error; retry with env `HF_HUB_DISABLE_XET=1` worked.
 - LM Studio: `LMSTUDIO_MODEL=gemma-4-e2b-it`, `LMSTUDIO_BASE_URL=http://localhost:1234/v1`. Loaded with `lms load gemma-4-e2b-it --identifier gemma-4-e2b-it --gpu max --context-length 8192 --parallel 1 -y` (restart server: `lms server start --port 1234`). `--parallel 1` matters: parallel slots split the context window.
