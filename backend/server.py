@@ -6,8 +6,12 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+from witness import pipeline
+from witness.config import settings
+from witness.kb import load_kb
 from witness.models import (BackupAnswer, CheckRequest, DemoQuestion, EvalResult, Health, PipelineResult,
                             ReplayEntry)
+from witness.retrieval import Retriever, load_embedder
 
 EXAMPLES = Path(__file__).resolve().parent.parent / "contracts" / "examples"
 
@@ -18,7 +22,9 @@ def example(name):
 
 @asynccontextmanager
 async def lifespan(app):
-    # models, KB and indexes load here once (NFR-4), from Phase B2 on
+    # KB, embedding model and search indexes load here once (NFR-4)
+    passages, titles = load_kb(settings.path(settings.KB_DIR))
+    app.state.retriever = Retriever(passages, titles, load_embedder(settings.EMBED_MODEL))
     yield
 
 
@@ -39,7 +45,10 @@ def demo_questions():
 
 @app.post("/api/check", response_model=PipelineResult)
 def check(req: CheckRequest):
-    return example("check_pasted.json" if req.answer_text else "check_mixed.json")
+    if req.mode == "replay":  # replay is still the example file until Phase B5
+        return example("check_replay.json")
+    # a missing retriever (index failed to load) becomes an error in the result, not an HTTP 500
+    return pipeline.run_pipeline(req.question, req.answer_text, getattr(app.state, "retriever", None))
 
 
 @app.get("/api/eval", response_model=EvalResult)

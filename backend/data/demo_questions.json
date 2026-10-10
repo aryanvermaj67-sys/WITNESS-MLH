@@ -1,5 +1,5 @@
 [
-  {"id": "q1", "question": "Can we start coding before the hackathon day, and what do we need to submit?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: timing of project work."},
+  {"id": "q1", "question": "Can we start working on our project before the event?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: timing of project work."},
   {"id": "q2", "question": "How long does a Hacktoberfest Hack Day run?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: duration (3 to 12 hours)."},
   {"id": "q3", "question": "Can someone who graduated from university last year still take part as a student?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: eligibility window (12 months)."},
   {"id": "q4", "question": "Can a volunteer or judge at the event also compete as a hacker?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: eligibility."},

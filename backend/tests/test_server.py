@@ -17,11 +17,6 @@ def test_get_routes_return_examples():
     assert client.get("/api/replay/missing").status_code == 404
 
 
-def test_check():
-    assert client.post("/api/check", json={"question": "q"}).json()["answer_source"] == "gemma-4-e2b-local"
-    assert client.post("/api/check", json={"question": "q", "answer_text": "a"}).json()["answer_source"] == "pasted"
-
-
 def test_check_validation():
     for body in [{"question": "   "}, {"question": "x" * 501}, {"question": "q", "answer_text": "x" * 4001}, {},
                  {"question": "q", "mode": "bogus"}]:
