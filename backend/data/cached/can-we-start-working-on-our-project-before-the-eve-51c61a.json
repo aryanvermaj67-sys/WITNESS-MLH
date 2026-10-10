@@ -305,11 +305,11 @@
   },
   "fixed_answer": "Development work must start at the event. [p7.s1] Projects or codebases begun before the day are strictly not eligible. [p7.s2] Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is not allowed. [p42.s6] Teams must stop hacking once the time is up. [p42.s7]",
   "timings": {
-    "retrieve": 0.02,
-    "generate": 3.06,
-    "judge_gemma": 7.55,
-    "judge_nli": 0.69,
-    "total": 11.33
+    "retrieve": 0.07,
+    "generate": 4.71,
+    "judge_gemma": 7.38,
+    "judge_nli": 0.88,
+    "total": 13.05
   },
   "errors": [],
   "mode": "live"

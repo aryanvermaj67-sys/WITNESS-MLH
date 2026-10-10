@@ -1,0 +1,308 @@
+{
+  "question": "What counts as a small language model in the Hacktoberfest Best Open-Source AI Project challenge, and how many people can be on a team?",
+  "answer_text": "For Hacktoberfest 2026’s Best Open-Source AI Project challenge, a small language model (SLM) is a language model with a relatively small footprint, suitable for more resource-efficient AI applications; the challenge does not specify an exact parameter-count cutoff. Projects may use an open-weight large or small language model, build an agent skill, or create or adapt an open-source model harness. Open-source or open-weight AI must be an important part of the project, which must be published in a public GitHub repository under an open-source license. Team size depends on the specific Hacktoberfest event; for example, the Bengaluru KrowdKraft event allows 1–3 members.",
+  "answer_source": "pasted",
+  "passages": [
+    {
+      "id": "p22",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works. Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness. These are examples within one challenge, and teams may combine them.",
+      "sentences": [
+        {
+          "id": "p22.s1",
+          "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works."
+        },
+        {
+          "id": "p22.s2",
+          "text": "Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness."
+        },
+        {
+          "id": "p22.s3",
+          "text": "These are examples within one challenge, and teams may combine them."
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Open source: the project's source code is public and carries a license that allows others to use, modify, and share it. Common choices include MIT, Apache-2.0, and GPL-3.0. The OSI license list includes more options. Open-weight model: the trained model weights are available to download or run under the model provider's terms. Open-weight does not automatically mean that every part of a model is open source, so teams should name the model and link its license or terms in the README. Small and large language models: for this challenge, a small language model has 10 billion parameters or fewer, while a large language model has more than 10 billion parameters.",
+      "sentences": [
+        {
+          "id": "p24.s1",
+          "text": "Open source: the project's source code is public and carries a license that allows others to use, modify, and share it."
+        },
+        {
+          "id": "p24.s2",
+          "text": "Common choices include MIT, Apache-2.0, and GPL-3.0."
+        },
+        {
+          "id": "p24.s3",
+          "text": "The OSI license list includes more options."
+        },
+        {
+          "id": "p24.s4",
+          "text": "Open-weight model: the trained model weights are available to download or run under the model provider's terms."
+        },
+        {
+          "id": "p24.s5",
+          "text": "Open-weight does not automatically mean that every part of a model is open source, so teams should name the model and link its license or terms in the README."
+        },
+        {
+          "id": "p24.s6",
+          "text": "Small and large language models: for this challenge, a small language model has 10 billion parameters or fewer, while a large language model has more than 10 billion parameters."
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "doc": "mlh_standard_rules.md",
+      "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code. MLH encourages our community to learn these technologies and leverage them. However, it’s essential to continue to follow the spirit of the hackathon. We strongly believe that the best projects will leverage AI, but ultimately be created by humans. Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools. Teams should be honest and transparent about the AI code tools they used. This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers.",
+      "sentences": [
+        {
+          "id": "p44.s1",
+          "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code."
+        },
+        {
+          "id": "p44.s2",
+          "text": "MLH encourages our community to learn these technologies and leverage them."
+        },
+        {
+          "id": "p44.s3",
+          "text": "However, it’s essential to continue to follow the spirit of the hackathon."
+        },
+        {
+          "id": "p44.s4",
+          "text": "We strongly believe that the best projects will leverage AI, but ultimately be created by humans."
+        },
+        {
+          "id": "p44.s5",
+          "text": "Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools."
+        },
+        {
+          "id": "p44.s6",
+          "text": "Teams should be honest and transparent about the AI code tools they used."
+        },
+        {
+          "id": "p44.s7",
+          "text": "This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers."
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "A strong project: Uses open-source or open-weight AI as an important part of how the project works Solves a clear problem or creates a useful experience Shows substantial technical work completed by the team Makes its source, license, model, and key dependencies easy to verify Has a working demonstration and a clear explanation of what the team built Use this guidance alongside Project Submissions and Winner Selection. Ask teams to show the relevant code and explain the contribution of the AI technology in plain language.",
+      "sentences": [
+        {
+          "id": "p26.s1",
+          "text": "A strong project:"
+        },
+        {
+          "id": "p26.s2",
+          "text": "Uses open-source or open-weight AI as an important part of how the project works"
+        },
+        {
+          "id": "p26.s3",
+          "text": "Solves a clear problem or creates a useful experience"
+        },
+        {
+          "id": "p26.s4",
+          "text": "Shows substantial technical work completed by the team"
+        },
+        {
+          "id": "p26.s5",
+          "text": "Makes its source, license, model, and key dependencies easy to verify"
+        },
+        {
+          "id": "p26.s6",
+          "text": "Has a working demonstration and a clear explanation of what the team built"
+        },
+        {
+          "id": "p26.s7",
+          "text": "Use this guidance alongside Project Submissions and Winner Selection."
+        },
+        {
+          "id": "p26.s8",
+          "text": "Ask teams to show the relevant code and explain the contribution of the AI technology in plain language."
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Hack Days partner prize categories are separate from the Best Open-Source AI Project challenge. They may be assigned to selected Hacktoberfest Hack Day events by the MLH Hacktoberfest team. You may indicate a preference when applying, but an assigned category appears automatically in OrganizerHQ. See the partner challenge details.",
+      "sentences": [
+        {
+          "id": "p28.s1",
+          "text": "Hack Days partner prize categories are separate from the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p28.s2",
+          "text": "They may be assigned to selected Hacktoberfest Hack Day events by the MLH Hacktoberfest team."
+        },
+        {
+          "id": "p28.s3",
+          "text": "You may indicate a preference when applying, but an assigned category appears automatically in OrganizerHQ."
+        },
+        {
+          "id": "p28.s4",
+          "text": "See the partner challenge details."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For Hacktoberfest 2026’s Best Open-Source AI Project challenge, a small language model (SLM) is a language model with a relatively small footprint, suitable for more resource-efficient AI applications; the challenge does not specify an exact parameter-count cutoff.",
+      "start": 0,
+      "end": 265
+    },
+    {
+      "id": "c2",
+      "text": "Projects may use an open-weight large or small language model, build an agent skill, or create or adapt an open-source model harness.",
+      "start": 266,
+      "end": 399
+    },
+    {
+      "id": "c3",
+      "text": "Open-source or open-weight AI must be an important part of the project, which must be published in a public GitHub repository under an open-source license.",
+      "start": 400,
+      "end": 555
+    },
+    {
+      "id": "c4",
+      "text": "Team size depends on the specific Hacktoberfest event; for example, the Bengaluru KrowdKraft event allows 1–3 members.",
+      "start": 556,
+      "end": 674
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "contradicted",
+      "evidence_ids": [
+        "p24.s6"
+      ],
+      "explanation": "The text specifies an exact cutoff of 10 billion parameters or fewer for a small language model.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "contradicted",
+        "evidence_ids": [
+          "p24.s6"
+        ],
+        "explanation": "The text specifies an exact cutoff of 10 billion parameters or fewer for a small language model.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p22.s2"
+      ],
+      "explanation": "The sentence explicitly lists these as potential project creations.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p22.s2"
+        ],
+        "explanation": "The sentence explicitly lists these as potential project creations.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p22.s2"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "unsupported",
+      "evidence_ids": [
+        "p22.s1",
+        "p26.s2"
+      ],
+      "explanation": "While the project must use open-source or open-weight AI, there is no mention of a requirement to publish in a public GitHub repository.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [
+          "p22.s1",
+          "p26.s2"
+        ],
+        "explanation": "While the project must use open-source or open-weight AI, there is no mention of a requirement to publish in a public GitHub repository.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c4",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The provided text contains no information regarding team sizes or specific events like Bengaluru KrowdKraft.",
+      "gemma": {
+        "claim_id": "c4",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The provided text contains no information regarding team sizes or specific events like Bengaluru KrowdKraft.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c4",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 1,
+    "unsupported": 2,
+    "contradicted": 1,
+    "needs_review": 0,
+    "total": 4,
+    "percent_supported": 25
+  },
+  "fixed_answer": "Projects may use an open-weight large or small language model, build an agent skill, or create or adapt an open-source model harness. [p22.s2]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 0.0,
+    "judge_gemma": 10.59,
+    "judge_nli": 0.92,
+    "total": 11.53
+  },
+  "errors": [],
+  "mode": "live"
+}

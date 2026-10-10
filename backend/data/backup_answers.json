@@ -1,5 +1,33 @@
 [
   {
+    "id": "b3",
+    "question": "What counts as a small language model in the Hacktoberfest Best Open-Source AI Project challenge, and how many people can be on a team?",
+    "answer": "For Hacktoberfest 2026’s Best Open-Source AI Project challenge, a small language model (SLM) is a language model with a relatively small footprint, suitable for more resource-efficient AI applications; the challenge does not specify an exact parameter-count cutoff. Projects may use an open-weight large or small language model, build an agent skill, or create or adapt an open-source model harness. Open-source or open-weight AI must be an important part of the project, which must be published in a public GitHub repository under an open-source license. Team size depends on the specific Hacktoberfest event; for example, the Bengaluru KrowdKraft event allows 1–3 members.",
+    "source": "ChatGPT",
+    "is_example": false
+  },
+  {
+    "id": "b4",
+    "question": "Who can take part in a Hacktoberfest Hack Day as a student, and how recently must someone have graduated?",
+    "answer": "For the Hacktoberfest Hack Day in Kolkata, current students and recent graduates are eligible to participate. Graduates must have completed or left their education within the previous 12 months. The event is open to students across eligible educational levels, subject to the event’s specific participation rules. Eligibility details are confirmed on the official Major League Hacking event page.",
+    "source": "ChatGPT",
+    "is_example": false
+  },
+  {
+    "id": "b5",
+    "question": "How many teams win the Best Open-Source AI Project challenge, and what do they get?",
+    "answer": "One team wins the Best Open-Source AI Project challenge. Each member of the winning team receives a DEV Badge on their DEV account, and the team may also receive MLH+DEV-branded swag bags, depending on availability and event arrangements. There is no universally guaranteed cash prize for this challenge.",
+    "source": "ChatGPT",
+    "is_example": false
+  },
+  {
+    "id": "b6",
+    "question": "How long does a Hacktoberfest Hack Day last and how many teams win the open-source AI prize?",
+    "answer": "A Hacktoberfest Hack Day lasts 3 to 12 hours, with 4 to 6 hours being the recommended duration. The event is a one-day, in-person hackathon focused on building projects with open-source AI and open-weight models. 1 winning team is selected for the Best Open-Source AI Project prize at each Hack Day.",
+    "source": "ChatGPT",
+    "is_example": false
+  },
+  {
     "id": "b1",
     "question": "Can we reuse code from a project we built before the event?",
     "answer": "Yes, you can generally reuse code from a project you built before the event, but it depends on the event’s rules. Some hackathons or competitions allow pre-existing code and libraries, while others require you to build everything during the event. Make sure to check the official guidelines, especially regarding code reuse, originality, and disclosure requirements. When in doubt, clearly mention which parts were developed before the event and which parts you created during it.",

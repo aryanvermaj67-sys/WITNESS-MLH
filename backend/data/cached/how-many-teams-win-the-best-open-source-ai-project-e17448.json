@@ -266,11 +266,11 @@
   },
   "fixed_answer": "One team wins the Best Open-Source AI Project challenge. [p27.s1] Each member of the winning team receives a DEV Badge on their DEV account, and the team may also receive MLH+DEV-branded swag bags, depending on availability and event arrangements. [p27.s2]",
   "timings": {
-    "retrieve": 0.02,
+    "retrieve": 0.03,
     "generate": 0.0,
-    "judge_gemma": 6.38,
-    "judge_nli": 0.66,
-    "total": 7.06
+    "judge_gemma": 5.72,
+    "judge_nli": 0.51,
+    "total": 6.25
   },
   "errors": [],
   "mode": "live"

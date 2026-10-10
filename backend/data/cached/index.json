@@ -138,27 +138,45 @@
     "saved_at": "2026-10-10T14:48:23"
   },
   {
-    "key": "how-many-teams-win-the-best-open-source-ai-project-e17448",
-    "question": "How many teams win the Best Open-Source AI Project challenge, and what do they get?",
-    "answer_source": "pasted",
-    "saved_at": "2026-10-10T15:09:18"
-  },
-  {
     "key": "does-an-agent-skill-entry-have-to-follow-a-particu-87ad06",
     "question": "Does an agent skill entry have to follow a particular standard?",
     "answer_source": "gemma-4-e2b-local",
     "saved_at": "2026-10-10T15:09:56"
   },
   {
-    "key": "can-we-start-working-on-our-project-before-the-eve-51c61a",
-    "question": "Can we start working on our project before the event?",
-    "answer_source": "gemma-4-e2b-local",
-    "saved_at": "2026-10-10T15:10:19"
-  },
-  {
     "key": "can-we-still-submit-our-project-after-demos-have-s-716a79",
     "question": "Can we still submit our project after demos have started?",
     "answer_source": "gemma-4-e2b-local",
     "saved_at": "2026-10-10T16:42:32"
+  },
+  {
+    "key": "can-we-start-working-on-our-project-before-the-eve-51c61a",
+    "question": "Can we start working on our project before the event?",
+    "answer_source": "gemma-4-e2b-local",
+    "saved_at": "2026-10-10T16:57:35"
+  },
+  {
+    "key": "what-counts-as-a-small-language-model-in-the-hackt-4ca5a9",
+    "question": "What counts as a small language model in the Hacktoberfest Best Open-Source AI Project challenge, and how many people can be on a team?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T17:01:15"
+  },
+  {
+    "key": "who-can-take-part-in-a-hacktoberfest-hack-day-as-a-1bd385",
+    "question": "Who can take part in a Hacktoberfest Hack Day as a student, and how recently must someone have graduated?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T17:01:27"
+  },
+  {
+    "key": "how-many-teams-win-the-best-open-source-ai-project-e17448",
+    "question": "How many teams win the Best Open-Source AI Project challenge, and what do they get?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T17:01:34"
+  },
+  {
+    "key": "how-long-does-a-hacktoberfest-hack-day-last-and-ho-4a47dc",
+    "question": "How long does a Hacktoberfest Hack Day last and how many teams win the open-source AI prize?",
+    "answer_source": "pasted",
+    "saved_at": "2026-10-10T17:01:40"
   }
 ]

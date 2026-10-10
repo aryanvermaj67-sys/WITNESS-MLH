@@ -1,6 +1,6 @@
 {
   "question": "Can we still submit our project after demos have started?",
-  "answer_text": "You should close submissions before demos begin. You can open submissions during project time and close them at the project deadline, before demos start. This is to ensure all teams adhere to the same deadline policy.",
+  "answer_text": "You should close submissions before demos begin. You can open submissions during project time and close them at the project deadline, before demos start. This is to ensure all teams adhere to the same policy.",
   "answer_source": "gemma-4-e2b-local",
   "passages": [
     {
@@ -218,9 +218,9 @@
     },
     {
       "id": "c3",
-      "text": "This is to ensure all teams adhere to the same deadline policy.",
+      "text": "This is to ensure all teams adhere to the same policy.",
       "start": 154,
-      "end": 217
+      "end": 208
     }
   ],
   "verdicts": [
@@ -300,8 +300,8 @@
         "judge": "nli",
         "label": "unsupported",
         "evidence_ids": [],
-        "explanation": "no sentence above threshold (entail 0.37, contra 0.00)",
-        "confidence": 0.37
+        "explanation": "no sentence above threshold (entail 0.02, contra 0.00)",
+        "confidence": 0.02
       },
       "single_judge": false
     }
@@ -316,11 +316,11 @@
   },
   "fixed_answer": "You should close submissions before demos begin. [p31.s8] You can open submissions during project time and close them at the project deadline, before demos start. [p31.s8]",
   "timings": {
-    "retrieve": 0.02,
-    "generate": 2.75,
-    "judge_gemma": 5.85,
+    "retrieve": 0.05,
+    "generate": 4.34,
+    "judge_gemma": 6.23,
     "judge_nli": 0.39,
-    "total": 9.01
+    "total": 11.01
   },
   "errors": [],
   "mode": "live"

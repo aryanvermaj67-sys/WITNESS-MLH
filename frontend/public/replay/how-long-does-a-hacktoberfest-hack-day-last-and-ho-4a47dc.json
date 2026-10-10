@@ -1,0 +1,323 @@
+{
+  "question": "How long does a Hacktoberfest Hack Day last and how many teams win the open-source AI prize?",
+  "answer_text": "A Hacktoberfest Hack Day lasts 3 to 12 hours, with 4 to 6 hours being the recommended duration. The event is a one-day, in-person hackathon focused on building projects with open-source AI and open-weight models. 1 winning team is selected for the Best Open-Source AI Project prize at each Hack Day.",
+  "answer_source": "pasted",
+  "passages": [
+    {
+      "id": "p11",
+      "doc": "mlh_fest_formats.md",
+      "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal. Participants create and submit projects during the event for the Best Open-Source AI Project challenge. Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day. If a different approach better suits your event, explain it clearly before project work begins. The challenge has one winning team, and every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. The host selects the winner using the challenge guidance. Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category. These categories are assigned by the MLH Hacktoberfest team. See the partner challenge details.",
+      "sentences": [
+        {
+          "id": "p11.s1",
+          "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal."
+        },
+        {
+          "id": "p11.s2",
+          "text": "Participants create and submit projects during the event for the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p11.s3",
+          "text": "Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day."
+        },
+        {
+          "id": "p11.s4",
+          "text": "If a different approach better suits your event, explain it clearly before project work begins."
+        },
+        {
+          "id": "p11.s5",
+          "text": "The challenge has one winning team, and every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p11.s6",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p11.s7",
+          "text": "The host selects the winner using the challenge guidance."
+        },
+        {
+          "id": "p11.s8",
+          "text": "Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category."
+        },
+        {
+          "id": "p11.s9",
+          "text": "These categories are assigned by the MLH Hacktoberfest team."
+        },
+        {
+          "id": "p11.s10",
+          "text": "See the partner challenge details."
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Hack Days partner prize categories are separate from the Best Open-Source AI Project challenge. They may be assigned to selected Hacktoberfest Hack Day events by the MLH Hacktoberfest team. You may indicate a preference when applying, but an assigned category appears automatically in OrganizerHQ. See the partner challenge details.",
+      "sentences": [
+        {
+          "id": "p28.s1",
+          "text": "Hack Days partner prize categories are separate from the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p28.s2",
+          "text": "They may be assigned to selected Hacktoberfest Hack Day events by the MLH Hacktoberfest team."
+        },
+        {
+          "id": "p28.s3",
+          "text": "You may indicate a preference when applying, but an assigned category appears automatically in OrganizerHQ."
+        },
+        {
+          "id": "p28.s4",
+          "text": "See the partner challenge details."
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Every Hacktoberfest Hack Day runs this challenge. MLH adds it to your OrganizerHQ event automatically. Include it in your project prompts, submission instructions, opening slides, and winner-selection plan.",
+      "sentences": [
+        {
+          "id": "p21.s1",
+          "text": "Every Hacktoberfest Hack Day runs this challenge."
+        },
+        {
+          "id": "p21.s2",
+          "text": "MLH adds it to your OrganizerHQ event automatically."
+        },
+        {
+          "id": "p21.s3",
+          "text": "Include it in your project prompts, submission instructions, opening slides, and winner-selection plan."
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "doc": "mlh_project_submissions.md",
+      "text": "Every Hacktoberfest Hack Day runs the Best Open-Source AI Project challenge. MLH adds it to your event automatically: Open the public event page while signed in. Select Challenges in the “View and submit challenges for this event” banner. Confirm that the Best Open-Source AI Project challenge appears. If the MLH Hacktoberfest team assigned your event a Hack Days partner prize category, confirm that it appears too. If an expected challenge is missing, email hacktoberfest@mlh.io. Do not create a duplicate or add a partner category that MLH did not assign. You may add an optional local challenge through Edit Event → + Add Challenge. Keep it separate from the MLH challenges, which appear automatically. Any local prize is provided by the host unless your event onboarding says otherwise.",
+      "sentences": [
+        {
+          "id": "p30.s1",
+          "text": "Every Hacktoberfest Hack Day runs the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p30.s2",
+          "text": "MLH adds it to your event automatically:"
+        },
+        {
+          "id": "p30.s3",
+          "text": "Open the public event page while signed in."
+        },
+        {
+          "id": "p30.s4",
+          "text": "Select Challenges in the “View and submit challenges for this event” banner."
+        },
+        {
+          "id": "p30.s5",
+          "text": "Confirm that the Best Open-Source AI Project challenge appears."
+        },
+        {
+          "id": "p30.s6",
+          "text": "If the MLH Hacktoberfest team assigned your event a Hack Days partner prize category, confirm that it appears too."
+        },
+        {
+          "id": "p30.s7",
+          "text": "If an expected challenge is missing, email hacktoberfest@mlh.io."
+        },
+        {
+          "id": "p30.s8",
+          "text": "Do not create a duplicate or add a partner category that MLH did not assign."
+        },
+        {
+          "id": "p30.s9",
+          "text": "You may add an optional local challenge through Edit Event → + Add Challenge."
+        },
+        {
+          "id": "p30.s10",
+          "text": "Keep it separate from the MLH challenges, which appear automatically."
+        },
+        {
+          "id": "p30.s11",
+          "text": "Any local prize is provided by the host unless your event onboarding says otherwise."
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "doc": "mlh_project_submissions.md",
+      "text": "Give every eligible submission the same opportunity to present its work. Use the guidance on the relevant challenge page and confirm any repository, license, model, harness, or partner-technology requirements before selecting a winner. Look for projects that: Meet the challenge requirements Work well enough to demonstrate Use the relevant technology as an important part of the project Show originality, learning, or thoughtful technical work Explain clearly what the team built and how it works The Best Open-Source AI Project challenge has one winning team, and every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. Any assigned Hack Days partner prize category uses the prize and eligibility instructions supplied for that category. Hacktoberfest does not use pull-request counts as the basis for these prizes.",
+      "sentences": [
+        {
+          "id": "p36.s1",
+          "text": "Give every eligible submission the same opportunity to present its work."
+        },
+        {
+          "id": "p36.s2",
+          "text": "Use the guidance on the relevant challenge page and confirm any repository, license, model, harness, or partner-technology requirements before selecting a winner."
+        },
+        {
+          "id": "p36.s3",
+          "text": "Look for projects that:"
+        },
+        {
+          "id": "p36.s4",
+          "text": "Meet the challenge requirements"
+        },
+        {
+          "id": "p36.s5",
+          "text": "Work well enough to demonstrate"
+        },
+        {
+          "id": "p36.s6",
+          "text": "Use the relevant technology as an important part of the project"
+        },
+        {
+          "id": "p36.s7",
+          "text": "Show originality, learning, or thoughtful technical work"
+        },
+        {
+          "id": "p36.s8",
+          "text": "Explain clearly what the team built and how it works"
+        },
+        {
+          "id": "p36.s9",
+          "text": "The Best Open-Source AI Project challenge has one winning team, and every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p36.s10",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p36.s11",
+          "text": "Any assigned Hack Days partner prize category uses the prize and eligibility instructions supplied for that category."
+        },
+        {
+          "id": "p36.s12",
+          "text": "Hacktoberfest does not use pull-request counts as the basis for these prizes."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Hacktoberfest Hack Day lasts 3 to 12 hours, with 4 to 6 hours being the recommended duration.",
+      "start": 0,
+      "end": 95
+    },
+    {
+      "id": "c2",
+      "text": "The event is a one-day, in-person hackathon focused on building projects with open-source AI and open-weight models.",
+      "start": 96,
+      "end": 212
+    },
+    {
+      "id": "c3",
+      "text": "1 winning team is selected for the Best Open-Source AI Project prize at each Hack Day.",
+      "start": 213,
+      "end": 299
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p11.s1"
+      ],
+      "explanation": "The text states Hack Days run for 3 to 12 hours and that four to six hours is ideal.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s1"
+        ],
+        "explanation": "The text states Hack Days run for 3 to 12 hours and that four to six hours is ideal.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s1"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The provided text does not specify if the event is one-day or in-person, nor does it mention open-weight models.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The provided text does not specify if the event is one-day or in-person, nor does it mention open-weight models.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p11.s5",
+        "p36.s9"
+      ],
+      "explanation": "Multiple sentences confirm the challenge has one winning team.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s5",
+          "p36.s9"
+        ],
+        "explanation": "Multiple sentences confirm the challenge has one winning team.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 2,
+    "unsupported": 1,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 67
+  },
+  "fixed_answer": "A Hacktoberfest Hack Day lasts 3 to 12 hours, with 4 to 6 hours being the recommended duration. [p11.s1] 1 winning team is selected for the Best Open-Source AI Project prize at each Hack Day. [p11.s5]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 0.0,
+    "judge_gemma": 6.24,
+    "judge_nli": 0.4,
+    "total": 6.67
+  },
+  "errors": [],
+  "mode": "live"
+}
