@@ -1,0 +1,22 @@
+[
+  {"id": "q1", "question": "Can we start coding before the hackathon day, and what do we need to submit?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: timing of project work."},
+  {"id": "q2", "question": "How long does a Hacktoberfest Hack Day run?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: duration (3 to 12 hours)."},
+  {"id": "q3", "question": "Can someone who graduated from university last year still take part as a student?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: eligibility window (12 months)."},
+  {"id": "q4", "question": "Can a volunteer or judge at the event also compete as a hacker?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: eligibility."},
+  {"id": "q5", "question": "Can we reuse code from a project we built before the event?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: idea vs code reuse."},
+  {"id": "q6", "question": "Are we allowed to use AI coding tools, and do we have to tell anyone?", "expect": "unsupported", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: disclosure rule."},
+  {"id": "q7", "question": "Can we keep fixing bugs after the hacking time is over?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: small fixes vs new features."},
+  {"id": "q8", "question": "Does our code have to stay public after the event to win a prize?", "expect": "unsupported", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: post-event rule."},
+  {"id": "q9", "question": "How many teams win the Best Open-Source AI Project challenge, and what do they get?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: number of winners and prize."},
+  {"id": "q10", "question": "What counts as a small language model for the open-source AI challenge?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: parameter limit (10 billion)."},
+  {"id": "q11", "question": "What do judges check before choosing the Gemma challenge winner?", "expect": "unsupported", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: Gemini API and README requirements."},
+  {"id": "q12", "question": "What prize can the Gemma challenge winner receive?", "expect": "unsupported", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: prize details."},
+  {"id": "q13", "question": "Does our project have to be on GitHub with an open-source license?", "expect": "supported", "why": "UNVERIFIED candidate: verify in Phase B5. Likely all-green control."},
+  {"id": "q14", "question": "Is the Hack Day free to attend, and can we join online instead?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: in-person only."},
+  {"id": "q15", "question": "Do judges score code quality and how well we pitch?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: what is not judged."},
+  {"id": "q16", "question": "What are the judging criteria and how are they weighted?", "expect": "unsupported", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: four criteria, equal weight."},
+  {"id": "q17", "question": "How long can the demo video be at MLH digital events?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: 2 minutes or less."},
+  {"id": "q18", "question": "Who on the team submits the project, and what information is required?", "expect": "unsupported", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: submission fields."},
+  {"id": "q19", "question": "Can we still submit our project after demos have started?", "expect": "contradicted", "why": "UNVERIFIED candidate: verify in Phase B5. Tempts: submission deadline."},
+  {"id": "q20", "question": "Does an agent skill entry have to follow a particular standard?", "expect": "supported", "why": "UNVERIFIED candidate: verify in Phase B5. Likely all-green control."}
+]

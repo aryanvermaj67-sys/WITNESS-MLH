@@ -26,13 +26,15 @@ $ai = 'cl' + 'aude'   # assistant name, built in pieces so this script never con
 $aiPat = "(?i)$ai|anthrop" + 'ic|co-author' + 'ed-by|generated' + ' with'   # same idea: names/trailers to keep out of git
 if (("$Message $Trailer") -match $aiPat) { throw "Refusing: the message/trailer names an AI assistant or adds a co-author line." }
 
-function Invoke-Git { & git.exe @args; if ($LASTEXITCODE -ne 0) { throw "git $($args -join ' ') failed (exit $LASTEXITCODE)" } }
+# git writes progress and LF/CRLF warnings to stderr; when stderr is redirected (e.g. the caller adds 2>&1),
+# PowerShell 5.1 turns each line into an error record that "Stop" would abort on. Only the exit code decides.
+function Invoke-Git { $ErrorActionPreference = 'Continue'; & git.exe @args; if ($LASTEXITCODE -ne 0) { throw "git $($args -join ' ') failed (exit $LASTEXITCODE)" } }
 
 # Each role stages only its own paths (ownership map in the agent instructions file, section 2).
 $kind = $Phase.Substring(0, 1)
 if ($kind -eq 'B') {
   $tag = 'backend'
-  $paths = @('backend', 'contracts', 'scripts', 'LICENSE', '.gitignore', 'PROGRESS.md', 'PROJECT.md', 'REQUIREMENTS.md')
+  $paths = @('backend', 'contracts', 'scripts', 'LICENSE', '.gitignore', 'README.md', 'PROGRESS.md', 'PROJECT.md', 'REQUIREMENTS.md')
 } elseif ($kind -eq 'F') {
   $tag = 'frontend'
   $paths = @('frontend', 'PROGRESS.md')

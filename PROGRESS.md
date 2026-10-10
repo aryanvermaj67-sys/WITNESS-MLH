@@ -32,7 +32,7 @@ A phase is done only when its **push succeeded** (`.\scripts\phase-push.ps1 -Pha
 | Phase | Scope | Gate / done when | Pushed (commit) |
 |---|---|---|---|
 | B0 | Foundation: repo, LICENSE, `.gitignore`, folders, contracts, requirements, `models.py`, contract test | `pytest -q` green, all examples validate | ☑ `c0473e5` |
-| B1 | Stub server: every §5 route returns its example | `curl` each route; contracts frozen | ☑ |
+| B1 | Stub server: every §5 route returns its example | `curl` each route; contracts frozen | ☑ `ce785f3` |
 | B2 | Retrieval core: `config`, `kb`, `retrieval`, `claims` | ≥ 20 passages, gold in top 5, offsets exact | ☐ |
 | B3 | Live pipeline + judge 1 (`generator`, `judge_gemma`, `verdict`, `fixit`, `pipeline`) | `curl POST /api/check` returns a real, contract-valid result | ☐ |
 | B4 | Judge 2 (NLI) + pasted answers | `needs_review` possible; pasted answer graded | ☐ |
@@ -111,6 +111,8 @@ A phase is done only when its **push succeeded** (`.\scripts\phase-push.ps1 -Pha
 Notes:
 - Machine 1 env (pre-event): `backend/.venv` (Python 3.14.6), `backend/requirements.txt` = §12 verbatim, `backend/requirements.lock.txt` = `pip freeze`. Run tools as `backend\.venv\Scripts\python.exe`. Models cached in `~/.cache/huggingface`. B0 done: LICENSE, `.gitignore`, `.env.example`, `pytest.ini` (`pythonpath = .`), `witness/models.py` (unknown fields are rejected, so contract drift fails the test), contract test. Remote: `https://github.com/aryanvermaj67-sys/WITNESS.git`. `data/`, `eval/`, `skill/` are created in the phase that first puts a file in them (git does not track empty folders). `.env` (copy of `.env.example` + key) is still to create before B3.
 - B1 done: `server.py` stub, every §5 route returns its example file (verified with curl against uvicorn on 127.0.0.1:8000, bodies identical to the examples); `/api/check` validates per §5 (422), `/api/replay/{key}` 404s for unknown keys; CORS open; empty lifespan hook. `CheckRequest` lives in `models.py`. Route tests in `tests/test_server.py`. **`contracts/` is frozen from here.** Run: `cd backend; .\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000`.
+- B3: before the first judge call, list the models the Gemini API offers for our key and confirm GEMINI_MODEL (spec default gemma-4-31b-it).
+- Pre-B2 cleanup: `.pytest_cache/` ignored; `phase-push.ps1` no longer aborts on git's stderr warnings (LF/CRLF, "From ...", "To ...") even with `2>&1` (tested old vs new in a scratch repo with a local bare remote, incl. a pull --rebase; the `.env` guard still refuses); `README.md` added to the backend push paths; `WITNESS-Team-Brief.pdf` kept out via `.git/info/exclude`; route tests now compare bodies to the examples and cover `mode="bogus"` → 422; `tests/test_data_files.py` checks handbook URLs, `demo_questions.json` shape and `claims.jsonl`.
 - Windows **Smart App Control is ON** on this PC and blocks unsigned DLLs with no cloud reputation (`WinError 4551` / "Application Control policy has blocked this file"). Newest torch 2.14.1 was blocked; torch 2.9.1 loads. If it recurs, do not disable SAC mid-event: tell the team, retry the import once, or pin another established torch version.
 - First model download hit a Xet CDN network error; retry with env `HF_HUB_DISABLE_XET=1` worked.
 - LM Studio: `LMSTUDIO_MODEL=gemma-4-e2b-it`, `LMSTUDIO_BASE_URL=http://localhost:1234/v1`. Loaded with `lms load gemma-4-e2b-it --identifier gemma-4-e2b-it --gpu max --context-length 8192 --parallel 1 -y` (restart server: `lms server start --port 1234`). `--parallel 1` matters: parallel slots split the context window.
@@ -147,8 +149,8 @@ Notes:
 
 | # | Task | Done when | Target | ☐ |
 |---|---|---|---|---|
-| S1 | Handbook Markdown files with source URLs | ≥ 4 files in `backend/data/handbook/` | 0:40 | ☐ |
-| S2 | 20 candidate demo questions | List given to Aryan | 1:30 | ☐ |
+| S1 | Handbook Markdown files with source URLs | ≥ 4 files in `backend/data/handbook/` | 0:40 | ☑ (5 MLH files; `event_description.md` still missing) |
+| S2 | 20 candidate demo questions | List given to Aryan | 1:30 | ☑ (unverified, in `data/demo_questions.json`) |
 | S3 | 2 real ChatGPT backup answers | `backup_answers.json`, `is_example: false` | 2:00 | ☐ |
 | S4 | ≥ 40 labelled eval claims, double-checked | `eval/claims.jsonl` | 2:30 | ☐ |
 | S5 | README text | Names both Gemma models + file paths; limitations; license | 3:00 | ☐ |
@@ -156,6 +158,11 @@ Notes:
 | S7 | Q&A practice | Everyone answers `PROJECT.md §8` | 3:45 | ☐ |
 
 Notes:
+- Handbook (`backend/data/handbook/`): text copied verbatim from the `.md` versions of the pages (links, bold, images, tables and GitBook hint markup stripped; no sentence reworded). Files: `mlh_gemma_challenge.md`, `mlh_open_source_ai_challenge.md`, `mlh_fest_formats.md`, `mlh_project_submissions.md` (all hacktoberfest-handbook.mlh.com) and `mlh_standard_rules.md`. The handbook has no standard-rules page of its own: its Fest Formats and Project Submissions pages say to use the MLH Standard Hackathon Rules and link to `github.com/MLH/mlh-policies/.../standard-hackathon-rules.md`, so that is the URL on line 1. About 42 passages estimated (final count comes from `kb.py` in B2). Two tables on the Fest Formats page were dropped, not reworded (e.g. "MLH sends the prizes after the event" is therefore not in the KB).
+- **`event_description.md` is still missing**: Aryan to paste the real event description; nobody writes one.
+- `backend/data/demo_questions.json`: 20 candidates, every `why` starts with "UNVERIFIED"; `expect` is a guess. B5 replaces it with ≥ 4 verified questions.
+- `backend/eval/claims.jsonl`: 42 DRAFT labels (14 supported / 14 contradicted / 14 unsupported) against the 5 MLH files; S4 stays open until a second person double-checks (see `backend/eval/README.md`).
+- `README.md`: draft (S5 stays open: no limitations section yet). `backup_answers.json` intentionally not created (needs real ChatGPT answers).
 
 ---
 

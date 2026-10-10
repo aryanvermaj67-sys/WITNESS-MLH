@@ -1,0 +1,42 @@
+{"question": "Can we start coding before the hackathon day?", "claim": "All work on a project should be done during the hackathon.", "gold": "supported"}
+{"question": "Can we start coding before the hackathon day?", "claim": "Teams can use an idea they had before the event.", "gold": "supported"}
+{"question": "How long does a Hacktoberfest Hack Day run?", "claim": "Hacktoberfest Hack Days run for 3 to 12 hours.", "gold": "supported"}
+{"question": "Who counts as a student?", "claim": "People who graduated within the last 12 months are considered students.", "gold": "supported"}
+{"question": "Can judges compete?", "claim": "Judges at the event should not participate as hackers.", "gold": "supported"}
+{"question": "Are AI coding tools allowed?", "claim": "Teams may use AI tools such as code completion and code generation.", "gold": "supported"}
+{"question": "Are AI coding tools allowed?", "claim": "Teams should list the AI code tools they used in their project submissions.", "gold": "supported"}
+{"question": "How many teams win the open-source AI challenge?", "claim": "The Best Open-Source AI Project challenge has one winning team.", "gold": "supported"}
+{"question": "What does the open-source AI challenge winner get?", "claim": "Every member of the winning team receives a DEV Badge on their DEV account.", "gold": "supported"}
+{"question": "What counts as a small language model?", "claim": "A small language model has 10 billion parameters or fewer for this challenge.", "gold": "supported"}
+{"question": "How is the Gemma challenge winner chosen?", "claim": "The winning Gemma project must use a Gemma model through the Gemini API.", "gold": "supported"}
+{"question": "Where must the project be published?", "claim": "The project must be published in a public GitHub repository.", "gold": "supported"}
+{"question": "Does the Hack Day cost money?", "claim": "Hacktoberfest Hack Days must be free to attend.", "gold": "supported"}
+{"question": "How are the judging criteria weighted?", "claim": "Judges weigh the judging criteria equally.", "gold": "supported"}
+{"question": "How long does a Hacktoberfest Hack Day run?", "claim": "Hacktoberfest Hack Days can run for up to 24 hours.", "gold": "contradicted"}
+{"question": "Can we reuse old code?", "claim": "Teams can reuse code they wrote for an earlier project.", "gold": "contradicted"}
+{"question": "Can volunteers compete?", "claim": "Volunteers at the event may participate as hackers.", "gold": "contradicted"}
+{"question": "Who counts as a student?", "claim": "Only people who graduated within the last 6 months are considered students.", "gold": "contradicted"}
+{"question": "What counts as a small language model?", "claim": "A small language model has 7 billion parameters or fewer for this challenge.", "gold": "contradicted"}
+{"question": "How many teams win the open-source AI challenge?", "claim": "The Best Open-Source AI Project challenge has three winning teams.", "gold": "contradicted"}
+{"question": "Can we fix bugs after time is up?", "claim": "Teams must stop all work, including small bug fixes, once time is up.", "gold": "contradicted"}
+{"question": "What do judges score?", "claim": "Judges score how good your code is.", "gold": "contradicted"}
+{"question": "How long can a demo video be?", "claim": "Demo videos at MLH digital events can be up to 5 minutes long.", "gold": "contradicted"}
+{"question": "How long is a Hack Day?", "claim": "A Hacktoberfest Hack Day can take place over two days.", "gold": "contradicted"}
+{"question": "Can we submit our project elsewhere?", "claim": "At MLH digital events, teams may submit their project to other hackathons.", "gold": "contradicted"}
+{"question": "Does the Hack Day cost money?", "claim": "Hack Day participants must pay an entry fee.", "gold": "contradicted"}
+{"question": "How should we present our project?", "claim": "Pitches and presentations are encouraged.", "gold": "contradicted"}
+{"question": "Do Meetups have prizes?", "claim": "Hacktoberfest Meetups give prizes to winning teams.", "gold": "contradicted"}
+{"question": "How big can a team be?", "claim": "Each team can have at most four members.", "gold": "unsupported"}
+{"question": "Is there wifi at the venue?", "claim": "MLH provides wifi at the venue.", "gold": "unsupported"}
+{"question": "Is food provided?", "claim": "Food is provided to all participants during the Hack Day.", "gold": "unsupported"}
+{"question": "Which language must we use?", "claim": "Projects must be written in Python.", "gold": "unsupported"}
+{"question": "When are winners announced?", "claim": "Winners are announced on social media the day after the event.", "gold": "unsupported"}
+{"question": "Who are the judges?", "claim": "The judges are senior engineers from Google.", "gold": "unsupported"}
+{"question": "How big is Gemma 4?", "claim": "Gemma 4 has 31 billion parameters.", "gold": "unsupported"}
+{"question": "Is there an age limit?", "claim": "Participants must be at least 18 years old.", "gold": "unsupported"}
+{"question": "What do participants receive?", "claim": "Every participant receives a certificate of participation.", "gold": "unsupported"}
+{"question": "What must the repository contain?", "claim": "The project repository must include unit tests.", "gold": "unsupported"}
+{"question": "Do participants get cloud credits?", "claim": "Hack Day participants receive free cloud credits.", "gold": "unsupported"}
+{"question": "When are prizes shipped?", "claim": "MLH ships the DEV Badge within one week of the event.", "gold": "unsupported"}
+{"question": "Can we use several models?", "claim": "Teams may use only one Gemma model in their project.", "gold": "unsupported"}
+{"question": "How long is each demo?", "claim": "Each team's demo is limited to three minutes.", "gold": "unsupported"}
