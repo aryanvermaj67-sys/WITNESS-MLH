@@ -1,0 +1,249 @@
+{
+  "question": "Can we start coding before the hackathon day, and what do we need to submit?",
+  "answer_text": "You can start building your project a week before the event. Projects must be pushed to a public GitHub repository under an open-source license. Each team gives a 10-minute presentation. Teams also need to submit a video walkthrough. The hackathon is hosted at NIT Hamirpur.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p1",
+      "doc": "event_description.md",
+      "text": "Hacktoberfest Hack Day Hamirpur x GDG Ludhiana is a one-day in-person mini hackathon hosted at NIT Hamirpur. Teams arrive in the morning, form a team, build a small project from scratch and demo it the same afternoon. All development work must start at the event. Projects or codebases begun before the day are not eligible.",
+      "sentences": [
+        {
+          "id": "p1.s1",
+          "text": "Hacktoberfest Hack Day Hamirpur x GDG Ludhiana is a one-day in-person mini hackathon hosted at NIT Hamirpur."
+        },
+        {
+          "id": "p1.s2",
+          "text": "Teams arrive in the morning, form a team, build a small project from scratch and demo it the same afternoon."
+        },
+        {
+          "id": "p1.s3",
+          "text": "All development work must start at the event."
+        },
+        {
+          "id": "p1.s4",
+          "text": "Projects or codebases begun before the day are not eligible."
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "doc": "event_description.md",
+      "text": "Every team must push its project to a public GitHub repository under an open-source license. Each team presents a quick 5-minute live demo of what it built.",
+      "sentences": [
+        {
+          "id": "p2.s1",
+          "text": "Every team must push its project to a public GitHub repository under an open-source license."
+        },
+        {
+          "id": "p2.s2",
+          "text": "Each team presents a quick 5-minute live demo of what it built."
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "doc": "mlh_gemma_challenge.md",
+      "text": "The Best Use of Gemma 4 challenge asks teams to build with Gemma 4 through the Gemini API. Judges confirm that the winning project actually uses a Gemma model through the Gemini API.",
+      "sentences": [
+        {
+          "id": "p3.s1",
+          "text": "The Best Use of Gemma 4 challenge asks teams to build with Gemma 4 through the Gemini API."
+        },
+        {
+          "id": "p3.s2",
+          "text": "Judges confirm that the winning project actually uses a Gemma model through the Gemini API."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "You can start building your project a week before the event.",
+      "start": 0,
+      "end": 60
+    },
+    {
+      "id": "c2",
+      "text": "Projects must be pushed to a public GitHub repository under an open-source license.",
+      "start": 61,
+      "end": 144
+    },
+    {
+      "id": "c3",
+      "text": "Each team gives a 10-minute presentation.",
+      "start": 145,
+      "end": 186
+    },
+    {
+      "id": "c4",
+      "text": "Teams also need to submit a video walkthrough.",
+      "start": 187,
+      "end": 233
+    },
+    {
+      "id": "c5",
+      "text": "The hackathon is hosted at NIT Hamirpur.",
+      "start": 234,
+      "end": 274
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "contradicted",
+      "evidence_ids": [
+        "p1.s3"
+      ],
+      "explanation": "p1.s3 says all development work must start at the event.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "contradicted",
+        "evidence_ids": [
+          "p1.s3"
+        ],
+        "explanation": "p1.s3 says all development work must start at the event.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "contradicted",
+        "evidence_ids": [
+          "p1.s3"
+        ],
+        "explanation": "contradiction 0.93",
+        "confidence": 0.93
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p2.s1"
+      ],
+      "explanation": "p2.s1 states this requirement.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p2.s1"
+        ],
+        "explanation": "p2.s1 states this requirement.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p2.s1"
+        ],
+        "explanation": "entailment 0.96",
+        "confidence": 0.96
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "contradicted",
+      "evidence_ids": [
+        "p2.s2"
+      ],
+      "explanation": "p2.s2 says the demo is 5 minutes, not 10.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "contradicted",
+        "evidence_ids": [
+          "p2.s2"
+        ],
+        "explanation": "p2.s2 says the demo is 5 minutes, not 10.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.21, contra 0.48)",
+        "confidence": 0.48
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c4",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "No passage mentions a video walkthrough.",
+      "gemma": {
+        "claim_id": "c4",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "No passage mentions a video walkthrough.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c4",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.08, contra 0.12)",
+        "confidence": 0.12
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c5",
+      "label": "supported",
+      "evidence_ids": [
+        "p1.s1"
+      ],
+      "explanation": "p1.s1 says it is hosted at NIT Hamirpur.",
+      "gemma": {
+        "claim_id": "c5",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p1.s1"
+        ],
+        "explanation": "p1.s1 says it is hosted at NIT Hamirpur.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c5",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p1.s1"
+        ],
+        "explanation": "entailment 0.91",
+        "confidence": 0.91
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 2,
+    "unsupported": 1,
+    "contradicted": 2,
+    "needs_review": 0,
+    "total": 5,
+    "percent_supported": 40
+  },
+  "fixed_answer": "Projects must be pushed to a public GitHub repository under an open-source license. [p2.s1] The hackathon is hosted at NIT Hamirpur. [p1.s1]",
+  "timings": {
+    "retrieve": 0.08,
+    "generate": 4.1,
+    "judge_gemma": 6.3,
+    "judge_nli": 1.2,
+    "total": 11.8
+  },
+  "errors": [],
+  "mode": "live"
+}

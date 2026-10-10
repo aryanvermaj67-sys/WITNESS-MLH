@@ -1,0 +1,40 @@
+{
+  "is_example": true,
+  "note": "Placeholder numbers for UI development only. Never show these on stage.",
+  "n_claims": 40,
+  "generated_at": "2026-10-10T00:00:00",
+  "rows": [
+    {
+      "judge": "gemma",
+      "label": "Gemma 4 31B only",
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 40
+    },
+    {
+      "judge": "nli",
+      "label": "NLI only",
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 40
+    },
+    {
+      "judge": "combined",
+      "label": "WITNESS (both)",
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 40
+    }
+  ],
+  "per_label": {
+    "supported": {
+      "n": 14
+    },
+    "unsupported": {
+      "n": 13
+    },
+    "contradicted": {
+      "n": 13
+    }
+  }
+}

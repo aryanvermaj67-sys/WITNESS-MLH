@@ -1,0 +1,137 @@
+{
+  "question": "Where is the hackathon held, and where must projects be published?",
+  "answer_text": "The hackathon is hosted at NIT Hamirpur. Projects must be pushed to a public GitHub repository under an open-source license.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p1",
+      "doc": "event_description.md",
+      "text": "Hacktoberfest Hack Day Hamirpur x GDG Ludhiana is a one-day in-person mini hackathon hosted at NIT Hamirpur. Teams arrive in the morning, form a team, build a small project from scratch and demo it the same afternoon. All development work must start at the event. Projects or codebases begun before the day are not eligible.",
+      "sentences": [
+        {
+          "id": "p1.s1",
+          "text": "Hacktoberfest Hack Day Hamirpur x GDG Ludhiana is a one-day in-person mini hackathon hosted at NIT Hamirpur."
+        },
+        {
+          "id": "p1.s2",
+          "text": "Teams arrive in the morning, form a team, build a small project from scratch and demo it the same afternoon."
+        },
+        {
+          "id": "p1.s3",
+          "text": "All development work must start at the event."
+        },
+        {
+          "id": "p1.s4",
+          "text": "Projects or codebases begun before the day are not eligible."
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "doc": "event_description.md",
+      "text": "Every team must push its project to a public GitHub repository under an open-source license. Each team presents a quick 5-minute live demo of what it built.",
+      "sentences": [
+        {
+          "id": "p2.s1",
+          "text": "Every team must push its project to a public GitHub repository under an open-source license."
+        },
+        {
+          "id": "p2.s2",
+          "text": "Each team presents a quick 5-minute live demo of what it built."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The hackathon is hosted at NIT Hamirpur.",
+      "start": 0,
+      "end": 40
+    },
+    {
+      "id": "c2",
+      "text": "Projects must be pushed to a public GitHub repository under an open-source license.",
+      "start": 41,
+      "end": 124
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p1.s1"
+      ],
+      "explanation": "p1.s1 says it is hosted at NIT Hamirpur.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p1.s1"
+        ],
+        "explanation": "p1.s1 says it is hosted at NIT Hamirpur.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p1.s1"
+        ],
+        "explanation": "entailment 0.92",
+        "confidence": 0.92
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p2.s1"
+      ],
+      "explanation": "p2.s1 states this requirement.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p2.s1"
+        ],
+        "explanation": "p2.s1 states this requirement.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p2.s1"
+        ],
+        "explanation": "entailment 0.95",
+        "confidence": 0.95
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 2,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 2,
+    "percent_supported": 100
+  },
+  "fixed_answer": "The hackathon is hosted at NIT Hamirpur. [p1.s1] Projects must be pushed to a public GitHub repository under an open-source license. [p2.s1]",
+  "timings": {
+    "retrieve": 0.08,
+    "generate": 4.1,
+    "judge_gemma": 6.3,
+    "judge_nli": 1.2,
+    "total": 11.8
+  },
+  "errors": [],
+  "mode": "live"
+}

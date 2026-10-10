@@ -1,0 +1,20 @@
+[
+  {
+    "id": "q1",
+    "question": "Can we start coding before the hackathon day, and what do we need to submit?",
+    "expect": "contradicted",
+    "why": "EXAMPLE - replace with questions verified at the event"
+  },
+  {
+    "id": "q2",
+    "question": "Where is the hackathon held, and where must projects be published?",
+    "expect": "supported",
+    "why": "EXAMPLE - all-green control question"
+  },
+  {
+    "id": "q3",
+    "question": "How do judges check the Gemma challenge?",
+    "expect": "needs_review",
+    "why": "EXAMPLE - judges may disagree"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "version": "0.1.0",
+  "lmstudio": true,
+  "gemini_key": true,
+  "nli_loaded": true,
+  "embeddings_loaded": true,
+  "kb_passages": 42,
+  "replay_default": false,
+  "models": {
+    "writer": "gemma-4-e2b (LM Studio, local)",
+    "judge_1": "gemma-4-31b-it (Gemini API)",
+    "judge_2": "cross-encoder/nli-deberta-v3-small (local, CPU)"
+  }
+}

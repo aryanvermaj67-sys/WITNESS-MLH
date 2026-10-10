@@ -1,0 +1,104 @@
+{
+  "question": "How do judges check the Gemma challenge?",
+  "answer_text": "The winning Gemma project must use a Gemma model through the Gemini API. Teams must use the largest Gemma model available.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p3",
+      "doc": "mlh_gemma_challenge.md",
+      "text": "The Best Use of Gemma 4 challenge asks teams to build with Gemma 4 through the Gemini API. Judges confirm that the winning project actually uses a Gemma model through the Gemini API.",
+      "sentences": [
+        {
+          "id": "p3.s1",
+          "text": "The Best Use of Gemma 4 challenge asks teams to build with Gemma 4 through the Gemini API."
+        },
+        {
+          "id": "p3.s2",
+          "text": "Judges confirm that the winning project actually uses a Gemma model through the Gemini API."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The winning Gemma project must use a Gemma model through the Gemini API.",
+      "start": 0,
+      "end": 72
+    },
+    {
+      "id": "c2",
+      "text": "Teams must use the largest Gemma model available.",
+      "start": 73,
+      "end": 122
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "needs_review",
+      "evidence_ids": [
+        "p3.s2",
+        "p3.s1"
+      ],
+      "explanation": "p3.s2 says judges confirm the winner uses Gemma through the Gemini API.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p3.s2"
+        ],
+        "explanation": "p3.s2 says judges confirm the winner uses Gemma through the Gemini API.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "contradicted",
+        "evidence_ids": [
+          "p3.s1"
+        ],
+        "explanation": "contradiction 0.74",
+        "confidence": 0.74
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "no sentence above threshold (entail 0.10, contra 0.31)",
+      "gemma": null,
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.10, contra 0.31)",
+        "confidence": 0.31
+      },
+      "single_judge": true
+    }
+  ],
+  "trust": {
+    "supported": 0,
+    "unsupported": 1,
+    "contradicted": 0,
+    "needs_review": 1,
+    "total": 2,
+    "percent_supported": 0
+  },
+  "fixed_answer": "",
+  "timings": {
+    "retrieve": 0.08,
+    "generate": 4.1,
+    "judge_gemma": 6.3,
+    "judge_nli": 1.2,
+    "total": 11.8
+  },
+  "errors": [
+    "Gemma judge returned no verdict for c2; showing the NLI judge only."
+  ],
+  "mode": "live"
+}

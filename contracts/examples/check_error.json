@@ -1,0 +1,52 @@
+{
+  "question": "Can we start coding before the hackathon day?",
+  "answer_text": "",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p1",
+      "doc": "event_description.md",
+      "text": "Hacktoberfest Hack Day Hamirpur x GDG Ludhiana is a one-day in-person mini hackathon hosted at NIT Hamirpur. Teams arrive in the morning, form a team, build a small project from scratch and demo it the same afternoon. All development work must start at the event. Projects or codebases begun before the day are not eligible.",
+      "sentences": [
+        {
+          "id": "p1.s1",
+          "text": "Hacktoberfest Hack Day Hamirpur x GDG Ludhiana is a one-day in-person mini hackathon hosted at NIT Hamirpur."
+        },
+        {
+          "id": "p1.s2",
+          "text": "Teams arrive in the morning, form a team, build a small project from scratch and demo it the same afternoon."
+        },
+        {
+          "id": "p1.s3",
+          "text": "All development work must start at the event."
+        },
+        {
+          "id": "p1.s4",
+          "text": "Projects or codebases begun before the day are not eligible."
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "verdicts": [],
+  "trust": {
+    "supported": 0,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 0,
+    "percent_supported": 0
+  },
+  "fixed_answer": "",
+  "timings": {
+    "retrieve": 0.07,
+    "generate": 0.0,
+    "judge_gemma": 0.0,
+    "judge_nli": 0.0,
+    "total": 0.07
+  },
+  "errors": [
+    "LM Studio is not reachable at http://localhost:1234/v1. Start the LM Studio local server or paste an answer in Grade any AI."
+  ],
+  "mode": "live"
+}
