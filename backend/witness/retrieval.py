@@ -30,6 +30,15 @@ class Retriever:
         docs = [f"{titles[p.id]}. {p.text}" for p in passages]
         self.bm25 = BM25Okapi([_tokens(d) for d in docs])
         self.vectors = embedder.encode(docs, normalize_embeddings=True)
+        sentences = [s for p in passages for s in p.sentences]
+        vectors = embedder.encode([s.text for s in sentences], normalize_embeddings=True)
+        self.sentence_vectors = {s.id: v for s, v in zip(sentences, vectors)}
+
+    def related(self, text: str, sentence_ids: list[str], k: int) -> list[tuple[str, float]]:
+        """The k sentences (of sentence_ids) most similar to text: (id, cosine), best first, ties in given order."""
+        query = self.embedder.encode(text, normalize_embeddings=True)
+        sims = [float(self.sentence_vectors[i] @ query) for i in sentence_ids]
+        return [(sentence_ids[i], sims[i]) for i in _ranks(sims)[:k]]
 
     def search(self, query: str, top_k: int, rrf_k: int) -> list[Passage]:
         bm25_scores = self.bm25.get_scores(_tokens(query))

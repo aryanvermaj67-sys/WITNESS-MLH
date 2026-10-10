@@ -15,6 +15,18 @@ class FakeRetriever:
     def search(self, query, top_k, rrf_k):
         return PASSAGES
 
+    def related(self, text, sentence_ids, k):
+        return [(i, 0.9) for i in sentence_ids[:k]]
+
+
+class FakeNLI:
+    """Entailment when the claim repeats the sentence, otherwise neutral (logits; real judge_nli code runs)."""
+    class config:
+        id2label = {0: "contradiction", 1: "entailment", 2: "neutral"}
+
+    def predict(self, pairs, **kw):
+        return [[0.0, 9.0, 0.0] if s == c else [0.0, 0.0, 9.0] for s, c in pairs]
+
 
 def gemma_verdicts(passages, claims):
     labels = {"c1": ("contradicted", ["p1.s1"]), "c2": ("supported", ["p1.s2"])}
@@ -29,11 +41,13 @@ def live(monkeypatch):
 
 
 def test_full_run(live):
-    r = pipeline.run_pipeline("Can we start early?", None, FakeRetriever())
+    r = pipeline.run_pipeline("Can we start early?", None, FakeRetriever(), FakeNLI())
     assert (r.mode, r.answer_source, r.errors) == ("live", "gemma-4-e2b-local", [])
     assert all(r.answer_text[c.start:c.end] == c.text for c in r.claims) and len(r.claims) == 2
     assert [v.claim_id for v in r.verdicts] == [c.id for c in r.claims]
-    assert [v.label for v in r.verdicts] == ["contradicted", "supported"] and all(v.single_judge for v in r.verdicts)  # NLI is a stub until B4
+    # both judges answered: Gemma contradicted + NLI unsupported -> contradicted; supported + supported -> supported
+    assert [v.label for v in r.verdicts] == ["contradicted", "supported"] and not any(v.single_judge for v in r.verdicts)
+    assert [v.nli.label for v in r.verdicts] == ["unsupported", "supported"] and r.verdicts[1].evidence_ids == ["p1.s2"]
     assert (r.trust.supported, r.trust.contradicted, r.trust.total, r.trust.percent_supported) == (1, 1, 2, 50)
     assert r.fixed_answer == "Each team gives a 5-minute demo. [p1.s2]"
     assert set(r.timings) == {"retrieve", "generate", "judge_gemma", "judge_nli", "total"}
@@ -45,9 +59,10 @@ def test_pasted_answer_skips_generation(monkeypatch):
         raise AssertionError("generation must be skipped for a pasted answer")
     monkeypatch.setattr(generator, "generate", boom)
     monkeypatch.setattr(judge_gemma, "judge", gemma_verdicts)
-    r = pipeline.run_pipeline("q", ANSWER, FakeRetriever())
+    r = pipeline.run_pipeline("q", ANSWER, FakeRetriever(), FakeNLI())
     assert (r.answer_source, r.answer_text, r.timings["generate"]) == ("pasted", ANSWER, 0.0)
     assert len(r.claims) == 2 and r.errors == []
+    assert all(v.gemma and v.nli and not v.single_judge for v in r.verdicts)  # graded by both judges
 
 
 def test_lm_studio_unreachable_gives_a_result_with_an_error(monkeypatch):
@@ -125,8 +140,17 @@ def test_writer_call_sends_the_required_settings(monkeypatch):
 def test_gemini_failure_keeps_the_result_and_flags_every_claim(monkeypatch):
     monkeypatch.setattr(generator, "generate", lambda q, p: (ANSWER, None))
     monkeypatch.setattr(judge_gemma, "judge", lambda p, c: ({}, ["Gemma judge did not answer (HTTP 503)."]))
-    r = pipeline.run_pipeline("q", None, FakeRetriever())
+    r = pipeline.run_pipeline("q", None, FakeRetriever(), FakeNLI())
     assert len(r.claims) == 2 and r.errors == ["Gemma judge did not answer (HTTP 503)."]
+    # the NLI judge alone decides, flagged single_judge
+    assert [v.label for v in r.verdicts] == ["unsupported", "supported"] and all(v.single_judge for v in r.verdicts)
+    assert r.fixed_answer == "Each team gives a 5-minute demo. [p1.s2]"
+
+
+def test_both_judges_missing_gives_needs_review(monkeypatch):
+    monkeypatch.setattr(judge_gemma, "judge", lambda p, c: ({}, ["Gemma judge did not answer (HTTP 503)."]))
+    r = pipeline.run_pipeline("q", ANSWER, FakeRetriever(), None)
+    assert r.errors == ["Gemma judge did not answer (HTTP 503).", "The NLI judge returned no verdicts (model not loaded)."]
     assert all(v.label == "needs_review" and v.single_judge for v in r.verdicts)
     assert r.trust.needs_review == 2 and r.fixed_answer == ""
 
@@ -134,8 +158,8 @@ def test_gemini_failure_keeps_the_result_and_flags_every_claim(monkeypatch):
 def test_a_crashing_step_is_caught(monkeypatch):
     monkeypatch.setattr(generator, "generate", lambda q, p: (ANSWER, None))
     monkeypatch.setattr(judge_gemma, "judge", lambda p, c: 1 / 0)
-    monkeypatch.setattr(judge_nli, "judge", lambda p, c: 1 / 0)
-    r = pipeline.run_pipeline("q", None, FakeRetriever())
+    monkeypatch.setattr(judge_nli, "judge", lambda p, c, m, r: 1 / 0)
+    r = pipeline.run_pipeline("q", None, FakeRetriever(), FakeNLI())
     assert len(r.errors) == 2 and len(r.verdicts) == 2
 
 

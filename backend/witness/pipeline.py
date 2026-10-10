@@ -15,12 +15,12 @@ SOFT_LIMIT = 60.0  # seconds (§5 rule 7)
 _LOCK = threading.Lock()  # one live check at a time; a second request waits (§5 rule 6)
 
 
-def run_pipeline(question: str, answer_text: str | None, retriever) -> PipelineResult:
+def run_pipeline(question: str, answer_text: str | None, retriever, nli_model=None) -> PipelineResult:
     with _LOCK:
-        return _run(question, answer_text, retriever)
+        return _run(question, answer_text, retriever, nli_model)
 
 
-def _run(question, answer_text, retriever) -> PipelineResult:
+def _run(question, answer_text, retriever, nli_model) -> PipelineResult:
     started, errors, timings = time.perf_counter(), [], {"retrieve": 0.0, "generate": 0.0, "judge_gemma": 0.0, "judge_nli": 0.0}
 
     def timed(name, label, fn, fallback):
@@ -46,7 +46,11 @@ def _run(question, answer_text, retriever) -> PipelineResult:
     claims = split_claims(answer) if answer else []
     gemma, gemma_errors = timed("judge_gemma", "Gemma judge", lambda: judge_gemma.judge(passages, claims), ({}, []))
     errors += gemma_errors
-    nli = timed("judge_nli", "NLI judge", lambda: judge_nli.judge(passages, claims), {})
+    nli = timed("judge_nli", "NLI judge", lambda: judge_nli.judge(passages, claims, nli_model, getattr(retriever, "related", None)), None)
+    if nli is None:  # it crashed; timed() already reported it
+        nli = {}
+    elif claims and passages and not nli:  # judge_nli never raises: {} means it could not judge
+        errors.append("The NLI judge returned no verdicts" + (" (model not loaded)." if nli_model is None else "."))
 
     verdicts = [verdict.combine(c.id, gemma.get(c.id), nli.get(c.id)) for c in claims]
     total = time.perf_counter() - started

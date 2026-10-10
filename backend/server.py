@@ -6,7 +6,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from witness import pipeline
+from witness import judge_nli, pipeline
 from witness.config import settings
 from witness.kb import load_kb
 from witness.models import (BackupAnswer, CheckRequest, DemoQuestion, EvalResult, Health, PipelineResult,
@@ -25,6 +25,10 @@ async def lifespan(app):
     # KB, embedding model and search indexes load here once (NFR-4)
     passages, titles = load_kb(settings.path(settings.KB_DIR))
     app.state.retriever = Retriever(passages, titles, load_embedder(settings.EMBED_MODEL))
+    try:
+        app.state.nli = judge_nli.load_model(settings.NLI_MODEL, settings.NLI_DEVICE)
+    except Exception as e:  # server still starts; every check then reports the missing NLI judge in `errors`
+        print(f"NLI model not loaded ({type(e).__name__}); checks will run with the Gemma judge only.")
     yield
 
 
@@ -48,7 +52,8 @@ def check(req: CheckRequest):
     if req.mode == "replay":  # replay is still the example file until Phase B5
         return example("check_replay.json")
     # a missing retriever (index failed to load) becomes an error in the result, not an HTTP 500
-    return pipeline.run_pipeline(req.question, req.answer_text, getattr(app.state, "retriever", None))
+    return pipeline.run_pipeline(req.question, req.answer_text, getattr(app.state, "retriever", None),
+                                 getattr(app.state, "nli", None))
 
 
 @app.get("/api/eval", response_model=EvalResult)

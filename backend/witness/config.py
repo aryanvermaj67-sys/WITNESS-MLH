@@ -25,6 +25,8 @@ class Settings(BaseModel):
     RRF_K: int = 60
     NLI_ENTAIL_THRESHOLD: float = 0.70
     NLI_CONTRA_THRESHOLD: float = 0.70
+    NLI_RELATED_K: int = 3  # a contradiction only counts from the K sentences most similar to the claim...
+    NLI_RELATED_MIN_SIM: float = 0.55  # ...and only if their MiniLM cosine similarity is at least this
     GEN_TEMPERATURE: float = 0.0
     GEN_MAX_TOKENS: int = 200
     OFFLINE_REPLAY: bool = False
