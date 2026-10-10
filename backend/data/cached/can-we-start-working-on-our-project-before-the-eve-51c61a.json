@@ -1,6 +1,6 @@
 {
   "question": "Can we start working on our project before the event?",
-  "answer_text": "All development work must start at the event. Projects or codebases begun before the day are strictly not eligible. Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is not allowed. Teams must stop hacking once the time is up.",
+  "answer_text": "Development work must start at the event. Projects or codebases begun before the day are strictly not eligible. Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is not allowed. Teams must stop hacking once the time is up.",
   "answer_source": "gemma-4-e2b-local",
   "passages": [
     {
@@ -19,25 +19,6 @@
         {
           "id": "p7.s3",
           "text": "Come with fresh ideas, enthusiasm, and curiosity not pre-existing code!"
-        }
-      ]
-    },
-    {
-      "id": "p6",
-      "doc": "event_description.md",
-      "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models. Share Your Work: Push your project to a public GitHub repository under an open-source license. Demo Your Project: Present a quick 5-minute live demo of what your team built.",
-      "sentences": [
-        {
-          "id": "p6.s1",
-          "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models."
-        },
-        {
-          "id": "p6.s2",
-          "text": "Share Your Work: Push your project to a public GitHub repository under an open-source license."
-        },
-        {
-          "id": "p6.s3",
-          "text": "Demo Your Project: Present a quick 5-minute live demo of what your team built."
         }
       ]
     },
@@ -81,68 +62,91 @@
       ]
     },
     {
-      "id": "p5",
+      "id": "p6",
       "doc": "event_description.md",
-      "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite. We need no prior open-source experience needed! Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits. Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture.",
+      "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models. Share Your Work: Push your project to a public GitHub repository under an open-source license. Demo Your Project: Present a quick 5-minute live demo of what your team built.",
       "sentences": [
         {
-          "id": "p5.s1",
-          "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite."
+          "id": "p6.s1",
+          "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models."
         },
         {
-          "id": "p5.s2",
-          "text": "We need no prior open-source experience needed!"
+          "id": "p6.s2",
+          "text": "Share Your Work: Push your project to a public GitHub repository under an open-source license."
         },
         {
-          "id": "p5.s3",
-          "text": "Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits."
-        },
-        {
-          "id": "p5.s4",
-          "text": "Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture."
+          "id": "p6.s3",
+          "text": "Demo Your Project: Present a quick 5-minute live demo of what your team built."
         }
       ]
     },
     {
-      "id": "p31",
+      "id": "p32",
       "doc": "mlh_project_submissions.md",
-      "text": "You control when teams can submit: Open the public event page while signed in. Select Manage Submissions. Under Submission Deadline, set the Submissions open and Submissions close date and time. Select Save deadline. Check the status at the right of the section. It shows OPEN while submissions are available. Open submissions during project time and close them at the project deadline, before demos begin. If the deadline changes, update it here and tell every team.",
+      "text": "Tell participants: The exact submission deadline The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge When project work may begin The required project information The demo format and time limit How the winning projects will be selected That every project being considered for a prize must be submitted and select every challenge it is entering Open the Challenges page yourself and confirm that every category your event is running appears correctly. The Add Submission button becomes available only during the saved submission window.",
       "sentences": [
         {
-          "id": "p31.s1",
-          "text": "You control when teams can submit:"
+          "id": "p32.s1",
+          "text": "Tell participants:"
         },
         {
-          "id": "p31.s2",
-          "text": "Open the public event page while signed in."
+          "id": "p32.s2",
+          "text": "The exact submission deadline"
         },
         {
-          "id": "p31.s3",
-          "text": "Select Manage Submissions."
+          "id": "p32.s3",
+          "text": "The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge"
         },
         {
-          "id": "p31.s4",
-          "text": "Under Submission Deadline, set the Submissions open and Submissions close date and time."
+          "id": "p32.s4",
+          "text": "When project work may begin"
         },
         {
-          "id": "p31.s5",
-          "text": "Select Save deadline."
+          "id": "p32.s5",
+          "text": "The required project information"
         },
         {
-          "id": "p31.s6",
-          "text": "Check the status at the right of the section."
+          "id": "p32.s6",
+          "text": "The demo format and time limit"
         },
         {
-          "id": "p31.s7",
-          "text": "It shows OPEN while submissions are available."
+          "id": "p32.s7",
+          "text": "How the winning projects will be selected"
         },
         {
-          "id": "p31.s8",
-          "text": "Open submissions during project time and close them at the project deadline, before demos begin."
+          "id": "p32.s8",
+          "text": "That every project being considered for a prize must be submitted and select every challenge it is entering"
         },
         {
-          "id": "p31.s9",
-          "text": "If the deadline changes, update it here and tell every team."
+          "id": "p32.s9",
+          "text": "Open the Challenges page yourself and confirm that every category your event is running appears correctly."
+        },
+        {
+          "id": "p32.s10",
+          "text": "The Add Submission button becomes available only during the saved submission window."
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "doc": "mlh_project_submissions.md",
+      "text": "This page applies to approved Hacktoberfest Hack Day events. OrganizerHQ Challenges is mandatory for every Hacktoberfest Hack Day event and cannot be replaced by another submission platform. Use the MLH Standard Hackathon Rules as the default: project-specific work happens during the Hack Day. If a different approach better suits your event, explain it clearly before project work begins.",
+      "sentences": [
+        {
+          "id": "p29.s1",
+          "text": "This page applies to approved Hacktoberfest Hack Day events."
+        },
+        {
+          "id": "p29.s2",
+          "text": "OrganizerHQ Challenges is mandatory for every Hacktoberfest Hack Day event and cannot be replaced by another submission platform."
+        },
+        {
+          "id": "p29.s3",
+          "text": "Use the MLH Standard Hackathon Rules as the default: project-specific work happens during the Hack Day."
+        },
+        {
+          "id": "p29.s4",
+          "text": "If a different approach better suits your event, explain it clearly before project work begins."
         }
       ]
     }
@@ -150,27 +154,27 @@
   "claims": [
     {
       "id": "c1",
-      "text": "All development work must start at the event.",
+      "text": "Development work must start at the event.",
       "start": 0,
-      "end": 45
+      "end": 41
     },
     {
       "id": "c2",
       "text": "Projects or codebases begun before the day are strictly not eligible.",
-      "start": 46,
-      "end": 115
+      "start": 42,
+      "end": 111
     },
     {
       "id": "c3",
       "text": "Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is not allowed.",
-      "start": 116,
-      "end": 246
+      "start": 112,
+      "end": 242
     },
     {
       "id": "c4",
       "text": "Teams must stop hacking once the time is up.",
-      "start": 247,
-      "end": 291
+      "start": 243,
+      "end": 287
     }
   ],
   "verdicts": [
@@ -198,8 +202,8 @@
         "evidence_ids": [
           "p7.s1"
         ],
-        "explanation": "entailment 0.99",
-        "confidence": 0.99
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
       },
       "single_judge": false
     },
@@ -238,7 +242,7 @@
       "evidence_ids": [
         "p42.s6"
       ],
-      "explanation": "The text states that working on a project before the event to open-source it just to use the code is not allowed.",
+      "explanation": "The text states that open-sourcing a pre-existing project solely to use it during the event is not allowed.",
       "gemma": {
         "claim_id": "c3",
         "judge": "gemma",
@@ -246,7 +250,7 @@
         "evidence_ids": [
           "p42.s6"
         ],
-        "explanation": "The text states that working on a project before the event to open-source it just to use the code is not allowed.",
+        "explanation": "The text states that open-sourcing a pre-existing project solely to use it during the event is not allowed.",
         "confidence": null
       },
       "nli": {
@@ -267,7 +271,7 @@
       "evidence_ids": [
         "p42.s7"
       ],
-      "explanation": "The text specifies that teams must stop hacking once the time is up.",
+      "explanation": "The rules mandate that teams must stop hacking once the time is up.",
       "gemma": {
         "claim_id": "c4",
         "judge": "gemma",
@@ -275,7 +279,7 @@
         "evidence_ids": [
           "p42.s7"
         ],
-        "explanation": "The text specifies that teams must stop hacking once the time is up.",
+        "explanation": "The rules mandate that teams must stop hacking once the time is up.",
         "confidence": null
       },
       "nli": {
@@ -299,13 +303,13 @@
     "total": 4,
     "percent_supported": 100
   },
-  "fixed_answer": "All development work must start at the event. [p7.s1] Projects or codebases begun before the day are strictly not eligible. [p7.s2] Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is not allowed. [p42.s6] Teams must stop hacking once the time is up. [p42.s7]",
+  "fixed_answer": "Development work must start at the event. [p7.s1] Projects or codebases begun before the day are strictly not eligible. [p7.s2] Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is not allowed. [p42.s6] Teams must stop hacking once the time is up. [p42.s7]",
   "timings": {
-    "retrieve": 0.03,
-    "generate": 3.35,
-    "judge_gemma": 9.54,
-    "judge_nli": 0.73,
-    "total": 13.65
+    "retrieve": 0.02,
+    "generate": 3.06,
+    "judge_gemma": 7.55,
+    "judge_nli": 0.69,
+    "total": 11.33
   },
   "errors": [],
   "mode": "live"

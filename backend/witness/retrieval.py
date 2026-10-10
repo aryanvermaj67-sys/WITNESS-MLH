@@ -12,8 +12,24 @@ def load_embedder(name: str) -> SentenceTransformer:
     return SentenceTransformer(name, device="cpu", local_files_only=True)
 
 
+_STOP = set("a an the and or but if of to in on at by for with from as is are was were be been do does did can could "
+             "should would will we you they it our your their what which who how when where why this that these those "
+             "there".split())
+
+
+def _stem(word: str) -> str:
+    """Light suffix stripping so "win"/"winning" and "team"/"teams" match in BM25 (teams -> team, winning -> win)."""
+    for suffix in ("ing", "ed", "s"):
+        if len(word) > len(suffix) + 2 and word.endswith(suffix) and not word.endswith("ss"):
+            word = word[:-len(suffix)]
+            if suffix != "s" and word[-1] == word[-2] and word[-1] not in "lsz":  # winn -> win, submitt -> submit
+                word = word[:-1]
+            return word
+    return word
+
+
 def _tokens(text: str) -> list[str]:
-    return re.findall(r"\w+", text.lower())
+    return [_stem(w) for w in re.findall(r"\w+", text.lower()) if w not in _STOP]
 
 
 def _ranks(scores) -> list[int]:

@@ -1,0 +1,103 @@
+{
+  "is_example": false,
+  "note": "Gold labels are DRAFT: not yet double-checked by a second person. Combined: 5 of 42 claims ended as needs_review and count as not correct. Judge 1 gemma-4-26b-a4b-it, judge 2 cross-encoder/nli-deberta-v3-small; evidence = top 5 passages retrieved with each claim's question.",
+  "n_claims": 42,
+  "generated_at": "2026-10-10T15:14:40",
+  "rows": [
+    {
+      "judge": "gemma",
+      "label": "overall",
+      "accuracy": 0.905,
+      "correct": 38,
+      "n": 42
+    },
+    {
+      "judge": "gemma",
+      "label": "supported",
+      "accuracy": 0.857,
+      "correct": 12,
+      "n": 14
+    },
+    {
+      "judge": "gemma",
+      "label": "unsupported",
+      "accuracy": 1.0,
+      "correct": 13,
+      "n": 13
+    },
+    {
+      "judge": "gemma",
+      "label": "contradicted",
+      "accuracy": 0.867,
+      "correct": 13,
+      "n": 15
+    },
+    {
+      "judge": "nli",
+      "label": "overall",
+      "accuracy": 0.69,
+      "correct": 29,
+      "n": 42
+    },
+    {
+      "judge": "nli",
+      "label": "supported",
+      "accuracy": 0.643,
+      "correct": 9,
+      "n": 14
+    },
+    {
+      "judge": "nli",
+      "label": "unsupported",
+      "accuracy": 0.846,
+      "correct": 11,
+      "n": 13
+    },
+    {
+      "judge": "nli",
+      "label": "contradicted",
+      "accuracy": 0.6,
+      "correct": 9,
+      "n": 15
+    },
+    {
+      "judge": "combined",
+      "label": "overall",
+      "accuracy": 0.833,
+      "correct": 35,
+      "n": 42
+    },
+    {
+      "judge": "combined",
+      "label": "supported",
+      "accuracy": 0.786,
+      "correct": 11,
+      "n": 14
+    },
+    {
+      "judge": "combined",
+      "label": "unsupported",
+      "accuracy": 0.846,
+      "correct": 11,
+      "n": 13
+    },
+    {
+      "judge": "combined",
+      "label": "contradicted",
+      "accuracy": 0.867,
+      "correct": 13,
+      "n": 15
+    }
+  ],
+  "per_label": {
+    "supported": {
+      "n": 14
+    },
+    "unsupported": {
+      "n": 13
+    },
+    "contradicted": {
+      "n": 15
+    }
+  }
+}

@@ -21,7 +21,15 @@ GOLD = {
     "What counts as a small language model for the open-source AI challenge?": ("10 billion parameters or fewer",),
     "What do judges check before choosing the Gemma challenge winner?": ("actually uses a Gemma model through the Gemini API",),
     "How long can the demo video be at MLH digital events?": ("2 minute or less demo video",),
+    # needed BM25 stemming: the prize passage says "one winning team", the question "teams win"
+    "How many teams win the Best Open-Source AI Project challenge, and what do they get?": ("one winning team",),
 }
+
+
+def test_bm25_tokens_are_stemmed_without_stopwords():
+    from witness.retrieval import _tokens
+    assert _tokens("How many teams win? The winning team submitted its classes.") == \
+        ["many", "team", "win", "win", "team", "submit", "its", "classe"]
 
 def test_kb_passages_and_stable_ids():
     passages, titles = load_kb(KB_DIR)
