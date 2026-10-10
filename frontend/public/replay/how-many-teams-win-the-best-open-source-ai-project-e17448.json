@@ -1,0 +1,277 @@
+{
+  "question": "How many teams win the Best Open-Source AI Project challenge, and what do they get?",
+  "answer_text": "One team wins the Best Open-Source AI Project challenge. Each member of the winning team receives a DEV Badge on their DEV account, and the team may also receive MLH+DEV-branded swag bags, depending on availability and event arrangements. There is no universally guaranteed cash prize for this challenge.",
+  "answer_source": "pasted",
+  "passages": [
+    {
+      "id": "p22",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works. Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness. These are examples within one challenge, and teams may combine them.",
+      "sentences": [
+        {
+          "id": "p22.s1",
+          "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works."
+        },
+        {
+          "id": "p22.s2",
+          "text": "Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness."
+        },
+        {
+          "id": "p22.s3",
+          "text": "These are examples within one challenge, and teams may combine them."
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "A strong project: Uses open-source or open-weight AI as an important part of how the project works Solves a clear problem or creates a useful experience Shows substantial technical work completed by the team Makes its source, license, model, and key dependencies easy to verify Has a working demonstration and a clear explanation of what the team built Use this guidance alongside Project Submissions and Winner Selection. Ask teams to show the relevant code and explain the contribution of the AI technology in plain language.",
+      "sentences": [
+        {
+          "id": "p26.s1",
+          "text": "A strong project:"
+        },
+        {
+          "id": "p26.s2",
+          "text": "Uses open-source or open-weight AI as an important part of how the project works"
+        },
+        {
+          "id": "p26.s3",
+          "text": "Solves a clear problem or creates a useful experience"
+        },
+        {
+          "id": "p26.s4",
+          "text": "Shows substantial technical work completed by the team"
+        },
+        {
+          "id": "p26.s5",
+          "text": "Makes its source, license, model, and key dependencies easy to verify"
+        },
+        {
+          "id": "p26.s6",
+          "text": "Has a working demonstration and a clear explanation of what the team built"
+        },
+        {
+          "id": "p26.s7",
+          "text": "Use this guidance alongside Project Submissions and Winner Selection."
+        },
+        {
+          "id": "p26.s8",
+          "text": "Ask teams to show the relevant code and explain the contribution of the AI technology in plain language."
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "The challenge has one winning team. Every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. These may include a branded bag, notebook, and other items.",
+      "sentences": [
+        {
+          "id": "p27.s1",
+          "text": "The challenge has one winning team."
+        },
+        {
+          "id": "p27.s2",
+          "text": "Every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p27.s3",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p27.s4",
+          "text": "These may include a branded bag, notebook, and other items."
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "doc": "mlh_project_submissions.md",
+      "text": "Tell participants: The exact submission deadline The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge When project work may begin The required project information The demo format and time limit How the winning projects will be selected That every project being considered for a prize must be submitted and select every challenge it is entering Open the Challenges page yourself and confirm that every category your event is running appears correctly. The Add Submission button becomes available only during the saved submission window.",
+      "sentences": [
+        {
+          "id": "p32.s1",
+          "text": "Tell participants:"
+        },
+        {
+          "id": "p32.s2",
+          "text": "The exact submission deadline"
+        },
+        {
+          "id": "p32.s3",
+          "text": "The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge"
+        },
+        {
+          "id": "p32.s4",
+          "text": "When project work may begin"
+        },
+        {
+          "id": "p32.s5",
+          "text": "The required project information"
+        },
+        {
+          "id": "p32.s6",
+          "text": "The demo format and time limit"
+        },
+        {
+          "id": "p32.s7",
+          "text": "How the winning projects will be selected"
+        },
+        {
+          "id": "p32.s8",
+          "text": "That every project being considered for a prize must be submitted and select every challenge it is entering"
+        },
+        {
+          "id": "p32.s9",
+          "text": "Open the Challenges page yourself and confirm that every category your event is running appears correctly."
+        },
+        {
+          "id": "p32.s10",
+          "text": "The Add Submission button becomes available only during the saved submission window."
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Hack Days partner prize categories are separate from the Best Open-Source AI Project challenge. They may be assigned to selected Hacktoberfest Hack Day events by the MLH Hacktoberfest team. You may indicate a preference when applying, but an assigned category appears automatically in OrganizerHQ. See the partner challenge details.",
+      "sentences": [
+        {
+          "id": "p28.s1",
+          "text": "Hack Days partner prize categories are separate from the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p28.s2",
+          "text": "They may be assigned to selected Hacktoberfest Hack Day events by the MLH Hacktoberfest team."
+        },
+        {
+          "id": "p28.s3",
+          "text": "You may indicate a preference when applying, but an assigned category appears automatically in OrganizerHQ."
+        },
+        {
+          "id": "p28.s4",
+          "text": "See the partner challenge details."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "One team wins the Best Open-Source AI Project challenge.",
+      "start": 0,
+      "end": 56
+    },
+    {
+      "id": "c2",
+      "text": "Each member of the winning team receives a DEV Badge on their DEV account, and the team may also receive MLH+DEV-branded swag bags, depending on availability and event arrangements.",
+      "start": 57,
+      "end": 238
+    },
+    {
+      "id": "c3",
+      "text": "There is no universally guaranteed cash prize for this challenge.",
+      "start": 239,
+      "end": 304
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p27.s1"
+      ],
+      "explanation": "The text explicitly states the challenge has one winning team.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p27.s1"
+        ],
+        "explanation": "The text explicitly states the challenge has one winning team.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p27.s2",
+        "p27.s3"
+      ],
+      "explanation": "Every member receives a DEV Badge and swag bags may be provided depending on availability.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p27.s2",
+          "p27.s3"
+        ],
+        "explanation": "Every member receives a DEV Badge and swag bags may be provided depending on availability.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The provided text does not mention cash prizes or the absence thereof.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The provided text does not mention cash prizes or the absence thereof.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.02, contra 0.00)",
+        "confidence": 0.02
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 2,
+    "unsupported": 1,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 67
+  },
+  "fixed_answer": "One team wins the Best Open-Source AI Project challenge. [p27.s1] Each member of the winning team receives a DEV Badge on their DEV account, and the team may also receive MLH+DEV-branded swag bags, depending on availability and event arrangements. [p27.s2]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 0.0,
+    "judge_gemma": 6.38,
+    "judge_nli": 0.66,
+    "total": 7.06
+  },
+  "errors": [],
+  "mode": "live"
+}

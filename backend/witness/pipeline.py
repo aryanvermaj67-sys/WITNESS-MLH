@@ -15,12 +15,16 @@ SOFT_LIMIT = 60.0  # seconds (§5 rule 7)
 _LOCK = threading.Lock()  # one live check at a time; a second request waits (§5 rule 6)
 
 
-def run_pipeline(question: str, answer_text: str | None, retriever, nli_model=None) -> PipelineResult:
+LOCK = _LOCK  # also held while an uploaded document is indexed, so the embedding model is never used by two threads
+
+
+def run_pipeline(question: str, answer_text: str | None, retriever, nli_model=None, save: bool = True) -> PipelineResult:
+    """save=False keeps the result out of the replay cache (used for private, uploaded documents)."""
     with _LOCK:
-        return _run(question, answer_text, retriever, nli_model)
+        return _run(question, answer_text, retriever, nli_model, save)
 
 
-def _run(question, answer_text, retriever, nli_model) -> PipelineResult:
+def _run(question, answer_text, retriever, nli_model, save=True) -> PipelineResult:
     started, errors, timings = time.perf_counter(), [], {"retrieve": 0.0, "generate": 0.0, "judge_gemma": 0.0, "judge_nli": 0.0}
 
     def timed(name, label, fn, fallback):
@@ -61,7 +65,7 @@ def _run(question, answer_text, retriever, nli_model) -> PipelineResult:
         passages=passages, claims=claims, verdicts=verdicts, trust=verdict.trust(verdicts),
         fixed_answer=fixit.fixed_answer(claims, verdicts), timings={**timings, "total": round(total, 2)},
         errors=errors, mode="live")
-    if claims and not gen_error:  # §5 rule 5
+    if save and claims and not gen_error:  # §5 rule 5
         try:
             cache.save_result(result)
         except Exception as e:  # a failed save never breaks the response

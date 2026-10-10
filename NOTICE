@@ -1,0 +1,21 @@
+WITNESS
+Copyright 2026 The WITNESS authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Built at Hacktoberfest Hack Day Hamirpur x GDG Ludhiana (NIT Hamirpur), in
+partnership with Major League Hacking.
+
+Third-party models and software are used under their own licences and are not
+covered by this project's licence:
+
+  - Gemma 4 (E2B, 26B-A4B, 31B)  Google. See https://ai.google.dev/gemma/docs/gemma_4_license
+  - cross-encoder/nli-deberta-v3-small  Apache-2.0 (Hugging Face model card)
+  - sentence-transformers/all-MiniLM-L6-v2  Apache-2.0 (Hugging Face model card)
+  - FastAPI, Pydantic, rank_bm25, sentence-transformers, pypdf, React, Vite,
+    Tailwind CSS and the other dependencies listed in backend/requirements.txt
+    and frontend/package.json carry their own open-source licences.
+
+The event handbook text in backend/data/handbook is quoted from the Major League
+Hacking Hack Days handbook and the event page, with the source URL on the first
+line of each file, for the purpose of checking answers against it.

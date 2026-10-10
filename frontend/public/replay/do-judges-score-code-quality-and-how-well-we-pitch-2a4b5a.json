@@ -1,0 +1,354 @@
+{
+  "question": "Do judges score code quality and how well we pitch?",
+  "answer_text": "Judges do not include how good your code is in their judging criteria. The judging criteria do not include how well you pitch or the quality of your idea. Teams are judged on what they built rather than the quality of their presentation.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p49",
+      "doc": "mlh_standard_rules.md",
+      "text": "Did the team achieve everything they wanted? Learning: Did the team stretch themselves? Did they try to learn something new? What kind of projects have they worked on before? If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded. These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving. It's important to note that these judging criteria do not include: How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Hacking is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down. How well you pitch.",
+      "sentences": [
+        {
+          "id": "p49.s1",
+          "text": "Did the team achieve everything they wanted?"
+        },
+        {
+          "id": "p49.s2",
+          "text": "Learning: Did the team stretch themselves?"
+        },
+        {
+          "id": "p49.s3",
+          "text": "Did they try to learn something new?"
+        },
+        {
+          "id": "p49.s4",
+          "text": "What kind of projects have they worked on before?"
+        },
+        {
+          "id": "p49.s5",
+          "text": "If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded."
+        },
+        {
+          "id": "p49.s6",
+          "text": "These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving."
+        },
+        {
+          "id": "p49.s7",
+          "text": "It's important to note that these judging criteria do not include:"
+        },
+        {
+          "id": "p49.s8",
+          "text": "How good your code is."
+        },
+        {
+          "id": "p49.s9",
+          "text": "It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms."
+        },
+        {
+          "id": "p49.s10",
+          "text": "Hacking is about playing around, making mistakes, and learning new things."
+        },
+        {
+          "id": "p49.s11",
+          "text": "If your code isn't production ready, we're not going to mark you down."
+        },
+        {
+          "id": "p49.s12",
+          "text": "How well you pitch."
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "doc": "mlh_standard_rules.md",
+      "text": "After hacking finishes, teams will show their projects to each other and to the judges. Either via a prerecorded video (typically at digital events or live demos at physical hackathons). You are strongly encouraged to present a demo of what you have built. Pitches and presentations are discouraged. You are not judged on the quality of your pitch or the quality of your idea. As you are judged on what you built, you'll only hurt yourself by not showing a demo. You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish. It's okay if you didn't finish your hack—that happens all the time!",
+      "sentences": [
+        {
+          "id": "p46.s1",
+          "text": "After hacking finishes, teams will show their projects to each other and to the judges."
+        },
+        {
+          "id": "p46.s2",
+          "text": "Either via a prerecorded video (typically at digital events or live demos at physical hackathons)."
+        },
+        {
+          "id": "p46.s3",
+          "text": "You are strongly encouraged to present a demo of what you have built."
+        },
+        {
+          "id": "p46.s4",
+          "text": "Pitches and presentations are discouraged."
+        },
+        {
+          "id": "p46.s5",
+          "text": "You are not judged on the quality of your pitch or the quality of your idea."
+        },
+        {
+          "id": "p46.s6",
+          "text": "As you are judged on what you built, you'll only hurt yourself by not showing a demo."
+        },
+        {
+          "id": "p46.s7",
+          "text": "You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish."
+        },
+        {
+          "id": "p46.s8",
+          "text": "It's okay if you didn't finish your hack—that happens all the time!"
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "doc": "mlh_standard_rules.md",
+      "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code. MLH encourages our community to learn these technologies and leverage them. However, it’s essential to continue to follow the spirit of the hackathon. We strongly believe that the best projects will leverage AI, but ultimately be created by humans. Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools. Teams should be honest and transparent about the AI code tools they used. This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers.",
+      "sentences": [
+        {
+          "id": "p44.s1",
+          "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code."
+        },
+        {
+          "id": "p44.s2",
+          "text": "MLH encourages our community to learn these technologies and leverage them."
+        },
+        {
+          "id": "p44.s3",
+          "text": "However, it’s essential to continue to follow the spirit of the hackathon."
+        },
+        {
+          "id": "p44.s4",
+          "text": "We strongly believe that the best projects will leverage AI, but ultimately be created by humans."
+        },
+        {
+          "id": "p44.s5",
+          "text": "Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools."
+        },
+        {
+          "id": "p44.s6",
+          "text": "Teams should be honest and transparent about the AI code tools they used."
+        },
+        {
+          "id": "p44.s7",
+          "text": "This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers."
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "doc": "mlh_standard_rules.md",
+      "text": "Teams will be judged on these four criteria for MLH digital events or MLH categories at an in person event. Judges will weigh the criteria equally. During judging, participants should try to describe what they did for each criterion in their project. Technology: How technically impressive was the hack? Was the technical problem the team tackled difficult? Did it use a particularly clever technique or did it use many different components? Did the technology involved make you go \"Wow\"? Design: Did the team put thought into the user experience? How well designed is the interface? For a website, this might be about how beautiful the CSS or graphics are. For a hardware project, it might be more about how good the human-computer interaction is (e.g. is it easy to use or does it use a cool interface?). Completion: Does the hack work?",
+      "sentences": [
+        {
+          "id": "p48.s1",
+          "text": "Teams will be judged on these four criteria for MLH digital events or MLH categories at an in person event."
+        },
+        {
+          "id": "p48.s2",
+          "text": "Judges will weigh the criteria equally."
+        },
+        {
+          "id": "p48.s3",
+          "text": "During judging, participants should try to describe what they did for each criterion in their project."
+        },
+        {
+          "id": "p48.s4",
+          "text": "Technology: How technically impressive was the hack?"
+        },
+        {
+          "id": "p48.s5",
+          "text": "Was the technical problem the team tackled difficult?"
+        },
+        {
+          "id": "p48.s6",
+          "text": "Did it use a particularly clever technique or did it use many different components?"
+        },
+        {
+          "id": "p48.s7",
+          "text": "Did the technology involved make you go \"Wow\"?"
+        },
+        {
+          "id": "p48.s8",
+          "text": "Design: Did the team put thought into the user experience?"
+        },
+        {
+          "id": "p48.s9",
+          "text": "How well designed is the interface?"
+        },
+        {
+          "id": "p48.s10",
+          "text": "For a website, this might be about how beautiful the CSS or graphics are."
+        },
+        {
+          "id": "p48.s11",
+          "text": "For a hardware project, it might be more about how good the human-computer interaction is (e.g. is it easy to use or does it use a cool interface?)."
+        },
+        {
+          "id": "p48.s12",
+          "text": "Completion: Does the hack work?"
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "doc": "mlh_standard_rules.md",
+      "text": "Completion is only one part of the judging criteria, so you might still do well. Demoing is not just about the competition. It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about! For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH. In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned. Hearing what other people learned is interesting and inspiring for other attendees.",
+      "sentences": [
+        {
+          "id": "p47.s1",
+          "text": "Completion is only one part of the judging criteria, so you might still do well."
+        },
+        {
+          "id": "p47.s2",
+          "text": "Demoing is not just about the competition."
+        },
+        {
+          "id": "p47.s3",
+          "text": "It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about!"
+        },
+        {
+          "id": "p47.s4",
+          "text": "For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH."
+        },
+        {
+          "id": "p47.s5",
+          "text": "In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned."
+        },
+        {
+          "id": "p47.s6",
+          "text": "Hearing what other people learned is interesting and inspiring for other attendees."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Judges do not include how good your code is in their judging criteria.",
+      "start": 0,
+      "end": 70
+    },
+    {
+      "id": "c2",
+      "text": "The judging criteria do not include how well you pitch or the quality of your idea.",
+      "start": 71,
+      "end": 154
+    },
+    {
+      "id": "c3",
+      "text": "Teams are judged on what they built rather than the quality of their presentation.",
+      "start": 155,
+      "end": 237
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p49.s7",
+        "p49.s8",
+        "p46.s5"
+      ],
+      "explanation": "The text explicitly states that judging criteria do not include how good your code is.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p49.s7",
+          "p49.s8"
+        ],
+        "explanation": "The text explicitly states that judging criteria do not include how good your code is.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p46.s5"
+        ],
+        "explanation": "entailment 0.98",
+        "confidence": 0.98
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p49.s12",
+        "p46.s5"
+      ],
+      "explanation": "The text states that how well you pitch is not included in the criteria and you are not judged on the quality of your pitch or idea.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p49.s12",
+          "p46.s5"
+        ],
+        "explanation": "The text states that how well you pitch is not included in the criteria and you are not judged on the quality of your pitch or idea.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p46.s5"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p46.s5",
+        "p46.s6"
+      ],
+      "explanation": "The text states you are not judged on the quality of your pitch and that you are judged on what you built.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p46.s5",
+          "p46.s6"
+        ],
+        "explanation": "The text states you are not judged on the quality of your pitch and that you are judged on what you built.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.02, contra 0.00)",
+        "confidence": 0.02
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "Judges do not include how good your code is in their judging criteria. [p49.s7] The judging criteria do not include how well you pitch or the quality of your idea. [p49.s12] Teams are judged on what they built rather than the quality of their presentation. [p46.s5]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 3.43,
+    "judge_gemma": 7.07,
+    "judge_nli": 0.36,
+    "total": 10.88
+  },
+  "errors": [],
+  "mode": "live"
+}

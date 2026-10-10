@@ -1,0 +1,277 @@
+{
+  "question": "Is the Hack Day free to attend, and can we join online instead?",
+  "answer_text": "Hacktoberfest Hack Days must be free to attend. Participants who prefer to engage online should visit Hacktoberfest.com for virtual challenges. Attendee registration and check-in are required through OrganizerHQ for both formats.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p14",
+      "doc": "mlh_fest_formats.md",
+      "text": "Hacktoberfest Hack Days must be free to attend. Participants who prefer to engage online should visit Hacktoberfest.com to see the virtual challenges and content available. Attendee registration and check-in through OrganizerHQ and post-event photos are required for both formats. All events must follow their event-specific instructions supplied after approval by the MLH Hacktoberfest team for registration, check-in, reporting, reimbursement, branding, and swag. For questions about applying or hosting, contact hacktoberfest@mlh.io.",
+      "sentences": [
+        {
+          "id": "p14.s1",
+          "text": "Hacktoberfest Hack Days must be free to attend."
+        },
+        {
+          "id": "p14.s2",
+          "text": "Participants who prefer to engage online should visit Hacktoberfest.com to see the virtual challenges and content available."
+        },
+        {
+          "id": "p14.s3",
+          "text": "Attendee registration and check-in through OrganizerHQ and post-event photos are required for both formats."
+        },
+        {
+          "id": "p14.s4",
+          "text": "All events must follow their event-specific instructions supplied after approval by the MLH Hacktoberfest team for registration, check-in, reporting, reimbursement, branding, and swag."
+        },
+        {
+          "id": "p14.s5",
+          "text": "For questions about applying or hosting, contact hacktoberfest@mlh.io."
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "doc": "event_description.md",
+      "text": "Get ready to innovate, build, and connect! Hacktoberfest Hack day Hamirpur x GDG Ludhiana is a high-energy, one-day in-person mini hackathon hosted at NIT Hamirpur as part of Hacktoberfest, the world’s largest celebration of open source. This year’s theme centers on open source and open-weight AI: models, tools, and agents that anyone can inspect, run, and build upon. It’s a fast-paced collaborative day where you arrive in the morning, form a team, build a small, real-world project from scratch, and demo it that same afternoon.",
+      "sentences": [
+        {
+          "id": "p2.s1",
+          "text": "Get ready to innovate, build, and connect!"
+        },
+        {
+          "id": "p2.s2",
+          "text": "Hacktoberfest Hack day Hamirpur x GDG Ludhiana is a high-energy, one-day in-person mini hackathon hosted at NIT Hamirpur as part of Hacktoberfest, the world’s largest celebration of open source."
+        },
+        {
+          "id": "p2.s3",
+          "text": "This year’s theme centers on open source and open-weight AI: models, tools, and agents that anyone can inspect, run, and build upon."
+        },
+        {
+          "id": "p2.s4",
+          "text": "It’s a fast-paced collaborative day where you arrive in the morning, form a team, build a small, real-world project from scratch, and demo it that same afternoon."
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "doc": "mlh_fest_formats.md",
+      "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal. Participants create and submit projects during the event for the Best Open-Source AI Project challenge. Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day. If a different approach better suits your event, explain it clearly before project work begins. The challenge has one winning team, and every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. The host selects the winner using the challenge guidance. Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category. These categories are assigned by the MLH Hacktoberfest team. See the partner challenge details.",
+      "sentences": [
+        {
+          "id": "p11.s1",
+          "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal."
+        },
+        {
+          "id": "p11.s2",
+          "text": "Participants create and submit projects during the event for the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p11.s3",
+          "text": "Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day."
+        },
+        {
+          "id": "p11.s4",
+          "text": "If a different approach better suits your event, explain it clearly before project work begins."
+        },
+        {
+          "id": "p11.s5",
+          "text": "The challenge has one winning team, and every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p11.s6",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p11.s7",
+          "text": "The host selects the winner using the challenge guidance."
+        },
+        {
+          "id": "p11.s8",
+          "text": "Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category."
+        },
+        {
+          "id": "p11.s9",
+          "text": "These categories are assigned by the MLH Hacktoberfest team."
+        },
+        {
+          "id": "p11.s10",
+          "text": "See the partner challenge details."
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "doc": "mlh_project_submissions.md",
+      "text": "This page applies to approved Hacktoberfest Hack Day events. OrganizerHQ Challenges is mandatory for every Hacktoberfest Hack Day event and cannot be replaced by another submission platform. Use the MLH Standard Hackathon Rules as the default: project-specific work happens during the Hack Day. If a different approach better suits your event, explain it clearly before project work begins.",
+      "sentences": [
+        {
+          "id": "p29.s1",
+          "text": "This page applies to approved Hacktoberfest Hack Day events."
+        },
+        {
+          "id": "p29.s2",
+          "text": "OrganizerHQ Challenges is mandatory for every Hacktoberfest Hack Day event and cannot be replaced by another submission platform."
+        },
+        {
+          "id": "p29.s3",
+          "text": "Use the MLH Standard Hackathon Rules as the default: project-specific work happens during the Hack Day."
+        },
+        {
+          "id": "p29.s4",
+          "text": "If a different approach better suits your event, explain it clearly before project work begins."
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "doc": "event_description.md",
+      "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite. We need no prior open-source experience needed! Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits. Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture.",
+      "sentences": [
+        {
+          "id": "p5.s1",
+          "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite."
+        },
+        {
+          "id": "p5.s2",
+          "text": "We need no prior open-source experience needed!"
+        },
+        {
+          "id": "p5.s3",
+          "text": "Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits."
+        },
+        {
+          "id": "p5.s4",
+          "text": "Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hacktoberfest Hack Days must be free to attend.",
+      "start": 0,
+      "end": 47
+    },
+    {
+      "id": "c2",
+      "text": "Participants who prefer to engage online should visit Hacktoberfest.com for virtual challenges.",
+      "start": 48,
+      "end": 143
+    },
+    {
+      "id": "c3",
+      "text": "Attendee registration and check-in are required through OrganizerHQ for both formats.",
+      "start": 144,
+      "end": 229
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p14.s1"
+      ],
+      "explanation": "Sentence p14.s1 explicitly states that Hacktoberfest Hack Days must be free to attend.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p14.s1"
+        ],
+        "explanation": "Sentence p14.s1 explicitly states that Hacktoberfest Hack Days must be free to attend.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p14.s1"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p14.s2"
+      ],
+      "explanation": "Sentence p14.s2 directs online participants to Hacktoberfest.com for virtual challenges and content.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p14.s2"
+        ],
+        "explanation": "Sentence p14.s2 directs online participants to Hacktoberfest.com for virtual challenges and content.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p14.s2"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p14.s3"
+      ],
+      "explanation": "Sentence p14.s3 confirms that registration and check-in through OrganizerHQ are required for both formats.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p14.s3"
+        ],
+        "explanation": "Sentence p14.s3 confirms that registration and check-in through OrganizerHQ are required for both formats.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p14.s3"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "Hacktoberfest Hack Days must be free to attend. [p14.s1] Participants who prefer to engage online should visit Hacktoberfest.com for virtual challenges. [p14.s2] Attendee registration and check-in are required through OrganizerHQ for both formats. [p14.s3]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 2.9,
+    "judge_gemma": 6.95,
+    "judge_nli": 0.4,
+    "total": 10.27
+  },
+  "errors": [],
+  "mode": "live"
+}

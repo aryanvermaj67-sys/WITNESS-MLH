@@ -1,0 +1,370 @@
+{
+  "question": "Can we keep fixing bugs after the hacking time is over?",
+  "answer_text": "Teams are allowed to debug and make small fixes to their programs after the time is up. This is permitted even after the hackathon period has ended. Teams must stop hacking once the time is up, but post-event fixes are allowed.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p42",
+      "doc": "mlh_standard_rules.md",
+      "text": "Hacks do not have to be “innovative”. If somebody wants to work on a common idea, they should be allowed to do so and should be judged on the quality of their hack. These days it’s hard to find something that’s fully original and teams might not know an idea has been done before anyway. Teams can work on an idea that they have worked on before (as long as they do not re-use code or other project materials). Teams can use libraries, frameworks, or open-source code in their projects. Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is against the spirit of the rules and is not allowed. Teams must stop hacking once the time is up. However, teams are allowed to debug and make small fixes to their programs after time is up.",
+      "sentences": [
+        {
+          "id": "p42.s1",
+          "text": "Hacks do not have to be “innovative”."
+        },
+        {
+          "id": "p42.s2",
+          "text": "If somebody wants to work on a common idea, they should be allowed to do so and should be judged on the quality of their hack."
+        },
+        {
+          "id": "p42.s3",
+          "text": "These days it’s hard to find something that’s fully original and teams might not know an idea has been done before anyway."
+        },
+        {
+          "id": "p42.s4",
+          "text": "Teams can work on an idea that they have worked on before (as long as they do not re-use code or other project materials)."
+        },
+        {
+          "id": "p42.s5",
+          "text": "Teams can use libraries, frameworks, or open-source code in their projects."
+        },
+        {
+          "id": "p42.s6",
+          "text": "Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is against the spirit of the rules and is not allowed."
+        },
+        {
+          "id": "p42.s7",
+          "text": "Teams must stop hacking once the time is up."
+        },
+        {
+          "id": "p42.s8",
+          "text": "However, teams are allowed to debug and make small fixes to their programs after time is up."
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "doc": "mlh_standard_rules.md",
+      "text": "Hacking is about building and learning, not about selling. How good the idea is. Again, hackathons aren't about coming up with innovative ideas. It's about building and learning. How well the project solves a problem. You can build something totally useless and as long as you're learning and having fun, that's a good hack! Sometimes a pointless project is one of the best hacks! So don't worry about coming up with the next big idea or building the next big thing. You'll have plenty of time for that outside the hackathon. Just focus on learning, having fun, and making new friends. At the end of the day, the skills you learn and the friends you make might lead to the next big thing, but you don't have to do that to win a hackathon.",
+      "sentences": [
+        {
+          "id": "p50.s1",
+          "text": "Hacking is about building and learning, not about selling."
+        },
+        {
+          "id": "p50.s2",
+          "text": "How good the idea is."
+        },
+        {
+          "id": "p50.s3",
+          "text": "Again, hackathons aren't about coming up with innovative ideas."
+        },
+        {
+          "id": "p50.s4",
+          "text": "It's about building and learning."
+        },
+        {
+          "id": "p50.s5",
+          "text": "How well the project solves a problem."
+        },
+        {
+          "id": "p50.s6",
+          "text": "You can build something totally useless and as long as you're learning and having fun, that's a good hack!"
+        },
+        {
+          "id": "p50.s7",
+          "text": "Sometimes a pointless project is one of the best hacks!"
+        },
+        {
+          "id": "p50.s8",
+          "text": "So don't worry about coming up with the next big idea or building the next big thing."
+        },
+        {
+          "id": "p50.s9",
+          "text": "You'll have plenty of time for that outside the hackathon."
+        },
+        {
+          "id": "p50.s10",
+          "text": "Just focus on learning, having fun, and making new friends."
+        },
+        {
+          "id": "p50.s11",
+          "text": "At the end of the day, the skills you learn and the friends you make might lead to the next big thing, but you don't have to do that to win a hackathon."
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "doc": "mlh_standard_rules.md",
+      "text": "After hacking finishes, teams will show their projects to each other and to the judges. Either via a prerecorded video (typically at digital events or live demos at physical hackathons). You are strongly encouraged to present a demo of what you have built. Pitches and presentations are discouraged. You are not judged on the quality of your pitch or the quality of your idea. As you are judged on what you built, you'll only hurt yourself by not showing a demo. You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish. It's okay if you didn't finish your hack—that happens all the time!",
+      "sentences": [
+        {
+          "id": "p46.s1",
+          "text": "After hacking finishes, teams will show their projects to each other and to the judges."
+        },
+        {
+          "id": "p46.s2",
+          "text": "Either via a prerecorded video (typically at digital events or live demos at physical hackathons)."
+        },
+        {
+          "id": "p46.s3",
+          "text": "You are strongly encouraged to present a demo of what you have built."
+        },
+        {
+          "id": "p46.s4",
+          "text": "Pitches and presentations are discouraged."
+        },
+        {
+          "id": "p46.s5",
+          "text": "You are not judged on the quality of your pitch or the quality of your idea."
+        },
+        {
+          "id": "p46.s6",
+          "text": "As you are judged on what you built, you'll only hurt yourself by not showing a demo."
+        },
+        {
+          "id": "p46.s7",
+          "text": "You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish."
+        },
+        {
+          "id": "p46.s8",
+          "text": "It's okay if you didn't finish your hack—that happens all the time!"
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "doc": "mlh_standard_rules.md",
+      "text": "All participants agree to uphold the MLH Code of Conduct to keep hackathons safe, welcoming spaces for everyone. MLH Hackathons are primarily for students, but may also include professionals. MLH chooses to define students broadly. Anyone who attends a traditional school, college, or university, and those in bootcamps and similar programs are students. Those who graduated within the last 12 months are also considered students. Organizers, volunteers, judges, sponsors, or anyone in any other privileged position at the event should not participate as a hacker. All team members should actively participate in the event. Teams should leverage advice and support from organizers, volunteers, sponsors, and each other. All work on a project should be done during the period of the hackathon. Teams can use an idea they had before the event. Teams can work on ideas that have already been done.",
+      "sentences": [
+        {
+          "id": "p41.s1",
+          "text": "All participants agree to uphold the MLH Code of Conduct to keep hackathons safe, welcoming spaces for everyone."
+        },
+        {
+          "id": "p41.s2",
+          "text": "MLH Hackathons are primarily for students, but may also include professionals."
+        },
+        {
+          "id": "p41.s3",
+          "text": "MLH chooses to define students broadly."
+        },
+        {
+          "id": "p41.s4",
+          "text": "Anyone who attends a traditional school, college, or university, and those in bootcamps and similar programs are students."
+        },
+        {
+          "id": "p41.s5",
+          "text": "Those who graduated within the last 12 months are also considered students."
+        },
+        {
+          "id": "p41.s6",
+          "text": "Organizers, volunteers, judges, sponsors, or anyone in any other privileged position at the event should not participate as a hacker."
+        },
+        {
+          "id": "p41.s7",
+          "text": "All team members should actively participate in the event."
+        },
+        {
+          "id": "p41.s8",
+          "text": "Teams should leverage advice and support from organizers, volunteers, sponsors, and each other."
+        },
+        {
+          "id": "p41.s9",
+          "text": "All work on a project should be done during the period of the hackathon."
+        },
+        {
+          "id": "p41.s10",
+          "text": "Teams can use an idea they had before the event."
+        },
+        {
+          "id": "p41.s11",
+          "text": "Teams can work on ideas that have already been done."
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "doc": "mlh_standard_rules.md",
+      "text": "Did the team achieve everything they wanted? Learning: Did the team stretch themselves? Did they try to learn something new? What kind of projects have they worked on before? If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded. These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving. It's important to note that these judging criteria do not include: How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Hacking is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down. How well you pitch.",
+      "sentences": [
+        {
+          "id": "p49.s1",
+          "text": "Did the team achieve everything they wanted?"
+        },
+        {
+          "id": "p49.s2",
+          "text": "Learning: Did the team stretch themselves?"
+        },
+        {
+          "id": "p49.s3",
+          "text": "Did they try to learn something new?"
+        },
+        {
+          "id": "p49.s4",
+          "text": "What kind of projects have they worked on before?"
+        },
+        {
+          "id": "p49.s5",
+          "text": "If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded."
+        },
+        {
+          "id": "p49.s6",
+          "text": "These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving."
+        },
+        {
+          "id": "p49.s7",
+          "text": "It's important to note that these judging criteria do not include:"
+        },
+        {
+          "id": "p49.s8",
+          "text": "How good your code is."
+        },
+        {
+          "id": "p49.s9",
+          "text": "It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms."
+        },
+        {
+          "id": "p49.s10",
+          "text": "Hacking is about playing around, making mistakes, and learning new things."
+        },
+        {
+          "id": "p49.s11",
+          "text": "If your code isn't production ready, we're not going to mark you down."
+        },
+        {
+          "id": "p49.s12",
+          "text": "How well you pitch."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Teams are allowed to debug and make small fixes to their programs after the time is up.",
+      "start": 0,
+      "end": 87
+    },
+    {
+      "id": "c2",
+      "text": "This is permitted even after the hackathon period has ended.",
+      "start": 88,
+      "end": 148
+    },
+    {
+      "id": "c3",
+      "text": "Teams must stop hacking once the time is up, but post-event fixes are allowed.",
+      "start": 149,
+      "end": 227
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p42.s8"
+      ],
+      "explanation": "The text explicitly states that teams are allowed to debug and make small fixes after time is up.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p42.s8"
+        ],
+        "explanation": "The text explicitly states that teams are allowed to debug and make small fixes after time is up.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p42.s8"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p42.s8",
+        "p50.s9"
+      ],
+      "explanation": "The rules allow for debugging and small fixes after the hacking time has concluded.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p42.s8"
+        ],
+        "explanation": "The rules allow for debugging and small fixes after the hacking time has concluded.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p50.s9"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p42.s7",
+        "p42.s8"
+      ],
+      "explanation": "Sentence p42.s7 requires stopping hacking when time is up, while p42.s8 allows for post-event debugging and small fixes.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p42.s7",
+          "p42.s8"
+        ],
+        "explanation": "Sentence p42.s7 requires stopping hacking when time is up, while p42.s8 allows for post-event debugging and small fixes.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "Teams are allowed to debug and make small fixes to their programs after the time is up. [p42.s8] This is permitted even after the hackathon period has ended. [p42.s8] Teams must stop hacking once the time is up, but post-event fixes are allowed. [p42.s7]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 4.43,
+    "judge_gemma": 8.37,
+    "judge_nli": 0.46,
+    "total": 13.28
+  },
+  "errors": [],
+  "mode": "live"
+}

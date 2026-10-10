@@ -1,0 +1,296 @@
+{
+  "question": "Can we reuse code from a project we built before the event?",
+  "answer_text": "Yes, you can generally reuse code from a project you built before the event, but it depends on the event’s rules. Some hackathons or competitions allow pre-existing code and libraries, while others require you to build everything during the event. Make sure to check the official guidelines, especially regarding code reuse, originality, and disclosure requirements. When in doubt, clearly mention which parts were developed before the event and which parts you created during it.",
+  "answer_source": "pasted",
+  "passages": [
+    {
+      "id": "p6",
+      "doc": "event_description.md",
+      "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models. Share Your Work: Push your project to a public GitHub repository under an open-source license. Demo Your Project: Present a quick 5-minute live demo of what your team built.",
+      "sentences": [
+        {
+          "id": "p6.s1",
+          "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models."
+        },
+        {
+          "id": "p6.s2",
+          "text": "Share Your Work: Push your project to a public GitHub repository under an open-source license."
+        },
+        {
+          "id": "p6.s3",
+          "text": "Demo Your Project: Present a quick 5-minute live demo of what your team built."
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "doc": "mlh_standard_rules.md",
+      "text": "Hacks do not have to be “innovative”. If somebody wants to work on a common idea, they should be allowed to do so and should be judged on the quality of their hack. These days it’s hard to find something that’s fully original and teams might not know an idea has been done before anyway. Teams can work on an idea that they have worked on before (as long as they do not re-use code or other project materials). Teams can use libraries, frameworks, or open-source code in their projects. Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is against the spirit of the rules and is not allowed. Teams must stop hacking once the time is up. However, teams are allowed to debug and make small fixes to their programs after time is up.",
+      "sentences": [
+        {
+          "id": "p42.s1",
+          "text": "Hacks do not have to be “innovative”."
+        },
+        {
+          "id": "p42.s2",
+          "text": "If somebody wants to work on a common idea, they should be allowed to do so and should be judged on the quality of their hack."
+        },
+        {
+          "id": "p42.s3",
+          "text": "These days it’s hard to find something that’s fully original and teams might not know an idea has been done before anyway."
+        },
+        {
+          "id": "p42.s4",
+          "text": "Teams can work on an idea that they have worked on before (as long as they do not re-use code or other project materials)."
+        },
+        {
+          "id": "p42.s5",
+          "text": "Teams can use libraries, frameworks, or open-source code in their projects."
+        },
+        {
+          "id": "p42.s6",
+          "text": "Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is against the spirit of the rules and is not allowed."
+        },
+        {
+          "id": "p42.s7",
+          "text": "Teams must stop hacking once the time is up."
+        },
+        {
+          "id": "p42.s8",
+          "text": "However, teams are allowed to debug and make small fixes to their programs after time is up."
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "doc": "event_description.md",
+      "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite. We need no prior open-source experience needed! Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits. Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture.",
+      "sentences": [
+        {
+          "id": "p5.s1",
+          "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite."
+        },
+        {
+          "id": "p5.s2",
+          "text": "We need no prior open-source experience needed!"
+        },
+        {
+          "id": "p5.s3",
+          "text": "Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits."
+        },
+        {
+          "id": "p5.s4",
+          "text": "Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture."
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "doc": "mlh_standard_rules.md",
+      "text": "e.g. If during demoing your hack you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that. Making large changes or adding new features is not allowed. Your code must be available publicly (ideally in a git repository). Your code must remain public post event to be eligible for prizes. If your repo and video are not public, new winners may be selected. Teams can be disqualified from the competition at the organizers' discretion. Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour.",
+      "sentences": [
+        {
+          "id": "p43.s1",
+          "text": "e.g. If during demoing your hack you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that."
+        },
+        {
+          "id": "p43.s2",
+          "text": "Making large changes or adding new features is not allowed."
+        },
+        {
+          "id": "p43.s3",
+          "text": "Your code must be available publicly (ideally in a git repository)."
+        },
+        {
+          "id": "p43.s4",
+          "text": "Your code must remain public post event to be eligible for prizes."
+        },
+        {
+          "id": "p43.s5",
+          "text": "If your repo and video are not public, new winners may be selected."
+        },
+        {
+          "id": "p43.s6",
+          "text": "Teams can be disqualified from the competition at the organizers' discretion."
+        },
+        {
+          "id": "p43.s7",
+          "text": "Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour."
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "doc": "event_description.md",
+      "text": "All development work must start at the event. Projects or codebases begun before the day are strictly not eligible. Come with fresh ideas, enthusiasm, and curiosity not pre-existing code!",
+      "sentences": [
+        {
+          "id": "p7.s1",
+          "text": "All development work must start at the event."
+        },
+        {
+          "id": "p7.s2",
+          "text": "Projects or codebases begun before the day are strictly not eligible."
+        },
+        {
+          "id": "p7.s3",
+          "text": "Come with fresh ideas, enthusiasm, and curiosity not pre-existing code!"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Yes, you can generally reuse code from a project you built before the event, but it depends on the event’s rules.",
+      "start": 0,
+      "end": 113
+    },
+    {
+      "id": "c2",
+      "text": "Some hackathons or competitions allow pre-existing code and libraries, while others require you to build everything during the event.",
+      "start": 114,
+      "end": 247
+    },
+    {
+      "id": "c3",
+      "text": "Make sure to check the official guidelines, especially regarding code reuse, originality, and disclosure requirements.",
+      "start": 248,
+      "end": 366
+    },
+    {
+      "id": "c4",
+      "text": "When in doubt, clearly mention which parts were developed before the event and which parts you created during it.",
+      "start": 367,
+      "end": 480
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "contradicted",
+      "evidence_ids": [
+        "p42.s4",
+        "p7.s1",
+        "p7.s2"
+      ],
+      "explanation": "The rules state teams can work on old ideas but must not re-use code, and all development work must start at the event.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "contradicted",
+        "evidence_ids": [
+          "p42.s4",
+          "p7.s1",
+          "p7.s2"
+        ],
+        "explanation": "The rules state teams can work on old ideas but must not re-use code, and all development work must start at the event.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.02)",
+        "confidence": 0.02
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p42.s5",
+        "p7.s1",
+        "p7.s2"
+      ],
+      "explanation": "The text specifies that while libraries and open-source code can be used, projects or codebases begun before the day are not eligible.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p42.s5",
+          "p7.s1",
+          "p7.s2"
+        ],
+        "explanation": "The text specifies that while libraries and open-source code can be used, projects or codebases begun before the day are not eligible.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The provided sentences do not explicitly instruct the user to check official guidelines for disclosure requirements.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The provided sentences do not explicitly instruct the user to check official guidelines for disclosure requirements.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c4",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "There is no mention of a requirement or suggestion to disclose which parts were developed before the event.",
+      "gemma": {
+        "claim_id": "c4",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "There is no mention of a requirement or suggestion to disclose which parts were developed before the event.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c4",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 1,
+    "unsupported": 2,
+    "contradicted": 1,
+    "needs_review": 0,
+    "total": 4,
+    "percent_supported": 25
+  },
+  "fixed_answer": "Some hackathons or competitions allow pre-existing code and libraries, while others require you to build everything during the event. [p42.s5]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 0.0,
+    "judge_gemma": 8.25,
+    "judge_nli": 0.61,
+    "total": 8.88
+  },
+  "errors": [],
+  "mode": "live"
+}

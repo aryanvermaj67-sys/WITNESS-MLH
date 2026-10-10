@@ -1,0 +1,292 @@
+{
+  "question": "Can someone who graduated from university last year still take part as a student?",
+  "answer_text": "It depends on the specific program or event’s eligibility criteria. If someone graduated from university last year, they may still be eligible to participate as a student if the rules allow recent graduates. However, some programs require participants to be currently enrolled in a university. It’s best to check the eligibility requirements or contact the organizers for confirmation.",
+  "answer_source": "pasted",
+  "passages": [
+    {
+      "id": "p41",
+      "doc": "mlh_standard_rules.md",
+      "text": "All participants agree to uphold the MLH Code of Conduct to keep hackathons safe, welcoming spaces for everyone. MLH Hackathons are primarily for students, but may also include professionals. MLH chooses to define students broadly. Anyone who attends a traditional school, college, or university, and those in bootcamps and similar programs are students. Those who graduated within the last 12 months are also considered students. Organizers, volunteers, judges, sponsors, or anyone in any other privileged position at the event should not participate as a hacker. All team members should actively participate in the event. Teams should leverage advice and support from organizers, volunteers, sponsors, and each other. All work on a project should be done during the period of the hackathon. Teams can use an idea they had before the event. Teams can work on ideas that have already been done.",
+      "sentences": [
+        {
+          "id": "p41.s1",
+          "text": "All participants agree to uphold the MLH Code of Conduct to keep hackathons safe, welcoming spaces for everyone."
+        },
+        {
+          "id": "p41.s2",
+          "text": "MLH Hackathons are primarily for students, but may also include professionals."
+        },
+        {
+          "id": "p41.s3",
+          "text": "MLH chooses to define students broadly."
+        },
+        {
+          "id": "p41.s4",
+          "text": "Anyone who attends a traditional school, college, or university, and those in bootcamps and similar programs are students."
+        },
+        {
+          "id": "p41.s5",
+          "text": "Those who graduated within the last 12 months are also considered students."
+        },
+        {
+          "id": "p41.s6",
+          "text": "Organizers, volunteers, judges, sponsors, or anyone in any other privileged position at the event should not participate as a hacker."
+        },
+        {
+          "id": "p41.s7",
+          "text": "All team members should actively participate in the event."
+        },
+        {
+          "id": "p41.s8",
+          "text": "Teams should leverage advice and support from organizers, volunteers, sponsors, and each other."
+        },
+        {
+          "id": "p41.s9",
+          "text": "All work on a project should be done during the period of the hackathon."
+        },
+        {
+          "id": "p41.s10",
+          "text": "Teams can use an idea they had before the event."
+        },
+        {
+          "id": "p41.s11",
+          "text": "Teams can work on ideas that have already been done."
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "doc": "event_description.md",
+      "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite. We need no prior open-source experience needed! Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits. Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture.",
+      "sentences": [
+        {
+          "id": "p5.s1",
+          "text": "Freshers & First-Time Contributors: Curiosity is the only prerequisite."
+        },
+        {
+          "id": "p5.s2",
+          "text": "We need no prior open-source experience needed!"
+        },
+        {
+          "id": "p5.s3",
+          "text": "Students, Developers, & Designers: From beginners writing their first lines of code to experienced builders pushing their limits."
+        },
+        {
+          "id": "p5.s4",
+          "text": "Tech Enthusiasts: Anyone eager to collaborate, connect with peers, and experience real hackathon culture."
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "doc": "mlh_standard_rules.md",
+      "text": "Completion is only one part of the judging criteria, so you might still do well. Demoing is not just about the competition. It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about! For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH. In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned. Hearing what other people learned is interesting and inspiring for other attendees.",
+      "sentences": [
+        {
+          "id": "p47.s1",
+          "text": "Completion is only one part of the judging criteria, so you might still do well."
+        },
+        {
+          "id": "p47.s2",
+          "text": "Demoing is not just about the competition."
+        },
+        {
+          "id": "p47.s3",
+          "text": "It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about!"
+        },
+        {
+          "id": "p47.s4",
+          "text": "For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH."
+        },
+        {
+          "id": "p47.s5",
+          "text": "In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned."
+        },
+        {
+          "id": "p47.s6",
+          "text": "Hearing what other people learned is interesting and inspiring for other attendees."
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "doc": "event_description.md",
+      "text": "A huge welcome to all freshers, first-year students, and complete beginners: you do NOT need to be a seasoned coder or have a background in AI to participate! Whether you write code, design user interfaces, or are simply curious about open-source technology and how things work, there is a seat at the table for you. All you need to bring is your curiosity, enthusiasm, and a willingness to learn in an inclusive, safe, and judgment-free environment.",
+      "sentences": [
+        {
+          "id": "p3.s1",
+          "text": "A huge welcome to all freshers, first-year students, and complete beginners: you do NOT need to be a seasoned coder or have a background in AI to participate!"
+        },
+        {
+          "id": "p3.s2",
+          "text": "Whether you write code, design user interfaces, or are simply curious about open-source technology and how things work, there is a seat at the table for you."
+        },
+        {
+          "id": "p3.s3",
+          "text": "All you need to bring is your curiosity, enthusiasm, and a willingness to learn in an inclusive, safe, and judgment-free environment."
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "doc": "event_description.md",
+      "text": "Prizes, Swag & Goodies: Inclusive tracks tailored for everyone,whether you are a complete beginner, an experienced coder, or someone who just wants to explore technology and build something fun. Community Interaction & Tech Talks: Gain insightful knowledge through interactive workshops, expert-led talks, and peer sessions that break down open-source, developer tools, and modern AI. Hands-on Mentorship & Portfolio Growth: Work side-by-side with experienced mentors who will help turn your ideas into a real, published GitHub repository, boosting your developer portfolio in just one day.",
+      "sentences": [
+        {
+          "id": "p4.s1",
+          "text": "Prizes, Swag & Goodies: Inclusive tracks tailored for everyone,whether you are a complete beginner, an experienced coder, or someone who just wants to explore technology and build something fun."
+        },
+        {
+          "id": "p4.s2",
+          "text": "Community Interaction & Tech Talks: Gain insightful knowledge through interactive workshops, expert-led talks, and peer sessions that break down open-source, developer tools, and modern AI."
+        },
+        {
+          "id": "p4.s3",
+          "text": "Hands-on Mentorship & Portfolio Growth: Work side-by-side with experienced mentors who will help turn your ideas into a real, published GitHub repository, boosting your developer portfolio in just one day."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It depends on the specific program or event’s eligibility criteria.",
+      "start": 0,
+      "end": 67
+    },
+    {
+      "id": "c2",
+      "text": "If someone graduated from university last year, they may still be eligible to participate as a student if the rules allow recent graduates.",
+      "start": 68,
+      "end": 207
+    },
+    {
+      "id": "c3",
+      "text": "However, some programs require participants to be currently enrolled in a university.",
+      "start": 208,
+      "end": 293
+    },
+    {
+      "id": "c4",
+      "text": "It’s best to check the eligibility requirements or contact the organizers for confirmation.",
+      "start": 294,
+      "end": 385
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The provided text does not mention that eligibility depends on specific program or event criteria.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The provided text does not mention that eligibility depends on specific program or event criteria.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p41.s5"
+      ],
+      "explanation": "The text states that those who graduated within the last 12 months are considered students.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p41.s5"
+        ],
+        "explanation": "The text states that those who graduated within the last 12 months are considered students.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.02, contra 0.00)",
+        "confidence": 0.02
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "The text defines students broadly and does not state that some programs require current enrollment only.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "The text defines students broadly and does not state that some programs require current enrollment only.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c4",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "There is no instruction in the text to check eligibility requirements or contact organizers for confirmation.",
+      "gemma": {
+        "claim_id": "c4",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "There is no instruction in the text to check eligibility requirements or contact organizers for confirmation.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c4",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 1,
+    "unsupported": 3,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 4,
+    "percent_supported": 25
+  },
+  "fixed_answer": "If someone graduated from university last year, they may still be eligible to participate as a student if the rules allow recent graduates. [p41.s5]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 0.0,
+    "judge_gemma": 7.13,
+    "judge_nli": 0.56,
+    "total": 7.71
+  },
+  "errors": [],
+  "mode": "live"
+}

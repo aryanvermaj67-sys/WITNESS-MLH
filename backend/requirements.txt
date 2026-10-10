@@ -10,3 +10,4 @@ torch
 numpy
 httpx
 pytest
+pypdf

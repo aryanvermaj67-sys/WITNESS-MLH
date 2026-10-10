@@ -135,6 +135,18 @@ class CheckRequest(BaseModel):
     question: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=500)]
     answer_text: Annotated[str, StringConstraints(max_length=4000)] | None = None
     mode: Mode | None = None
+    # an uploaded PDF to check against instead of the event handbook; those checks are never saved for replay
+    document_id: Annotated[str, StringConstraints(max_length=40)] | None = None
+
+
+class DocumentInfo(BaseModel):
+    """What the app shows about an uploaded PDF (POST/GET /api/documents)."""
+    id: str
+    name: str
+    pages: int
+    passages: int
+    sentences: int
+    words: int
 
 
 class ReplayEntry(Model):

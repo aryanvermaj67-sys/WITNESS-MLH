@@ -1,0 +1,349 @@
+{
+  "question": "What are the judging criteria and how are they weighted?",
+  "answer_text": "Teams will be judged on four criteria for MLH digital events or MLH categories at an in person event. Judges will weigh these criteria equally. The criteria are Technology, Design, Completion, and Learning.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p48",
+      "doc": "mlh_standard_rules.md",
+      "text": "Teams will be judged on these four criteria for MLH digital events or MLH categories at an in person event. Judges will weigh the criteria equally. During judging, participants should try to describe what they did for each criterion in their project. Technology: How technically impressive was the hack? Was the technical problem the team tackled difficult? Did it use a particularly clever technique or did it use many different components? Did the technology involved make you go \"Wow\"? Design: Did the team put thought into the user experience? How well designed is the interface? For a website, this might be about how beautiful the CSS or graphics are. For a hardware project, it might be more about how good the human-computer interaction is (e.g. is it easy to use or does it use a cool interface?). Completion: Does the hack work?",
+      "sentences": [
+        {
+          "id": "p48.s1",
+          "text": "Teams will be judged on these four criteria for MLH digital events or MLH categories at an in person event."
+        },
+        {
+          "id": "p48.s2",
+          "text": "Judges will weigh the criteria equally."
+        },
+        {
+          "id": "p48.s3",
+          "text": "During judging, participants should try to describe what they did for each criterion in their project."
+        },
+        {
+          "id": "p48.s4",
+          "text": "Technology: How technically impressive was the hack?"
+        },
+        {
+          "id": "p48.s5",
+          "text": "Was the technical problem the team tackled difficult?"
+        },
+        {
+          "id": "p48.s6",
+          "text": "Did it use a particularly clever technique or did it use many different components?"
+        },
+        {
+          "id": "p48.s7",
+          "text": "Did the technology involved make you go \"Wow\"?"
+        },
+        {
+          "id": "p48.s8",
+          "text": "Design: Did the team put thought into the user experience?"
+        },
+        {
+          "id": "p48.s9",
+          "text": "How well designed is the interface?"
+        },
+        {
+          "id": "p48.s10",
+          "text": "For a website, this might be about how beautiful the CSS or graphics are."
+        },
+        {
+          "id": "p48.s11",
+          "text": "For a hardware project, it might be more about how good the human-computer interaction is (e.g. is it easy to use or does it use a cool interface?)."
+        },
+        {
+          "id": "p48.s12",
+          "text": "Completion: Does the hack work?"
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "doc": "mlh_standard_rules.md",
+      "text": "Did the team achieve everything they wanted? Learning: Did the team stretch themselves? Did they try to learn something new? What kind of projects have they worked on before? If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded. These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving. It's important to note that these judging criteria do not include: How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Hacking is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down. How well you pitch.",
+      "sentences": [
+        {
+          "id": "p49.s1",
+          "text": "Did the team achieve everything they wanted?"
+        },
+        {
+          "id": "p49.s2",
+          "text": "Learning: Did the team stretch themselves?"
+        },
+        {
+          "id": "p49.s3",
+          "text": "Did they try to learn something new?"
+        },
+        {
+          "id": "p49.s4",
+          "text": "What kind of projects have they worked on before?"
+        },
+        {
+          "id": "p49.s5",
+          "text": "If a team which always does virtual reality projects decides to switch up and try doing a mobile app instead, that exploration should be rewarded."
+        },
+        {
+          "id": "p49.s6",
+          "text": "These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving."
+        },
+        {
+          "id": "p49.s7",
+          "text": "It's important to note that these judging criteria do not include:"
+        },
+        {
+          "id": "p49.s8",
+          "text": "How good your code is."
+        },
+        {
+          "id": "p49.s9",
+          "text": "It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms."
+        },
+        {
+          "id": "p49.s10",
+          "text": "Hacking is about playing around, making mistakes, and learning new things."
+        },
+        {
+          "id": "p49.s11",
+          "text": "If your code isn't production ready, we're not going to mark you down."
+        },
+        {
+          "id": "p49.s12",
+          "text": "How well you pitch."
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "doc": "mlh_standard_rules.md",
+      "text": "Completion is only one part of the judging criteria, so you might still do well. Demoing is not just about the competition. It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about! For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH. In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned. Hearing what other people learned is interesting and inspiring for other attendees.",
+      "sentences": [
+        {
+          "id": "p47.s1",
+          "text": "Completion is only one part of the judging criteria, so you might still do well."
+        },
+        {
+          "id": "p47.s2",
+          "text": "Demoing is not just about the competition."
+        },
+        {
+          "id": "p47.s3",
+          "text": "It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about!"
+        },
+        {
+          "id": "p47.s4",
+          "text": "For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH."
+        },
+        {
+          "id": "p47.s5",
+          "text": "In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned."
+        },
+        {
+          "id": "p47.s6",
+          "text": "Hearing what other people learned is interesting and inspiring for other attendees."
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Open source: the project's source code is public and carries a license that allows others to use, modify, and share it. Common choices include MIT, Apache-2.0, and GPL-3.0. The OSI license list includes more options. Open-weight model: the trained model weights are available to download or run under the model provider's terms. Open-weight does not automatically mean that every part of a model is open source, so teams should name the model and link its license or terms in the README. Small and large language models: for this challenge, a small language model has 10 billion parameters or fewer, while a large language model has more than 10 billion parameters.",
+      "sentences": [
+        {
+          "id": "p24.s1",
+          "text": "Open source: the project's source code is public and carries a license that allows others to use, modify, and share it."
+        },
+        {
+          "id": "p24.s2",
+          "text": "Common choices include MIT, Apache-2.0, and GPL-3.0."
+        },
+        {
+          "id": "p24.s3",
+          "text": "The OSI license list includes more options."
+        },
+        {
+          "id": "p24.s4",
+          "text": "Open-weight model: the trained model weights are available to download or run under the model provider's terms."
+        },
+        {
+          "id": "p24.s5",
+          "text": "Open-weight does not automatically mean that every part of a model is open source, so teams should name the model and link its license or terms in the README."
+        },
+        {
+          "id": "p24.s6",
+          "text": "Small and large language models: for this challenge, a small language model has 10 billion parameters or fewer, while a large language model has more than 10 billion parameters."
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "A strong project: Uses open-source or open-weight AI as an important part of how the project works Solves a clear problem or creates a useful experience Shows substantial technical work completed by the team Makes its source, license, model, and key dependencies easy to verify Has a working demonstration and a clear explanation of what the team built Use this guidance alongside Project Submissions and Winner Selection. Ask teams to show the relevant code and explain the contribution of the AI technology in plain language.",
+      "sentences": [
+        {
+          "id": "p26.s1",
+          "text": "A strong project:"
+        },
+        {
+          "id": "p26.s2",
+          "text": "Uses open-source or open-weight AI as an important part of how the project works"
+        },
+        {
+          "id": "p26.s3",
+          "text": "Solves a clear problem or creates a useful experience"
+        },
+        {
+          "id": "p26.s4",
+          "text": "Shows substantial technical work completed by the team"
+        },
+        {
+          "id": "p26.s5",
+          "text": "Makes its source, license, model, and key dependencies easy to verify"
+        },
+        {
+          "id": "p26.s6",
+          "text": "Has a working demonstration and a clear explanation of what the team built"
+        },
+        {
+          "id": "p26.s7",
+          "text": "Use this guidance alongside Project Submissions and Winner Selection."
+        },
+        {
+          "id": "p26.s8",
+          "text": "Ask teams to show the relevant code and explain the contribution of the AI technology in plain language."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Teams will be judged on four criteria for MLH digital events or MLH categories at an in person event.",
+      "start": 0,
+      "end": 101
+    },
+    {
+      "id": "c2",
+      "text": "Judges will weigh these criteria equally.",
+      "start": 102,
+      "end": 143
+    },
+    {
+      "id": "c3",
+      "text": "The criteria are Technology, Design, Completion, and Learning.",
+      "start": 144,
+      "end": 206
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p48.s1"
+      ],
+      "explanation": "The text explicitly states teams will be judged on four criteria for these event types.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p48.s1"
+        ],
+        "explanation": "The text explicitly states teams will be judged on four criteria for these event types.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p48.s1"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p48.s2"
+      ],
+      "explanation": "The text states that judges will weigh the criteria equally.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p48.s2"
+        ],
+        "explanation": "The text states that judges will weigh the criteria equally.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p48.s2"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p48.s4",
+        "p48.s8",
+        "p48.s12",
+        "p49.s2"
+      ],
+      "explanation": "The text lists Technology, Design, Completion, and Learning as the criteria.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p48.s4",
+          "p48.s8",
+          "p48.s12",
+          "p49.s2"
+        ],
+        "explanation": "The text lists Technology, Design, Completion, and Learning as the criteria.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "Teams will be judged on four criteria for MLH digital events or MLH categories at an in person event. [p48.s1] Judges will weigh these criteria equally. [p48.s2] The criteria are Technology, Design, Completion, and Learning. [p48.s4]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 2.86,
+    "judge_gemma": 6.96,
+    "judge_nli": 0.37,
+    "total": 10.2
+  },
+  "errors": [],
+  "mode": "live"
+}

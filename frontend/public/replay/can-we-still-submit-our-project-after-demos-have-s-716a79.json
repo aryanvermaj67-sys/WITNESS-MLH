@@ -1,0 +1,327 @@
+{
+  "question": "Can we still submit our project after demos have started?",
+  "answer_text": "You should close submissions before demos begin. You can open submissions during project time and close them at the project deadline, before demos start. This is to ensure all teams adhere to the same deadline policy.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p35",
+      "doc": "mlh_project_submissions.md",
+      "text": "Return to Manage Submissions before demos begin: Identify each unique project in the All view and compare it with the teams scheduled to present. Do not rely on the headline total when projects entered more than one challenge. Use the challenge tabs to confirm that the open-source challenge and each assigned partner category have the expected entries. Search by project, hacker, or technology when you need to find a specific submission. Ask a missing team to submit while the window remains open. Apply the same deadline policy to every team. Confirm that the submission window is closed when demos begin, then refresh the list.",
+      "sentences": [
+        {
+          "id": "p35.s1",
+          "text": "Return to Manage Submissions before demos begin:"
+        },
+        {
+          "id": "p35.s2",
+          "text": "Identify each unique project in the All view and compare it with the teams scheduled to present."
+        },
+        {
+          "id": "p35.s3",
+          "text": "Do not rely on the headline total when projects entered more than one challenge."
+        },
+        {
+          "id": "p35.s4",
+          "text": "Use the challenge tabs to confirm that the open-source challenge and each assigned partner category have the expected entries."
+        },
+        {
+          "id": "p35.s5",
+          "text": "Search by project, hacker, or technology when you need to find a specific submission."
+        },
+        {
+          "id": "p35.s6",
+          "text": "Ask a missing team to submit while the window remains open."
+        },
+        {
+          "id": "p35.s7",
+          "text": "Apply the same deadline policy to every team."
+        },
+        {
+          "id": "p35.s8",
+          "text": "Confirm that the submission window is closed when demos begin, then refresh the list."
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "doc": "mlh_standard_rules.md",
+      "text": "After hacking finishes, teams will show their projects to each other and to the judges. Either via a prerecorded video (typically at digital events or live demos at physical hackathons). You are strongly encouraged to present a demo of what you have built. Pitches and presentations are discouraged. You are not judged on the quality of your pitch or the quality of your idea. As you are judged on what you built, you'll only hurt yourself by not showing a demo. You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish. It's okay if you didn't finish your hack—that happens all the time!",
+      "sentences": [
+        {
+          "id": "p46.s1",
+          "text": "After hacking finishes, teams will show their projects to each other and to the judges."
+        },
+        {
+          "id": "p46.s2",
+          "text": "Either via a prerecorded video (typically at digital events or live demos at physical hackathons)."
+        },
+        {
+          "id": "p46.s3",
+          "text": "You are strongly encouraged to present a demo of what you have built."
+        },
+        {
+          "id": "p46.s4",
+          "text": "Pitches and presentations are discouraged."
+        },
+        {
+          "id": "p46.s5",
+          "text": "You are not judged on the quality of your pitch or the quality of your idea."
+        },
+        {
+          "id": "p46.s6",
+          "text": "As you are judged on what you built, you'll only hurt yourself by not showing a demo."
+        },
+        {
+          "id": "p46.s7",
+          "text": "You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish."
+        },
+        {
+          "id": "p46.s8",
+          "text": "It's okay if you didn't finish your hack—that happens all the time!"
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "doc": "mlh_standard_rules.md",
+      "text": "Completion is only one part of the judging criteria, so you might still do well. Demoing is not just about the competition. It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about! For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH. In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned. Hearing what other people learned is interesting and inspiring for other attendees.",
+      "sentences": [
+        {
+          "id": "p47.s1",
+          "text": "Completion is only one part of the judging criteria, so you might still do well."
+        },
+        {
+          "id": "p47.s2",
+          "text": "Demoing is not just about the competition."
+        },
+        {
+          "id": "p47.s3",
+          "text": "It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about!"
+        },
+        {
+          "id": "p47.s4",
+          "text": "For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH."
+        },
+        {
+          "id": "p47.s5",
+          "text": "In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned."
+        },
+        {
+          "id": "p47.s6",
+          "text": "Hearing what other people learned is interesting and inspiring for other attendees."
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "doc": "mlh_project_submissions.md",
+      "text": "You control when teams can submit: Open the public event page while signed in. Select Manage Submissions. Under Submission Deadline, set the Submissions open and Submissions close date and time. Select Save deadline. Check the status at the right of the section. It shows OPEN while submissions are available. Open submissions during project time and close them at the project deadline, before demos begin. If the deadline changes, update it here and tell every team.",
+      "sentences": [
+        {
+          "id": "p31.s1",
+          "text": "You control when teams can submit:"
+        },
+        {
+          "id": "p31.s2",
+          "text": "Open the public event page while signed in."
+        },
+        {
+          "id": "p31.s3",
+          "text": "Select Manage Submissions."
+        },
+        {
+          "id": "p31.s4",
+          "text": "Under Submission Deadline, set the Submissions open and Submissions close date and time."
+        },
+        {
+          "id": "p31.s5",
+          "text": "Select Save deadline."
+        },
+        {
+          "id": "p31.s6",
+          "text": "Check the status at the right of the section."
+        },
+        {
+          "id": "p31.s7",
+          "text": "It shows OPEN while submissions are available."
+        },
+        {
+          "id": "p31.s8",
+          "text": "Open submissions during project time and close them at the project deadline, before demos begin."
+        },
+        {
+          "id": "p31.s9",
+          "text": "If the deadline changes, update it here and tell every team."
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "doc": "mlh_standard_rules.md",
+      "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules. We require all teams to submit a 2 minute or less demo video. Your video must be created the weekend of the hackathon. Your video must remain public post event to be eligible for prizes. If your video is not public, new winners may be selected. Your demo video must state the name of the hackathon at the beginning of the video. Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\" You must have completed all registration steps for the hackathon. You are not allowed to submit your project to other hackathons. You can not submit a project that includes prior work.",
+      "sentences": [
+        {
+          "id": "p45.s1",
+          "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules."
+        },
+        {
+          "id": "p45.s2",
+          "text": "We require all teams to submit a 2 minute or less demo video."
+        },
+        {
+          "id": "p45.s3",
+          "text": "Your video must be created the weekend of the hackathon."
+        },
+        {
+          "id": "p45.s4",
+          "text": "Your video must remain public post event to be eligible for prizes."
+        },
+        {
+          "id": "p45.s5",
+          "text": "If your video is not public, new winners may be selected."
+        },
+        {
+          "id": "p45.s6",
+          "text": "Your demo video must state the name of the hackathon at the beginning of the video."
+        },
+        {
+          "id": "p45.s7",
+          "text": "Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\""
+        },
+        {
+          "id": "p45.s8",
+          "text": "You must have completed all registration steps for the hackathon."
+        },
+        {
+          "id": "p45.s9",
+          "text": "You are not allowed to submit your project to other hackathons."
+        },
+        {
+          "id": "p45.s10",
+          "text": "You can not submit a project that includes prior work."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "You should close submissions before demos begin.",
+      "start": 0,
+      "end": 48
+    },
+    {
+      "id": "c2",
+      "text": "You can open submissions during project time and close them at the project deadline, before demos start.",
+      "start": 49,
+      "end": 153
+    },
+    {
+      "id": "c3",
+      "text": "This is to ensure all teams adhere to the same deadline policy.",
+      "start": 154,
+      "end": 217
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p31.s8"
+      ],
+      "explanation": "The text states to close submissions at the project deadline before demos begin.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p31.s8"
+        ],
+        "explanation": "The text states to close submissions at the project deadline before demos begin.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p31.s8"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p31.s8"
+      ],
+      "explanation": "The text explicitly instructs to open submissions during project time and close them at the deadline before demos.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p31.s8"
+        ],
+        "explanation": "The text explicitly instructs to open submissions during project time and close them at the deadline before demos.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p31.s8"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "unsupported",
+      "evidence_ids": [],
+      "explanation": "While the text mentions applying the same deadline policy to every team, it does not state that closing submissions before demos is done for that specific reason.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "While the text mentions applying the same deadline policy to every team, it does not state that closing submissions before demos is done for that specific reason.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.37, contra 0.00)",
+        "confidence": 0.37
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 2,
+    "unsupported": 1,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 67
+  },
+  "fixed_answer": "You should close submissions before demos begin. [p31.s8] You can open submissions during project time and close them at the project deadline, before demos start. [p31.s8]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 2.75,
+    "judge_gemma": 5.85,
+    "judge_nli": 0.39,
+    "total": 9.01
+  },
+  "errors": [],
+  "mode": "live"
+}

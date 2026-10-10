@@ -12,7 +12,7 @@ load_dotenv(BACKEND / ".env")
 
 class Settings(BaseModel):
     GEMINI_API_KEY: SecretStr = SecretStr("")  # SecretStr so the key never shows up in a print or log
-    GEMINI_MODEL: str = "gemma-4-31b-it"
+    GEMINI_MODEL: str = "gemma-4-26b-a4b-it"
     LMSTUDIO_BASE_URL: str = "http://localhost:1234/v1"
     LMSTUDIO_MODEL: str = ""
     NLI_MODEL: str = "cross-encoder/nli-deberta-v3-small"

@@ -1,0 +1,281 @@
+{
+  "question": "How long does a Hacktoberfest Hack Day run?",
+  "answer_text": "Hacktoberfest Hack Days run for three to twelve hours. Four to six hours is considered ideal for these events. Participants create and submit projects during the event for a challenge.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p11",
+      "doc": "mlh_fest_formats.md",
+      "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal. Participants create and submit projects during the event for the Best Open-Source AI Project challenge. Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day. If a different approach better suits your event, explain it clearly before project work begins. The challenge has one winning team, and every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. The host selects the winner using the challenge guidance. Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category. These categories are assigned by the MLH Hacktoberfest team. See the partner challenge details.",
+      "sentences": [
+        {
+          "id": "p11.s1",
+          "text": "Hacktoberfest Hack Days run for 3 to 12 hours, although four to six hours is ideal."
+        },
+        {
+          "id": "p11.s2",
+          "text": "Participants create and submit projects during the event for the Best Open-Source AI Project challenge."
+        },
+        {
+          "id": "p11.s3",
+          "text": "Use the MLH Standard Hackathon Rules as the default for your event: project-specific work happens during the Hack Day."
+        },
+        {
+          "id": "p11.s4",
+          "text": "If a different approach better suits your event, explain it clearly before project work begins."
+        },
+        {
+          "id": "p11.s5",
+          "text": "The challenge has one winning team, and every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p11.s6",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p11.s7",
+          "text": "The host selects the winner using the challenge guidance."
+        },
+        {
+          "id": "p11.s8",
+          "text": "Some Hacktoberfest Hack Day events will also receive a Hack Days partner prize category."
+        },
+        {
+          "id": "p11.s9",
+          "text": "These categories are assigned by the MLH Hacktoberfest team."
+        },
+        {
+          "id": "p11.s10",
+          "text": "See the partner challenge details."
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "doc": "event_description.md",
+      "text": "Get ready to innovate, build, and connect! Hacktoberfest Hack day Hamirpur x GDG Ludhiana is a high-energy, one-day in-person mini hackathon hosted at NIT Hamirpur as part of Hacktoberfest, the world’s largest celebration of open source. This year’s theme centers on open source and open-weight AI: models, tools, and agents that anyone can inspect, run, and build upon. It’s a fast-paced collaborative day where you arrive in the morning, form a team, build a small, real-world project from scratch, and demo it that same afternoon.",
+      "sentences": [
+        {
+          "id": "p2.s1",
+          "text": "Get ready to innovate, build, and connect!"
+        },
+        {
+          "id": "p2.s2",
+          "text": "Hacktoberfest Hack day Hamirpur x GDG Ludhiana is a high-energy, one-day in-person mini hackathon hosted at NIT Hamirpur as part of Hacktoberfest, the world’s largest celebration of open source."
+        },
+        {
+          "id": "p2.s3",
+          "text": "This year’s theme centers on open source and open-weight AI: models, tools, and agents that anyone can inspect, run, and build upon."
+        },
+        {
+          "id": "p2.s4",
+          "text": "It’s a fast-paced collaborative day where you arrive in the morning, form a team, build a small, real-world project from scratch, and demo it that same afternoon."
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "doc": "mlh_fest_formats.md",
+      "text": "Hacktoberfest Meetup events are intentionally flexible. You might invite a community member or group to give a talk, run a workshop, host an informal discussion, or bring people together for a social event. The program should support Hacktoberfest's mission of open-source and open-weight AI education. Hacktoberfest Meetups do not use project submissions or prize challenges. They are eligible to receive Hacktoberfest swag, subject to availability, but do not receive prizes or reimbursement. Both formats must be in-person events that take place on a single day.",
+      "sentences": [
+        {
+          "id": "p13.s1",
+          "text": "Hacktoberfest Meetup events are intentionally flexible."
+        },
+        {
+          "id": "p13.s2",
+          "text": "You might invite a community member or group to give a talk, run a workshop, host an informal discussion, or bring people together for a social event."
+        },
+        {
+          "id": "p13.s3",
+          "text": "The program should support Hacktoberfest's mission of open-source and open-weight AI education."
+        },
+        {
+          "id": "p13.s4",
+          "text": "Hacktoberfest Meetups do not use project submissions or prize challenges."
+        },
+        {
+          "id": "p13.s5",
+          "text": "They are eligible to receive Hacktoberfest swag, subject to availability, but do not receive prizes or reimbursement."
+        },
+        {
+          "id": "p13.s6",
+          "text": "Both formats must be in-person events that take place on a single day."
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "doc": "mlh_project_submissions.md",
+      "text": "This page applies to approved Hacktoberfest Hack Day events. OrganizerHQ Challenges is mandatory for every Hacktoberfest Hack Day event and cannot be replaced by another submission platform. Use the MLH Standard Hackathon Rules as the default: project-specific work happens during the Hack Day. If a different approach better suits your event, explain it clearly before project work begins.",
+      "sentences": [
+        {
+          "id": "p29.s1",
+          "text": "This page applies to approved Hacktoberfest Hack Day events."
+        },
+        {
+          "id": "p29.s2",
+          "text": "OrganizerHQ Challenges is mandatory for every Hacktoberfest Hack Day event and cannot be replaced by another submission platform."
+        },
+        {
+          "id": "p29.s3",
+          "text": "Use the MLH Standard Hackathon Rules as the default: project-specific work happens during the Hack Day."
+        },
+        {
+          "id": "p29.s4",
+          "text": "If a different approach better suits your event, explain it clearly before project work begins."
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "doc": "mlh_fest_formats.md",
+      "text": "Every approved Hacktoberfest event uses one of two Fest formats, which you choose when you apply. The support from MLH and your responsibilities as a host vary by format. Use this simple test when choosing: if participants will build and submit projects, go with a Hack Day. If the program will consist of talks, demonstrations, discussions, social activities, or workshops, choose a Meetup.",
+      "sentences": [
+        {
+          "id": "p10.s1",
+          "text": "Every approved Hacktoberfest event uses one of two Fest formats, which you choose when you apply."
+        },
+        {
+          "id": "p10.s2",
+          "text": "The support from MLH and your responsibilities as a host vary by format."
+        },
+        {
+          "id": "p10.s3",
+          "text": "Use this simple test when choosing: if participants will build and submit projects, go with a Hack Day."
+        },
+        {
+          "id": "p10.s4",
+          "text": "If the program will consist of talks, demonstrations, discussions, social activities, or workshops, choose a Meetup."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hacktoberfest Hack Days run for three to twelve hours.",
+      "start": 0,
+      "end": 54
+    },
+    {
+      "id": "c2",
+      "text": "Four to six hours is considered ideal for these events.",
+      "start": 55,
+      "end": 110
+    },
+    {
+      "id": "c3",
+      "text": "Participants create and submit projects during the event for a challenge.",
+      "start": 111,
+      "end": 184
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p11.s1"
+      ],
+      "explanation": "Sentence p11.s1 explicitly states Hack Days run for 3 to 12 hours.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s1"
+        ],
+        "explanation": "Sentence p11.s1 explicitly states Hack Days run for 3 to 12 hours.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s1"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p11.s1"
+      ],
+      "explanation": "Sentence p11.s1 states that four to six hours is ideal.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s1"
+        ],
+        "explanation": "Sentence p11.s1 states that four to six hours is ideal.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s1"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p11.s2"
+      ],
+      "explanation": "Sentence p11.s2 confirms participants create and submit projects for the Best Open-Source AI Project challenge.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s2"
+        ],
+        "explanation": "Sentence p11.s2 confirms participants create and submit projects for the Best Open-Source AI Project challenge.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p11.s2"
+        ],
+        "explanation": "entailment 0.98",
+        "confidence": 0.98
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "Hacktoberfest Hack Days run for three to twelve hours. [p11.s1] Four to six hours is considered ideal for these events. [p11.s1] Participants create and submit projects during the event for a challenge. [p11.s2]",
+  "timings": {
+    "retrieve": 0.03,
+    "generate": 2.64,
+    "judge_gemma": 6.29,
+    "judge_nli": 0.41,
+    "total": 9.38
+  },
+  "errors": [],
+  "mode": "live"
+}

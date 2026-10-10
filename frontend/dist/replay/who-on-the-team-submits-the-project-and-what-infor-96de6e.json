@@ -1,0 +1,334 @@
+{
+  "question": "Who on the team submits the project, and what information is required?",
+  "answer_text": "One team member should submit the project on behalf of the team. They must sign in using the account used to register for the event. The submission requires entering the project link, project name, description, and technologies used.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p32",
+      "doc": "mlh_project_submissions.md",
+      "text": "Tell participants: The exact submission deadline The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge When project work may begin The required project information The demo format and time limit How the winning projects will be selected That every project being considered for a prize must be submitted and select every challenge it is entering Open the Challenges page yourself and confirm that every category your event is running appears correctly. The Add Submission button becomes available only during the saved submission window.",
+      "sentences": [
+        {
+          "id": "p32.s1",
+          "text": "Tell participants:"
+        },
+        {
+          "id": "p32.s2",
+          "text": "The exact submission deadline"
+        },
+        {
+          "id": "p32.s3",
+          "text": "The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge"
+        },
+        {
+          "id": "p32.s4",
+          "text": "When project work may begin"
+        },
+        {
+          "id": "p32.s5",
+          "text": "The required project information"
+        },
+        {
+          "id": "p32.s6",
+          "text": "The demo format and time limit"
+        },
+        {
+          "id": "p32.s7",
+          "text": "How the winning projects will be selected"
+        },
+        {
+          "id": "p32.s8",
+          "text": "That every project being considered for a prize must be submitted and select every challenge it is entering"
+        },
+        {
+          "id": "p32.s9",
+          "text": "Open the Challenges page yourself and confirm that every category your event is running appears correctly."
+        },
+        {
+          "id": "p32.s10",
+          "text": "The Add Submission button becomes available only during the saved submission window."
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "doc": "mlh_project_submissions.md",
+      "text": "Participants must register through OrganizerHQ and check in at the venue. One team member should then submit the project on behalf of the team: Sign in using the account used to register for the event. Select Challenges in the “View and submit challenges for this event” banner. Select Add Submission. Enter the project link, project name, description, and technologies used. Add a demo URL if the team has one. Under Which challenge(s) are you submitting to?, select every Hacktoberfest, partner, and local challenge the project is eligible to enter.",
+      "sentences": [
+        {
+          "id": "p33.s1",
+          "text": "Participants must register through OrganizerHQ and check in at the venue."
+        },
+        {
+          "id": "p33.s2",
+          "text": "One team member should then submit the project on behalf of the team:"
+        },
+        {
+          "id": "p33.s3",
+          "text": "Sign in using the account used to register for the event."
+        },
+        {
+          "id": "p33.s4",
+          "text": "Select Challenges in the “View and submit challenges for this event” banner."
+        },
+        {
+          "id": "p33.s5",
+          "text": "Select Add Submission."
+        },
+        {
+          "id": "p33.s6",
+          "text": "Enter the project link, project name, description, and technologies used."
+        },
+        {
+          "id": "p33.s7",
+          "text": "Add a demo URL if the team has one."
+        },
+        {
+          "id": "p33.s8",
+          "text": "Under Which challenge(s) are you submitting to?, select every Hacktoberfest, partner, and local challenge the project is eligible to enter."
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "doc": "mlh_project_submissions.md",
+      "text": "Return to Manage Submissions before demos begin: Identify each unique project in the All view and compare it with the teams scheduled to present. Do not rely on the headline total when projects entered more than one challenge. Use the challenge tabs to confirm that the open-source challenge and each assigned partner category have the expected entries. Search by project, hacker, or technology when you need to find a specific submission. Ask a missing team to submit while the window remains open. Apply the same deadline policy to every team. Confirm that the submission window is closed when demos begin, then refresh the list.",
+      "sentences": [
+        {
+          "id": "p35.s1",
+          "text": "Return to Manage Submissions before demos begin:"
+        },
+        {
+          "id": "p35.s2",
+          "text": "Identify each unique project in the All view and compare it with the teams scheduled to present."
+        },
+        {
+          "id": "p35.s3",
+          "text": "Do not rely on the headline total when projects entered more than one challenge."
+        },
+        {
+          "id": "p35.s4",
+          "text": "Use the challenge tabs to confirm that the open-source challenge and each assigned partner category have the expected entries."
+        },
+        {
+          "id": "p35.s5",
+          "text": "Search by project, hacker, or technology when you need to find a specific submission."
+        },
+        {
+          "id": "p35.s6",
+          "text": "Ask a missing team to submit while the window remains open."
+        },
+        {
+          "id": "p35.s7",
+          "text": "Apply the same deadline policy to every team."
+        },
+        {
+          "id": "p35.s8",
+          "text": "Confirm that the submission window is closed when demos begin, then refresh the list."
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "doc": "event_description.md",
+      "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models. Share Your Work: Push your project to a public GitHub repository under an open-source license. Demo Your Project: Present a quick 5-minute live demo of what your team built.",
+      "sentences": [
+        {
+          "id": "p6.s1",
+          "text": "Form a Team & Build: Create a working project from scratch on the day using open-source tools or open-weight AI models."
+        },
+        {
+          "id": "p6.s2",
+          "text": "Share Your Work: Push your project to a public GitHub repository under an open-source license."
+        },
+        {
+          "id": "p6.s3",
+          "text": "Demo Your Project: Present a quick 5-minute live demo of what your team built."
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "doc": "mlh_project_submissions.md",
+      "text": "Give every eligible submission the same opportunity to present its work. Use the guidance on the relevant challenge page and confirm any repository, license, model, harness, or partner-technology requirements before selecting a winner. Look for projects that: Meet the challenge requirements Work well enough to demonstrate Use the relevant technology as an important part of the project Show originality, learning, or thoughtful technical work Explain clearly what the team built and how it works The Best Open-Source AI Project challenge has one winning team, and every member receives a DEV Badge on their DEV account. Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team. Any assigned Hack Days partner prize category uses the prize and eligibility instructions supplied for that category. Hacktoberfest does not use pull-request counts as the basis for these prizes.",
+      "sentences": [
+        {
+          "id": "p36.s1",
+          "text": "Give every eligible submission the same opportunity to present its work."
+        },
+        {
+          "id": "p36.s2",
+          "text": "Use the guidance on the relevant challenge page and confirm any repository, license, model, harness, or partner-technology requirements before selecting a winner."
+        },
+        {
+          "id": "p36.s3",
+          "text": "Look for projects that:"
+        },
+        {
+          "id": "p36.s4",
+          "text": "Meet the challenge requirements"
+        },
+        {
+          "id": "p36.s5",
+          "text": "Work well enough to demonstrate"
+        },
+        {
+          "id": "p36.s6",
+          "text": "Use the relevant technology as an important part of the project"
+        },
+        {
+          "id": "p36.s7",
+          "text": "Show originality, learning, or thoughtful technical work"
+        },
+        {
+          "id": "p36.s8",
+          "text": "Explain clearly what the team built and how it works"
+        },
+        {
+          "id": "p36.s9",
+          "text": "The Best Open-Source AI Project challenge has one winning team, and every member receives a DEV Badge on their DEV account."
+        },
+        {
+          "id": "p36.s10",
+          "text": "Depending on availability and your event's onboarding instructions, MLH may also provide MLH+DEV branded swag bags for the winning team."
+        },
+        {
+          "id": "p36.s11",
+          "text": "Any assigned Hack Days partner prize category uses the prize and eligibility instructions supplied for that category."
+        },
+        {
+          "id": "p36.s12",
+          "text": "Hacktoberfest does not use pull-request counts as the basis for these prizes."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "One team member should submit the project on behalf of the team.",
+      "start": 0,
+      "end": 64
+    },
+    {
+      "id": "c2",
+      "text": "They must sign in using the account used to register for the event.",
+      "start": 65,
+      "end": 132
+    },
+    {
+      "id": "c3",
+      "text": "The submission requires entering the project link, project name, description, and technologies used.",
+      "start": 133,
+      "end": 233
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p33.s2"
+      ],
+      "explanation": "The text explicitly states that one team member should submit the project on behalf of the team.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p33.s2"
+        ],
+        "explanation": "The text explicitly states that one team member should submit the project on behalf of the team.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p33.s2"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p33.s3",
+        "p33.s1"
+      ],
+      "explanation": "The instructions specify signing in using the account used to register for the event.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p33.s3"
+        ],
+        "explanation": "The instructions specify signing in using the account used to register for the event.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p33.s1"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p33.s6"
+      ],
+      "explanation": "The required project information includes the link, name, description, and technologies used.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p33.s6"
+        ],
+        "explanation": "The required project information includes the link, name, description, and technologies used.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p33.s6"
+        ],
+        "explanation": "entailment 0.89",
+        "confidence": 0.89
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "One team member should submit the project on behalf of the team. [p33.s2] They must sign in using the account used to register for the event. [p33.s3] The submission requires entering the project link, project name, description, and technologies used. [p33.s6]",
+  "timings": {
+    "retrieve": 0.01,
+    "generate": 2.91,
+    "judge_gemma": 6.37,
+    "judge_nli": 0.31,
+    "total": 9.6
+  },
+  "errors": [],
+  "mode": "live"
+}

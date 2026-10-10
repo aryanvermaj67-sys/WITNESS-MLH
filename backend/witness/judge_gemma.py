@@ -4,6 +4,7 @@ The model id comes from GEMINI_MODEL. At the time of writing gemma-4-31b-it answ
 500/503 ("high demand"), while gemma-4-26b-a4b-it answers in about 7 s; hence the retries and the generous budget.
 """
 import json
+import sys
 import time
 
 from google import genai
@@ -88,6 +89,9 @@ def judge(passages: list[Passage], claims: list[Claim], client=None, sleep=time.
         except Exception as e:
             code = getattr(e, "code", None)
             last = f"HTTP {code}" if code else type(e).__name__
+            # for the server log only (never shown in the app); the key is masked
+            message = str(e).replace(key, "***") if key else str(e)
+            print(f"Gemma judge attempt {attempt}/{MAX_ATTEMPTS} failed: {message[:300]}", file=sys.stderr, flush=True)
             if code == 400 and thinking:
                 thinking = False  # this model/SDK rejects the thinking setting: retry without it
             elif code not in RETRY_CODES and code is not None:

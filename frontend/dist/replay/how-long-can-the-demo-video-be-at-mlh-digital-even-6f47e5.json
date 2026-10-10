@@ -1,0 +1,331 @@
+{
+  "question": "How long can the demo video be at MLH digital events?",
+  "answer_text": "Hackathon submissions require a demo video of two minutes or less. This video must be created during the weekend of the hackathon. The video must remain public after the event to be eligible for prizes.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p45",
+      "doc": "mlh_standard_rules.md",
+      "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules. We require all teams to submit a 2 minute or less demo video. Your video must be created the weekend of the hackathon. Your video must remain public post event to be eligible for prizes. If your video is not public, new winners may be selected. Your demo video must state the name of the hackathon at the beginning of the video. Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\" You must have completed all registration steps for the hackathon. You are not allowed to submit your project to other hackathons. You can not submit a project that includes prior work.",
+      "sentences": [
+        {
+          "id": "p45.s1",
+          "text": "For fully digital hackathons that MLH hosts, hackathon submissions are subject to additional rules."
+        },
+        {
+          "id": "p45.s2",
+          "text": "We require all teams to submit a 2 minute or less demo video."
+        },
+        {
+          "id": "p45.s3",
+          "text": "Your video must be created the weekend of the hackathon."
+        },
+        {
+          "id": "p45.s4",
+          "text": "Your video must remain public post event to be eligible for prizes."
+        },
+        {
+          "id": "p45.s5",
+          "text": "If your video is not public, new winners may be selected."
+        },
+        {
+          "id": "p45.s6",
+          "text": "Your demo video must state the name of the hackathon at the beginning of the video."
+        },
+        {
+          "id": "p45.s7",
+          "text": "Ex. \"Hey I'm Sam and this is my demo for CorgiHacks.\""
+        },
+        {
+          "id": "p45.s8",
+          "text": "You must have completed all registration steps for the hackathon."
+        },
+        {
+          "id": "p45.s9",
+          "text": "You are not allowed to submit your project to other hackathons."
+        },
+        {
+          "id": "p45.s10",
+          "text": "You can not submit a project that includes prior work."
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "doc": "mlh_standard_rules.md",
+      "text": "After hacking finishes, teams will show their projects to each other and to the judges. Either via a prerecorded video (typically at digital events or live demos at physical hackathons). You are strongly encouraged to present a demo of what you have built. Pitches and presentations are discouraged. You are not judged on the quality of your pitch or the quality of your idea. As you are judged on what you built, you'll only hurt yourself by not showing a demo. You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish. It's okay if you didn't finish your hack—that happens all the time!",
+      "sentences": [
+        {
+          "id": "p46.s1",
+          "text": "After hacking finishes, teams will show their projects to each other and to the judges."
+        },
+        {
+          "id": "p46.s2",
+          "text": "Either via a prerecorded video (typically at digital events or live demos at physical hackathons)."
+        },
+        {
+          "id": "p46.s3",
+          "text": "You are strongly encouraged to present a demo of what you have built."
+        },
+        {
+          "id": "p46.s4",
+          "text": "Pitches and presentations are discouraged."
+        },
+        {
+          "id": "p46.s5",
+          "text": "You are not judged on the quality of your pitch or the quality of your idea."
+        },
+        {
+          "id": "p46.s6",
+          "text": "As you are judged on what you built, you'll only hurt yourself by not showing a demo."
+        },
+        {
+          "id": "p46.s7",
+          "text": "You are encouraged to present what you have done even if your hack is broken or you weren’t able to finish."
+        },
+        {
+          "id": "p46.s8",
+          "text": "It's okay if you didn't finish your hack—that happens all the time!"
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "doc": "mlh_standard_rules.md",
+      "text": "Completion is only one part of the judging criteria, so you might still do well. Demoing is not just about the competition. It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about! For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH. In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned. Hearing what other people learned is interesting and inspiring for other attendees.",
+      "sentences": [
+        {
+          "id": "p47.s1",
+          "text": "Completion is only one part of the judging criteria, so you might still do well."
+        },
+        {
+          "id": "p47.s2",
+          "text": "Demoing is not just about the competition."
+        },
+        {
+          "id": "p47.s3",
+          "text": "It's a chance to share with others what you learned and what you tried to build—that's what hacking's all about!"
+        },
+        {
+          "id": "p47.s4",
+          "text": "For being courageous enough to demo, you'll receive an event specific \"I Demoed\" sticker from MLH."
+        },
+        {
+          "id": "p47.s5",
+          "text": "In the case that you don't have anything to demo, you can give a presentation about what you tried and what you learned."
+        },
+        {
+          "id": "p47.s6",
+          "text": "Hearing what other people learned is interesting and inspiring for other attendees."
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "doc": "mlh_standard_rules.md",
+      "text": "e.g. If during demoing your hack you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that. Making large changes or adding new features is not allowed. Your code must be available publicly (ideally in a git repository). Your code must remain public post event to be eligible for prizes. If your repo and video are not public, new winners may be selected. Teams can be disqualified from the competition at the organizers' discretion. Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour.",
+      "sentences": [
+        {
+          "id": "p43.s1",
+          "text": "e.g. If during demoing your hack you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that."
+        },
+        {
+          "id": "p43.s2",
+          "text": "Making large changes or adding new features is not allowed."
+        },
+        {
+          "id": "p43.s3",
+          "text": "Your code must be available publicly (ideally in a git repository)."
+        },
+        {
+          "id": "p43.s4",
+          "text": "Your code must remain public post event to be eligible for prizes."
+        },
+        {
+          "id": "p43.s5",
+          "text": "If your repo and video are not public, new winners may be selected."
+        },
+        {
+          "id": "p43.s6",
+          "text": "Teams can be disqualified from the competition at the organizers' discretion."
+        },
+        {
+          "id": "p43.s7",
+          "text": "Reasons might include but are not limited to breaking the Competition Rules, breaking the Code of Conduct, or other unsporting behaviour."
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "doc": "mlh_project_submissions.md",
+      "text": "Tell participants: The exact submission deadline The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge When project work may begin The required project information The demo format and time limit How the winning projects will be selected That every project being considered for a prize must be submitted and select every challenge it is entering Open the Challenges page yourself and confirm that every category your event is running appears correctly. The Add Submission button becomes available only during the saved submission window.",
+      "sentences": [
+        {
+          "id": "p32.s1",
+          "text": "Tell participants:"
+        },
+        {
+          "id": "p32.s2",
+          "text": "The exact submission deadline"
+        },
+        {
+          "id": "p32.s3",
+          "text": "The Best Open-Source AI Project challenge, any assigned partner category, and any optional local challenge"
+        },
+        {
+          "id": "p32.s4",
+          "text": "When project work may begin"
+        },
+        {
+          "id": "p32.s5",
+          "text": "The required project information"
+        },
+        {
+          "id": "p32.s6",
+          "text": "The demo format and time limit"
+        },
+        {
+          "id": "p32.s7",
+          "text": "How the winning projects will be selected"
+        },
+        {
+          "id": "p32.s8",
+          "text": "That every project being considered for a prize must be submitted and select every challenge it is entering"
+        },
+        {
+          "id": "p32.s9",
+          "text": "Open the Challenges page yourself and confirm that every category your event is running appears correctly."
+        },
+        {
+          "id": "p32.s10",
+          "text": "The Add Submission button becomes available only during the saved submission window."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hackathon submissions require a demo video of two minutes or less.",
+      "start": 0,
+      "end": 66
+    },
+    {
+      "id": "c2",
+      "text": "This video must be created during the weekend of the hackathon.",
+      "start": 67,
+      "end": 130
+    },
+    {
+      "id": "c3",
+      "text": "The video must remain public after the event to be eligible for prizes.",
+      "start": 131,
+      "end": 202
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p45.s2"
+      ],
+      "explanation": "The text states that all teams are required to submit a demo video of 2 minutes or less.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s2"
+        ],
+        "explanation": "The text states that all teams are required to submit a demo video of 2 minutes or less.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.01, contra 0.00)",
+        "confidence": 0.01
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p45.s3"
+      ],
+      "explanation": "The rules specify that the video must be created the weekend of the hackathon.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s3"
+        ],
+        "explanation": "The rules specify that the video must be created the weekend of the hackathon.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s3"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p45.s4"
+      ],
+      "explanation": "The video must remain public post event to be eligible for prizes.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s4"
+        ],
+        "explanation": "The video must remain public post event to be eligible for prizes.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p45.s4"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "Hackathon submissions require a demo video of two minutes or less. [p45.s2] This video must be created during the weekend of the hackathon. [p45.s3] The video must remain public after the event to be eligible for prizes. [p45.s4]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 2.98,
+    "judge_gemma": 5.85,
+    "judge_nli": 0.3,
+    "total": 9.15
+  },
+  "errors": [],
+  "mode": "live"
+}

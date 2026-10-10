@@ -1,0 +1,261 @@
+{
+  "question": "What do judges check before choosing the Gemma challenge winner?",
+  "answer_text": "The team should identify the model in its README and show the integration in its code or demonstration. Participants should share resources like Gemma 4 resources, the Gemma Quickstart, and the Gemma API docs. This category allows hackers to build with Gemma, Google's family of lightweight, open models.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p19",
+      "doc": "mlh_gemma_challenge.md",
+      "text": "Confirm that the winning project actually uses a Gemma model through the Gemini API. Ask the team to identify the model in its README and show the integration in its code or demonstration.",
+      "sentences": [
+        {
+          "id": "p19.s1",
+          "text": "Confirm that the winning project actually uses a Gemma model through the Gemini API."
+        },
+        {
+          "id": "p19.s2",
+          "text": "Ask the team to identify the model in its README and show the integration in its code or demonstration."
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "doc": "mlh_gemma_challenge.md",
+      "text": "Prizes vary by region and available inventory. Depending on the event, the winning team may receive an MLH+DEV branded swag bag, a mechanical keyboard, or a digital gift card. Swag bags may include a branded bag, notebook, and other items. Check your event's onboarding materials before sharing prize details with participants.",
+      "sentences": [
+        {
+          "id": "p20.s1",
+          "text": "Prizes vary by region and available inventory."
+        },
+        {
+          "id": "p20.s2",
+          "text": "Depending on the event, the winning team may receive an MLH+DEV branded swag bag, a mechanical keyboard, or a digital gift card."
+        },
+        {
+          "id": "p20.s3",
+          "text": "Swag bags may include a branded bag, notebook, and other items."
+        },
+        {
+          "id": "p20.s4",
+          "text": "Check your event's onboarding materials before sharing prize details with participants."
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "doc": "mlh_gemma_challenge.md",
+      "text": "Challenge copy, participant resources, opening materials, and winner guidance for the Google Gemma category. Last reviewed: August 2026 Google supports Major League Hacking and the Hack Days program with AI tools for experimentation and rapid prototyping. This category gives hackers a chance to build with Gemma, Google's family of lightweight, open models.",
+      "sentences": [
+        {
+          "id": "p15.s1",
+          "text": "Challenge copy, participant resources, opening materials, and winner guidance for the Google Gemma category."
+        },
+        {
+          "id": "p15.s2",
+          "text": "Last reviewed: August 2026"
+        },
+        {
+          "id": "p15.s3",
+          "text": "Google supports Major League Hacking and the Hack Days program with AI tools for experimentation and rapid prototyping."
+        },
+        {
+          "id": "p15.s4",
+          "text": "This category gives hackers a chance to build with Gemma, Google's family of lightweight, open models."
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "doc": "mlh_gemma_challenge.md",
+      "text": "Share these resources before and during the event: Gemma 4 resources Gemma Quickstart Gemma API docs Gemma Beginner Guide",
+      "sentences": [
+        {
+          "id": "p17.s1",
+          "text": "Share these resources before and during the event:"
+        },
+        {
+          "id": "p17.s2",
+          "text": "Gemma 4 resources"
+        },
+        {
+          "id": "p17.s3",
+          "text": "Gemma Quickstart"
+        },
+        {
+          "id": "p17.s4",
+          "text": "Gemma API docs"
+        },
+        {
+          "id": "p17.s5",
+          "text": "Gemma Beginner Guide"
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "doc": "mlh_gemma_challenge.md",
+      "text": "It’s time to see how much you can build with a lightweight, open model. Gemma 4 packs multimodal intelligence into an open-weights model that you can access through the Gemini API. Gemma 4 can help you: Work with text and images to create an assistant that understands more of what users share Build a focused AI tool for learning, creativity, productivity, or your community Experiment with an open model while using the Gemini API to move quickly from an idea to a working prototype Bring your idea to life… what will you build with Gemma 4 today?",
+      "sentences": [
+        {
+          "id": "p16.s1",
+          "text": "It’s time to see how much you can build with a lightweight, open model."
+        },
+        {
+          "id": "p16.s2",
+          "text": "Gemma 4 packs multimodal intelligence into an open-weights model that you can access through the Gemini API."
+        },
+        {
+          "id": "p16.s3",
+          "text": "Gemma 4 can help you:"
+        },
+        {
+          "id": "p16.s4",
+          "text": "Work with text and images to create an assistant that understands more of what users share"
+        },
+        {
+          "id": "p16.s5",
+          "text": "Build a focused AI tool for learning, creativity, productivity, or your community"
+        },
+        {
+          "id": "p16.s6",
+          "text": "Experiment with an open model while using the Gemini API to move quickly from an idea to a working prototype"
+        },
+        {
+          "id": "p16.s7",
+          "text": "Bring your idea to life… what will you build with Gemma 4 today?"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The team should identify the model in its README and show the integration in its code or demonstration.",
+      "start": 0,
+      "end": 103
+    },
+    {
+      "id": "c2",
+      "text": "Participants should share resources like Gemma 4 resources, the Gemma Quickstart, and the Gemma API docs.",
+      "start": 104,
+      "end": 209
+    },
+    {
+      "id": "c3",
+      "text": "This category allows hackers to build with Gemma, Google's family of lightweight, open models.",
+      "start": 210,
+      "end": 304
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p19.s2"
+      ],
+      "explanation": "The text explicitly instructs to ask the team to identify the model in its README and show the integration.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p19.s2"
+        ],
+        "explanation": "The text explicitly instructs to ask the team to identify the model in its README and show the integration.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p19.s2"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "supported",
+      "evidence_ids": [
+        "p17.s1",
+        "p17.s2",
+        "p17.s3",
+        "p17.s4"
+      ],
+      "explanation": "The text states to share resources including Gemma 4 resources, Gemma Quickstart, and Gemma API docs before and during the event.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p17.s1",
+          "p17.s2",
+          "p17.s3",
+          "p17.s4"
+        ],
+        "explanation": "The text states to share resources including Gemma 4 resources, Gemma Quickstart, and Gemma API docs before and during the event.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "no sentence above threshold (entail 0.00, contra 0.00)",
+        "confidence": 0.0
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p15.s4"
+      ],
+      "explanation": "The text states this category gives hackers a chance to build with Gemma, which is Google's family of lightweight, open models.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p15.s4"
+        ],
+        "explanation": "The text states this category gives hackers a chance to build with Gemma, which is Google's family of lightweight, open models.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p15.s4"
+        ],
+        "explanation": "entailment 1.00",
+        "confidence": 1.0
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 3,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 0,
+    "total": 3,
+    "percent_supported": 100
+  },
+  "fixed_answer": "The team should identify the model in its README and show the integration in its code or demonstration. [p19.s2] Participants should share resources like Gemma 4 resources, the Gemma Quickstart, and the Gemma API docs. [p17.s1] This category allows hackers to build with Gemma, Google's family of lightweight, open models. [p15.s4]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 3.2,
+    "judge_gemma": 7.26,
+    "judge_nli": 0.36,
+    "total": 10.83
+  },
+  "errors": [],
+  "mode": "live"
+}

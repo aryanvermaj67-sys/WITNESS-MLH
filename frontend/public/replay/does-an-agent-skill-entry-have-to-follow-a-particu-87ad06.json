@@ -1,0 +1,255 @@
+{
+  "question": "Does an agent skill entry have to follow a particular standard?",
+  "answer_text": "An agent skill must comply with the Agent Skill Open Standard. This standard is part of the requirements for projects involving open-source or open-weight AI. Teams can create an agent skill as one of the ways to build a project.",
+  "answer_source": "gemma-4-e2b-local",
+  "passages": [
+    {
+      "id": "p23",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Open-source or open-weight AI must be an important part of the project. The project must be published in a public GitHub repository and use an open-source license. An agent skill must comply with the Agent Skill Open Standard. A model-harness entry must include an original implementation or meaningful changes to an existing open-source harness.",
+      "sentences": [
+        {
+          "id": "p23.s1",
+          "text": "Open-source or open-weight AI must be an important part of the project."
+        },
+        {
+          "id": "p23.s2",
+          "text": "The project must be published in a public GitHub repository and use an open-source license."
+        },
+        {
+          "id": "p23.s3",
+          "text": "An agent skill must comply with the Agent Skill Open Standard."
+        },
+        {
+          "id": "p23.s4",
+          "text": "A model-harness entry must include an original implementation or meaningful changes to an existing open-source harness."
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Google's Gemma model overview includes examples on both sides of that boundary. Agent skill: a reusable set of instructions and supporting files that follows the Agent Skills open standard. Model harness: the software around a model that manages prompts, tools, memory, context, and actions. Teams may build one from scratch or make meaningful improvements to an existing open-source project such as OpenCode, Hermes Agent, OpenClaw, or Pi.",
+      "sentences": [
+        {
+          "id": "p25.s1",
+          "text": "Google's Gemma model overview includes examples on both sides of that boundary."
+        },
+        {
+          "id": "p25.s2",
+          "text": "Agent skill: a reusable set of instructions and supporting files that follows the Agent Skills open standard."
+        },
+        {
+          "id": "p25.s3",
+          "text": "Model harness: the software around a model that manages prompts, tools, memory, context, and actions."
+        },
+        {
+          "id": "p25.s4",
+          "text": "Teams may build one from scratch or make meaningful improvements to an existing open-source project such as OpenCode, Hermes Agent, OpenClaw, or Pi."
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "doc": "mlh_standard_rules.md",
+      "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code. MLH encourages our community to learn these technologies and leverage them. However, it’s essential to continue to follow the spirit of the hackathon. We strongly believe that the best projects will leverage AI, but ultimately be created by humans. Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools. Teams should be honest and transparent about the AI code tools they used. This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers.",
+      "sentences": [
+        {
+          "id": "p44.s1",
+          "text": "Artificial intelligence and large language models have dramatically impacted how people create applications and write code."
+        },
+        {
+          "id": "p44.s2",
+          "text": "MLH encourages our community to learn these technologies and leverage them."
+        },
+        {
+          "id": "p44.s3",
+          "text": "However, it’s essential to continue to follow the spirit of the hackathon."
+        },
+        {
+          "id": "p44.s4",
+          "text": "We strongly believe that the best projects will leverage AI, but ultimately be created by humans."
+        },
+        {
+          "id": "p44.s5",
+          "text": "Teams may use AI to assist them while coding, utilizing tools such as code completion, code generation, image generation, or other similar tools."
+        },
+        {
+          "id": "p44.s6",
+          "text": "Teams should be honest and transparent about the AI code tools they used."
+        },
+        {
+          "id": "p44.s7",
+          "text": "This includes listing them in their project submissions and answering questions when talking to organizers, judges, and other hackers."
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "doc": "mlh_open_source_ai_challenge.md",
+      "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works. Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness. These are examples within one challenge, and teams may combine them.",
+      "sentences": [
+        {
+          "id": "p22.s1",
+          "text": "Build an original project that uses open-source or open-weight AI as an important part of how it works."
+        },
+        {
+          "id": "p22.s2",
+          "text": "Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness."
+        },
+        {
+          "id": "p22.s3",
+          "text": "These are examples within one challenge, and teams may combine them."
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "doc": "mlh_standard_rules.md",
+      "text": "These are standard competition rules used at MLH Member Event Hackathons. Not all MLH Member Event Hackathons will use these rules, as organizers can choose to use them or their own. Organizers can use these rules exactly or fork them and edit them to suit their needs. If you have a suggestion for these rules or a question, please email our team at league@mlh.io.",
+      "sentences": [
+        {
+          "id": "p39.s1",
+          "text": "These are standard competition rules used at MLH Member Event Hackathons."
+        },
+        {
+          "id": "p39.s2",
+          "text": "Not all MLH Member Event Hackathons will use these rules, as organizers can choose to use them or their own."
+        },
+        {
+          "id": "p39.s3",
+          "text": "Organizers can use these rules exactly or fork them and edit them to suit their needs."
+        },
+        {
+          "id": "p39.s4",
+          "text": "If you have a suggestion for these rules or a question, please email our team at league@mlh.io."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "An agent skill must comply with the Agent Skill Open Standard.",
+      "start": 0,
+      "end": 62
+    },
+    {
+      "id": "c2",
+      "text": "This standard is part of the requirements for projects involving open-source or open-weight AI.",
+      "start": 63,
+      "end": 158
+    },
+    {
+      "id": "c3",
+      "text": "Teams can create an agent skill as one of the ways to build a project.",
+      "start": 159,
+      "end": 229
+    }
+  ],
+  "verdicts": [
+    {
+      "claim_id": "c1",
+      "label": "supported",
+      "evidence_ids": [
+        "p23.s3"
+      ],
+      "explanation": "Sentence p23.s3 explicitly states that an agent skill must comply with the Agent Skill Open Standard.",
+      "gemma": {
+        "claim_id": "c1",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s3"
+        ],
+        "explanation": "Sentence p23.s3 explicitly states that an agent skill must comply with the Agent Skill Open Standard.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c1",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s3"
+        ],
+        "explanation": "entailment 0.99",
+        "confidence": 0.99
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c2",
+      "label": "needs_review",
+      "evidence_ids": [
+        "p23.s1"
+      ],
+      "explanation": "While both open-source AI and agent skills are mentioned, there is no sentence stating the standard is a requirement specifically for open-source AI projects.",
+      "gemma": {
+        "claim_id": "c2",
+        "judge": "gemma",
+        "label": "unsupported",
+        "evidence_ids": [],
+        "explanation": "While both open-source AI and agent skills are mentioned, there is no sentence stating the standard is a requirement specifically for open-source AI projects.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c2",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p23.s1"
+        ],
+        "explanation": "entailment 0.98",
+        "confidence": 0.98
+      },
+      "single_judge": false
+    },
+    {
+      "claim_id": "c3",
+      "label": "supported",
+      "evidence_ids": [
+        "p22.s2"
+      ],
+      "explanation": "Sentence p22.s2 lists creating an agent skill as a potential way for teams to build a project.",
+      "gemma": {
+        "claim_id": "c3",
+        "judge": "gemma",
+        "label": "supported",
+        "evidence_ids": [
+          "p22.s2"
+        ],
+        "explanation": "Sentence p22.s2 lists creating an agent skill as a potential way for teams to build a project.",
+        "confidence": null
+      },
+      "nli": {
+        "claim_id": "c3",
+        "judge": "nli",
+        "label": "supported",
+        "evidence_ids": [
+          "p22.s2"
+        ],
+        "explanation": "entailment 0.98",
+        "confidence": 0.98
+      },
+      "single_judge": false
+    }
+  ],
+  "trust": {
+    "supported": 2,
+    "unsupported": 0,
+    "contradicted": 0,
+    "needs_review": 1,
+    "total": 3,
+    "percent_supported": 67
+  },
+  "fixed_answer": "An agent skill must comply with the Agent Skill Open Standard. [p23.s3] Teams can create an agent skill as one of the ways to build a project. [p22.s2]",
+  "timings": {
+    "retrieve": 0.02,
+    "generate": 2.83,
+    "judge_gemma": 6.25,
+    "judge_nli": 0.46,
+    "total": 9.55
+  },
+  "errors": [],
+  "mode": "live"
+}
