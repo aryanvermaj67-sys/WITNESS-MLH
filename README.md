@@ -247,7 +247,7 @@ scripts/                 phase-push helper used during the build
 
 ## Team and license
 
-Built by the WITNESS team at Hacktoberfest Hack Day Hamirpur: **Aryan** (backend and verification engine) and **Mudit** (frontend and design).
+Built by the WITNESS team at Hacktoberfest Hack Day Hamirpur: **ARYAN** , **HIMANIL** , **RAJAT** (backend and verification engine) and **MUDIT** (frontend and design).
 
 Released under the **[Apache License 2.0](LICENSE)**. See [NOTICE](NOTICE). Models and datasets keep their own licences (see the table above).
 
